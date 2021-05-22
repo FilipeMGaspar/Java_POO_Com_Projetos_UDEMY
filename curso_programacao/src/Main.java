@@ -20,6 +20,7 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		System.out.printf("%.4f \n", x);
 		System.out.println("RESULTADO = " + x + " METROS");
+		System.out.printf("Resultado %.2f metros \n", x);
 	}
 
 }
