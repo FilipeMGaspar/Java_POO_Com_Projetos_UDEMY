@@ -9,7 +9,10 @@ public class Main {
 		//System.out.print(" Bom Dia!");
 		
 		int y = 32;
+		double x = 10.35784;
+		
 		System.out.println(y);
+		System.out.println(x);
 		System.out.println("Bom dia!");
 	}
 
