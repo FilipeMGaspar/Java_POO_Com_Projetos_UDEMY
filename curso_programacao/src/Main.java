@@ -19,6 +19,7 @@ public class Main {
 		//System.out.println("Bom dia!");
 		Locale.setDefault(Locale.US);
 		System.out.printf("%.4f \n", x);
+		System.out.println("RESULTADO = " + x + " METROS");
 	}
 
 }
