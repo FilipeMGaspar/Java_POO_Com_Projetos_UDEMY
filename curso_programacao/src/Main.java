@@ -1,3 +1,4 @@
+import java.util.Locale;
 
 public class Main {
 
@@ -16,6 +17,8 @@ public class Main {
 		System.out.printf("%.2f \n", x);
 		System.out.printf("%.4f \n", x);
 		//System.out.println("Bom dia!");
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.4f \n", x);
 	}
 
 }
