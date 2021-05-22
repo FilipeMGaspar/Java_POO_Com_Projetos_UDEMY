@@ -8,12 +8,13 @@ public class Main {
 		//System.out.println("Este é o meu primeiro programa em Java!");
 		//System.out.print(" Bom Dia!");
 		
-		int y = 32;
+		//int y = 32;
 		double x = 10.35784;
 		
-		System.out.println(y);
+		//System.out.println(y);
 		System.out.println(x);
-		System.out.println("Bom dia!");
+		System.out.printf("%.2f \n", x);
+		//System.out.println("Bom dia!");
 	}
 
 }
