@@ -1,3 +1,4 @@
+import java.util.Locale;
 
 public class ExAula24 {
 
@@ -19,7 +20,12 @@ public class ExAula24 {
 		System.out.printf("%s, which price is $ %.2f \n", product1, price1);
 		System.out.printf("%s, which price is $ %.2f \n", product2, price2);
 		
-		System.out.printf("\nRecord: %d years old, code %d and gender: %c", age, code, gender);
+		System.out.printf("\nRecord: %d years old, code %d and gender: %c \n\n", age, code, gender);
+		
+		System.out.println("Measure with eight decimal places: " + measure);
+		System.out.printf("Rouded (three decimal places): %.3f \n", measure);
+		Locale.setDefault(Locale.US);
+		System.out.printf("US decimal point: %.3f \n", measure);
 	}
 
 }
