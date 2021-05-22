@@ -14,6 +14,7 @@ public class Main {
 		//System.out.println(y);
 		System.out.println(x);
 		System.out.printf("%.2f \n", x);
+		System.out.printf("%.4f \n", x);
 		//System.out.println("Bom dia!");
 	}
 
