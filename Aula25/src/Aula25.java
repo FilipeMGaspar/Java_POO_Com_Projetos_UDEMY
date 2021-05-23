@@ -41,6 +41,7 @@ public class Aula25 {
 		System.out.println(area);
 		*/
 		
+		/*
 		//Exemplo 4
 		int a, b;
 		double resultado;
@@ -51,7 +52,16 @@ public class Aula25 {
 		resultado = (double)a / b;
 		
 		System.out.println(resultado);
+		*/
 		
+		//Exemplo 5
+		double a;
+		int b;
+		
+		a = 5.0;
+		b = a;
+		
+		System.out.println(b);
 	}
 
 }
