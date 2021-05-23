@@ -28,6 +28,7 @@ public class Aula25 {
 		System.out.println(y);
 		*/
 		
+		/*
 		//Exemplo 3
 		double bMenor, Bmaior, h, area;
 		
@@ -38,6 +39,19 @@ public class Aula25 {
 		area = (bMenor + Bmaior) / 2.0 * h;
 		
 		System.out.println(area);
+		*/
+		
+		//Exemplo 4
+		int a, b;
+		double resultado;
+		
+		a = 5;
+		b = 2;
+		
+		resultado = a / b;
+		
+		System.out.println(resultado);
+		
 	}
 
 }
