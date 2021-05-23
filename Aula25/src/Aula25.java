@@ -59,7 +59,7 @@ public class Aula25 {
 		int b;
 		
 		a = 5.0;
-		b = (int)a;
+		b = (int)a; //Casting
 		
 		System.out.println(b);
 	}
