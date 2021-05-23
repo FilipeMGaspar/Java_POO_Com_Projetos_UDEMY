@@ -59,7 +59,7 @@ public class Aula25 {
 		int b;
 		
 		a = 5.0;
-		b = a;
+		b = (int)a;
 		
 		System.out.println(b);
 	}
