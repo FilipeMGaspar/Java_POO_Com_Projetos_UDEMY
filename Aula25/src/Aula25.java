@@ -29,7 +29,13 @@ public class Aula25 {
 		*/
 		
 		//Exemplo 3
+		double bMenor, Bmaior, h, area;
 		
+		bMenor = 6.0;
+		Bmaior = 8.0;
+		h = 5.0;
+		
+		area = (bMenor + Bmaior) / 2.0 * h;
 		
 	}
 
