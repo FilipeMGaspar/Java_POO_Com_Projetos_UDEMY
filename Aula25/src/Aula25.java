@@ -37,6 +37,7 @@ public class Aula25 {
 		
 		area = (bMenor + Bmaior) / 2.0 * h;
 		
+		System.out.println(area);
 	}
 
 }
