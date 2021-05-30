@@ -8,6 +8,7 @@ public class aula26 {
 		
 		String x;
 		x = sc.next();
+		System.out.println("Valor digitado: "+ x);
 		
 		sc.close();//Fecha o recurso do scanner
 	}
