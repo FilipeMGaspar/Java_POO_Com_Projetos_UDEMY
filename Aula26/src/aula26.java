@@ -7,17 +7,21 @@ public class aula26 {
 		Scanner sc = new Scanner(System.in); //Leitura de dados
 		
 		//Leitura de uma String
-		System.out.print("Digte o seu nome: ");
+		System.out.println("Digte o seu nome: ");
 		String x;
 		x = sc.next(); 
 		System.out.println("Seja bem vindo(a): "+ x);
 		
 		//Leitura de um valor  Inteiro
 		int y;
-		System.out.print("Digite a sua idade: ");
+		System.out.println("Digite a sua idade: ");
 		y = sc.nextInt();
+		System.out.println(" de " + y +" anos");
 		
 		
+		
+		//Leitor de um valor double
+		double z;
 		
 		sc.close();//Fecha o recurso do scanner
 	}
