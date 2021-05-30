@@ -18,10 +18,11 @@ public class aula26 {
 		y = sc.nextInt();
 		System.out.println("Com " + y +" anos");
 		
-		
-		
 		//Leitor de um valor double
 		double z;
+		System.out.print("Qual o seu peso: (Kg): ");
+		z = sc.nextDouble();
+		System.out.println("Com o peso de " + z + " Kg");
 		
 		sc.close();//Fecha o recurso do scanner
 	}
