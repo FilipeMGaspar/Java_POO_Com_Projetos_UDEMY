@@ -14,6 +14,11 @@ public class aula27 {
 		s3 = sc.nextLine();
 		
 		System.out.println("Dados Digitados");
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		
+		sc.close();
 	}
 
 }
