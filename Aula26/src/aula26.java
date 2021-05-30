@@ -26,6 +26,12 @@ public class aula26 {
 		z = sc.nextDouble();
 		System.out.println("Com o peso de " + z + " Kg");
 		
+		//Leitura de um char
+		char c;
+		System.out.print("Digite uma letra: ");
+		c = sc.next().charAt(0);
+		System.out.println("Caracter recebido: " + c);
+		
 		sc.close();//Fecha o recurso do scanner
 	}
 
