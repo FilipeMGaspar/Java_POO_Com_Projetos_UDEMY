@@ -20,7 +20,8 @@ public class aula28 {
 		C = Math.pow(5.0, 2.0);
 		
 		System.out.println(x + " elevado a " + y + " = " + A);
-		System.out.println(x + " elevado a " + y + " = " + A);
+		System.out.println(x + " elevado ao quadrado = " + B);
+		System.out.println(5 + " elevado ao quadrado = " + C);
 	}
 
 }
