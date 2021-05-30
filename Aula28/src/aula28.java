@@ -14,7 +14,13 @@ public class aula28 {
 		System.out.println("Raiz quadrada de " + x + " = "+ A);
 		System.out.println("Raiz quadrada de " + y + " = "+ B);
 		System.out.println("Raiz quadrada de 25" + x + " = "+ C);
+	
+		A = Math.pow(x, y);
+		B = Math.pow(x, 2.0);
+		C = Math.pow(5.0, 2.0);
 		
+		System.out.println(x + " elevado a " + y + " = " + A);
+		System.out.println(x + " elevado a " + y + " = " + A);
 	}
 
 }
