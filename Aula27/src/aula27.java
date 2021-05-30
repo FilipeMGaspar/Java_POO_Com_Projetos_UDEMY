@@ -11,6 +11,7 @@ public class aula27 {
 		String s1, s2, s3;
 		
 		x = sc.nextInt();
+		sc.nextLine();//Patra consumir a quebra de linha pendente
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
