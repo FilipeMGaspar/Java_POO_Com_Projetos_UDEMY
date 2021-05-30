@@ -9,7 +9,7 @@ public class aula26 {
 		System.out.print("Digte o seu nome: ");
 		String x;
 		x = sc.next();
-		System.out.println("Valor digitado: "+ x);
+		System.out.println("Seja bem vindo(a): "+ x);
 		
 		sc.close();//Fecha o recurso do scanner
 	}
