@@ -6,6 +6,7 @@ public class aula26 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in); //Leitura de dados
 		
+		System.out.print("Digte o seu nome: ");
 		String x;
 		x = sc.next();
 		System.out.println("Valor digitado: "+ x);
