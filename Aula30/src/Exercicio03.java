@@ -22,6 +22,8 @@ public class Exercicio03 {
 		diferenca = a * b - c * d;
 		
 		System.out.println("Diferença = " + diferenca);
+		
+		teclado.close();
 	}
 
 }
