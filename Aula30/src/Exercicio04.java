@@ -23,7 +23,7 @@ public class Exercicio04 {
 		
 		System.out.println("..: Folha de Vencimento :..");
 		System.out.println("  Funcionário número: " + numFunc);
-		System.out.printf("  Vencimento: %.2f /n", vencimento);
+		System.out.printf("  Vencimento: %.2f \n", vencimento);
 		teclado.close();
 	}
 
