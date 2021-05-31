@@ -16,7 +16,7 @@ public class Exercicio04 {
 		numFunc = teclado.nextInt();
 		System.out.print("Horas trabalhadas: ");
 		horasTrab = teclado.nextInt();
-		System.out.println("Valor a pagar por Hora: ");
+		System.out.print("Valor a pagar por Hora: ");
 		valorHora = teclado.nextDouble();
 
 		System.out.println("..: Folha de Vencimento :..");
