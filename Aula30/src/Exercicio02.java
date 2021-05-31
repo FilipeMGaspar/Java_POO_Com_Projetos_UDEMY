@@ -9,6 +9,8 @@ public class Exercicio02 {
 		
 		System.out.println("Exercicio 02 - Área do círculo!");
 		
+		System.out.println("Valor do raio: ");
+		
 		
 	}
 
