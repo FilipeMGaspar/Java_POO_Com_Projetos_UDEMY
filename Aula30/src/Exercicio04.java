@@ -9,10 +9,12 @@ public class Exercicio04 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Exercicio 04 - Salário do funcionário!");
 		
-		int numFunc;
+		int numFunc, horasTrab;
 		
 		System.out.print("Número Do funcionário: ");
 		numFunc = teclado.nextInt();
+		System.out.print("Horas trabalhadas: ");
+		horasTrab = teclado.nextInt();
 	}
 
 }
