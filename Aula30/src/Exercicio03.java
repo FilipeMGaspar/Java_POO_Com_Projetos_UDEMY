@@ -5,6 +5,10 @@ public class Exercicio03 {
 		// TODO Auto-generated method stub
 		System.out.println("Exercicio 03 - Diferença do produto !");
 		
+		int a, b, c, d;
+		
+		System.out.println("Primeiro número: ");
+		
 	}
 
 }
