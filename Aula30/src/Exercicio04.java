@@ -10,7 +10,7 @@ public class Exercicio04 {
 		System.out.println("Exercicio 04 - Salário do funcionário!");
 		
 		int numFunc, horasTrab;
-		double valorHora;
+		double valorHora, vencimento;
 		
 		System.out.print("Número Do funcionário: ");
 		numFunc = teclado.nextInt();
@@ -19,8 +19,11 @@ public class Exercicio04 {
 		System.out.print("Valor a pagar por Hora: ");
 		valorHora = teclado.nextDouble();
 
+		vencimento = valorHora * horasTrab;
+		
 		System.out.println("..: Folha de Vencimento :..");
-		System.out.println("Funcionário número: " + numFunc);
+		System.out.println("  Funcionário número: " + numFunc);
+		System.out.printf("  Vencimento: %.2f /n", vencimento);
 		teclado.close();
 	}
 
