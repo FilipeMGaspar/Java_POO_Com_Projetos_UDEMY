@@ -7,13 +7,16 @@ public class Exercicio01 {
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("Exercicio 01 - Soma de dois Números!");
-		int num1, num2;
+		int num1, num2, soma = 0;
 		
 		
 		System.out.print("Primeiro número: ");
 		num1 = teclado.nextInt();
-		System.out.println("Segundo número: ");
+		System.out.print("Segundo número: ");
 		num2 = teclado.nextInt();
+		
+		soma = num1 + num2;
+		System.out.println("Soma = " + soma);
 		
 		teclado.close();
 	}
