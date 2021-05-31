@@ -13,10 +13,10 @@ public class Exercicio02 {
 		double PI = 3.14159;
 		double raio, area;
 		
-		System.out.println("Valor do raio: ");
+		System.out.print("Valor do raio: ");
 		raio = teclado.nextDouble(); 
 		area = PI * Math.pow(raio, 2);
-		System.out.println("A = " + area);
+		System.out.printf("A = %.4f", area);
 		
 		teclado.close();
 	}
