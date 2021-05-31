@@ -14,6 +14,9 @@ public class Exercicio02 {
 		double raio, area;
 		
 		System.out.println("Valor do raio: ");
+		raio = teclado.nextDouble(); 
+		area = PI * Math.pow(raio, 2);
+		System.out.println("A = " + area);
 		
 		teclado.close();
 	}
