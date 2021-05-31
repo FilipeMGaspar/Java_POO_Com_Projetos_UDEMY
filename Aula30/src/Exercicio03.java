@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Exercicio03 {
 
@@ -5,12 +6,18 @@ public class Exercicio03 {
 		// TODO Auto-generated method stub
 		System.out.println("Exercicio 03 - Diferença do produto !");
 		
+		Scanner teclado = new Scanner(System.in);
+		
 		int a, b, c, d;
 		
-		System.out.println("Primeiro número: ");
-		System.out.println("Segundo número: ");
-		System.out.println("Terceiro número: ");
-		System.out.println("Quarto número: ");
+		System.out.print("Primeiro número: ");
+		a = teclado.nextInt();
+		System.out.print("Segundo número: ");
+		b = teclado.nextInt();
+		System.out.print("Terceiro número: ");
+		c = teclado.nextInt();
+		System.out.print("Quarto número: ");
+		d = teclado.nextInt();
 		
 	}
 
