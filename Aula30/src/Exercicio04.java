@@ -19,7 +19,8 @@ public class Exercicio04 {
 		System.out.println("Valor a pagar por Hora: ");
 		valorHora = teclado.nextDouble();
 
-		
+		System.out.println("..: Folha de Vencimento :..");
+		System.out.println("Funcionário número: " + numFunc);
 		teclado.close();
 	}
 
