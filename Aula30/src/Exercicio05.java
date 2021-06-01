@@ -20,6 +20,13 @@ public class Exercicio05 {
 		System.out.print("   Preço      ..: ");
 		valorUnP1 = teclado.nextDouble();
 		
+		System.out.println("Produto 2: ");
+		System.out.print("   Código     ..: ");
+		codProd2 = teclado.nextInt();
+		System.out.print("   Quantidade ..: ");
+		qtProd2 = teclado.nextInt();
+		System.out.print("   Preço      ..: ");
+		valorUnP2 = teclado.nextDouble();
 		
 	}
 
