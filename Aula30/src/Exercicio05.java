@@ -28,6 +28,11 @@ public class Exercicio05 {
 		System.out.print("   Preço      ..: ");
 		valorUnP2 = teclado.nextDouble();
 		
+		System.out.println();
+		System.out.println("Cod \t QT \t P.uni \t Totalt");
+		System.out.printf("%d \t %d \t %.2f", codProd1,  qtProd1, valorUnP1);
+		
+		teclado.close();
 	}
 
 }
