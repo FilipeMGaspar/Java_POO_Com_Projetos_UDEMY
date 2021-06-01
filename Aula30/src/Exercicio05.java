@@ -30,7 +30,7 @@ public class Exercicio05 {
 		
 		System.out.println();
 		System.out.println("Cod \t QT \t P.uni \t Totalt");
-		System.out.printf("%d \t %d \t %.2f", codProd1,  qtProd1, valorUnP1);
+		System.out.printf("%d \t %d \t %.2f \t %.2f", codProd1,  qtProd1, valorUnP1, (valorUnP1 * qtProd1));
 		
 		teclado.close();
 	}
