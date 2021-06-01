@@ -20,7 +20,7 @@ public class Exercicio05 {
 		System.out.print("   Preço      ..: ");
 		valorUnP1 = teclado.nextDouble();
 		
-		System.out.println("Produto 2: ");
+		System.out.println("\nProduto 2: ");
 		System.out.print("   Código     ..: ");
 		codProd2 = teclado.nextInt();
 		System.out.print("   Quantidade ..: ");
@@ -29,8 +29,9 @@ public class Exercicio05 {
 		valorUnP2 = teclado.nextDouble();
 		
 		System.out.println();
-		System.out.println("Cod \t QT \t P.uni \t Totalt");
-		System.out.printf("%d \t %d \t %.2f \t %.2f", codProd1,  qtProd1, valorUnP1, (valorUnP1 * qtProd1));
+		System.out.println("Cod \t QT \t P.uni \t Total");
+		System.out.printf("%d \t %d \t %.2f \t  %.2f \n", codProd1,  qtProd1, valorUnP1, (valorUnP1 * qtProd1));
+		System.out.printf("%d \t %d \t %.2f \t  %.2f \n", codProd2,  qtProd2, valorUnP2, (valorUnP2 * qtProd2));
 		
 		teclado.close();
 	}
