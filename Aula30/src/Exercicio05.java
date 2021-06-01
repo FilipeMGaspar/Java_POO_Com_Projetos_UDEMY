@@ -7,7 +7,11 @@ public class Exercicio05 {
 		
 		int codProd, qtProd;
 		double valorUnP1, valorUnP2; 
-		
+	
+		System.out.println("Produto 1: ");
+		System.out.print("   Código     ..: ");
+		System.out.print("   Quantidade ..: ");
+		System.out.print("   Preço      ..: ");
 	}
 
 }
