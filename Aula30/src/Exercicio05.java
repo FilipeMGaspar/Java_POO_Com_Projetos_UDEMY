@@ -32,7 +32,8 @@ public class Exercicio05 {
 		System.out.println("Cod \t QT \t P.uni \t Total");
 		System.out.printf("%d \t %d \t %.2f \t  %.2f \n", codProd1,  qtProd1, valorUnP1, (valorUnP1 * qtProd1));
 		System.out.printf("%d \t %d \t %.2f \t  %.2f \n", codProd2,  qtProd2, valorUnP2, (valorUnP2 * qtProd2));
-		
+		System.out.println("--------------------------------");
+		System.out.printf("\n\t Total a Pagar ..: %.2f \n", ((valorUnP1 * qtProd1) + (valorUnP2 * qtProd2)));
 		teclado.close();
 	}
 
