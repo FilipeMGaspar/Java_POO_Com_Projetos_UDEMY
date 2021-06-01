@@ -9,7 +9,7 @@ public class Exercicio05 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Exercicio 05 - Calculadora de valor a ser pago!");
 		
-		int codProd1, qtProd1;
+		int codProd1, qtProd1, codProd2, qtProd2;
 		double valorUnP1, valorUnP2; 
 	
 		System.out.println("Produto 1: ");
@@ -18,6 +18,9 @@ public class Exercicio05 {
 		System.out.print("   Quantidade ..: ");
 		qtProd1 = teclado.nextInt();
 		System.out.print("   Preço      ..: ");
+		valorUnP1 = teclado.nextDouble();
+		
+		
 	}
 
 }
