@@ -11,6 +11,7 @@ public class Exercicio06 {
 		double PI = 3.14159;
 		double a, b, c;
 		double areaTrigRet, areaCirculo, areaTrapezio;
+		double areaQuadrado;
 		
 		System.out.print("Indique o primeiro real: ");	
 		a = teclado.nextDouble();
@@ -22,10 +23,12 @@ public class Exercicio06 {
 		areaTrigRet = (a*c)/2;
 		areaCirculo = PI * Math.pow(c, 2);
 		areaTrapezio =( (a+b) * c) / 2;
+		areaQuadrado = b * b;
 		
 		System.out.printf("Área do triangulo = %.2f \n" , areaTrigRet);
 		System.out.printf("Área do Circulo =  %.2f \n" , areaCirculo);
 		System.out.printf("Área do Trapézio =  %.2f \n" , areaTrapezio);
+		System.out.printf("Área do Quadrado =  %.2f \n" , areaQuadrado);
 	}
 
 }
