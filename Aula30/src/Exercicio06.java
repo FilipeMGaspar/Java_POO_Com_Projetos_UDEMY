@@ -4,8 +4,9 @@ public class Exercicio06 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double a, b, c;
-		double arTrigret; 
+		double arTrigret;
 		
+		System.out.print("Indique um valor real: ");		
 	}
 
 }
