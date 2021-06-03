@@ -6,7 +6,9 @@ public class Exercicio06 {
 		double a, b, c;
 		double arTrigret;
 		
-		System.out.print("Indique um valor real: ");		
+		System.out.print("Indique o primeiro real: ");	
+		System.out.print("Indique o segundo valor real: ");
+		System.out.print("Indique o terceiro valor real: ");
 	}
 
 }
