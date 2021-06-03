@@ -12,8 +12,11 @@ public class Exercicio06 {
 		double arTrigret;
 		
 		System.out.print("Indique o primeiro real: ");	
+		a = teclado.nextDouble();
 		System.out.print("Indique o segundo valor real: ");
+		b = teclado.nextDouble();
 		System.out.print("Indique o terceiro valor real: ");
+		c = teclado.nextDouble();
 	}
 
 }
