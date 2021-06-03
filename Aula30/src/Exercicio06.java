@@ -8,8 +8,9 @@ public class Exercicio06 {
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 		
+		double PI = 3.14159;
 		double a, b, c;
-		double arTrigRet;
+		double areaTrigRet, arCirculo;
 		
 		System.out.print("Indique o primeiro real: ");	
 		a = teclado.nextDouble();
@@ -18,9 +19,11 @@ public class Exercicio06 {
 		System.out.print("Indique o terceiro valor real: ");
 		c = teclado.nextDouble();
 		
-		arTrigRet = (a*c)/2;
+		areaTrigRet = (a*c)/2;
+		arCirculo = PI * Math.pow(c, 2);
 		
-		System.out.println("Área do triangulo = " + arTrigRet);
+		System.out.println("Área do triangulo = " + areaTrigRet);
+		System.out.println("Área do Circulo = " + arCirculo);
 	}
 
 }
