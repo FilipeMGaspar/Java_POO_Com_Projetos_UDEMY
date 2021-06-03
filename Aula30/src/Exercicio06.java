@@ -22,8 +22,8 @@ public class Exercicio06 {
 		areaTrigRet = (a*c)/2;
 		arCirculo = PI * Math.pow(c, 2);
 		
-		System.out.println("햞ea do triangulo = " + areaTrigRet);
-		System.out.println("햞ea do Circulo = " + arCirculo);
+		System.out.printf("햞ea do triangulo = %.2f \n" , areaTrigRet);
+		System.out.printf("햞ea do Circulo =  %.2f \n" , arCirculo);
 	}
 
 }
