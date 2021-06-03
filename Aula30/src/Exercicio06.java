@@ -10,7 +10,7 @@ public class Exercicio06 {
 		
 		double PI = 3.14159;
 		double a, b, c;
-		double areaTrigRet, arCirculo;
+		double areaTrigRet, areaCirculo, areaTrapezio;
 		
 		System.out.print("Indique o primeiro real: ");	
 		a = teclado.nextDouble();
@@ -20,10 +20,12 @@ public class Exercicio06 {
 		c = teclado.nextDouble();
 		
 		areaTrigRet = (a*c)/2;
-		arCirculo = PI * Math.pow(c, 2);
+		areaCirculo = PI * Math.pow(c, 2);
+		areaTrapezio =( (a+b) * c) / 2;
 		
 		System.out.printf("Área do triangulo = %.2f \n" , areaTrigRet);
-		System.out.printf("Área do Circulo =  %.2f \n" , arCirculo);
+		System.out.printf("Área do Circulo =  %.2f \n" , areaCirculo);
+		System.out.printf("Área do Trapézio =  %.2f \n" , areaTrapezio);
 	}
 
 }
