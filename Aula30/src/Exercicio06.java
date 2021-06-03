@@ -9,7 +9,7 @@ public class Exercicio06 {
 		Scanner teclado = new Scanner(System.in);
 		
 		double a, b, c;
-		double arTrigret;
+		double arTrigRet;
 		
 		System.out.print("Indique o primeiro real: ");	
 		a = teclado.nextDouble();
@@ -17,6 +17,10 @@ public class Exercicio06 {
 		b = teclado.nextDouble();
 		System.out.print("Indique o terceiro valor real: ");
 		c = teclado.nextDouble();
+		
+		arTrigRet = (a*c)/2;
+		
+		System.out.println("Área do triangulo = " + arTrigRet);
 	}
 
 }
