@@ -14,14 +14,13 @@ public class Aula35 {
 		if(horas < 12) {
 			System.out.println("Bom Dia!");
 			
-		}else {
-			if(horas < 18) {
-				System.out.println("Boa Tarde!");
-			}
-			else {
-				System.out.println("Boa Noite!");
-			}
+		}else if(horas < 18) {
+			System.out.println("Boa Tarde!");
 		}
+		else {
+			System.out.println("Boa Noite!");
+		}
+		
 		
 		teclado.close();
 	}
