@@ -8,7 +8,7 @@ public class Aula35 {
 		
 		int horas;
 		
-		System.out.print("quantas horas são? ");
+		System.out.print("Quantas horas são? ");
 		horas = teclado.nextInt();
 		
 		if(horas < 12) {
