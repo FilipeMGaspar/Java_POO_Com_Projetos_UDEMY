@@ -1,17 +1,24 @@
+import java.util.Scanner;
 
 public class Aula35 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int x = 5;
+		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Bom Dia!");
+		int horas;
 		
-		if(x < 0) {
+		System.out.print("quantas horas são? ");
+		horas = teclado.nextInt();
+		
+		if(horas < 12) {
+			System.out.println("Bom Dia!");
+			
+		}else {
 			System.out.println("Boa Tarde!");
 		}
 		
-		System.out.println("Boa Noite!");
+		teclado.close();
 	}
 
 }
