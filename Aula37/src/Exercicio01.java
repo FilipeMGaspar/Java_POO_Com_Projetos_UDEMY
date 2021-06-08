@@ -10,6 +10,10 @@ public class Exercicio01 {
 		System.out.print("Insira um valor numérico: ");
 		num = teclado.nextInt();
 		
+		if(num < 0) {
+			System.out.println("\n"+ num +" é um número NEGATIVO");
+		}
+		
 		teclado.close();
 	}
 
