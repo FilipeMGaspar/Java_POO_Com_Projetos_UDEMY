@@ -7,7 +7,7 @@ public class Aula35 {
 		
 		System.out.println("Bom Dia!");
 		
-		if(x > 0) {
+		if(x < 0) {
 			System.out.println("Boa Tarde!");
 		}
 		
