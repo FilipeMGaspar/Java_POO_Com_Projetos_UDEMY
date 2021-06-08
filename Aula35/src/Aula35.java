@@ -15,7 +15,12 @@ public class Aula35 {
 			System.out.println("Bom Dia!");
 			
 		}else {
-			System.out.println("Boa Tarde!");
+			if(horas < 18) {
+				System.out.println("Boa Tarde!");
+			}
+			else {
+				System.out.println("Boa Noite!");
+			}
 		}
 		
 		teclado.close();
