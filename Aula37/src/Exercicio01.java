@@ -12,6 +12,8 @@ public class Exercicio01 {
 		
 		if(num < 0) {
 			System.out.println("\n"+ num +" é um número NEGATIVO");
+		} else if(num > 0) {
+			System.out.println("\n" + num +" é um número POSITIVO");
 		}
 		
 		teclado.close();
