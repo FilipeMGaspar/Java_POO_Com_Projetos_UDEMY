@@ -16,8 +16,7 @@ public class Aula35 {
 			
 		}else if(horas < 18) {
 			System.out.println("Boa Tarde!");
-		}
-		else {
+		} else {
 			System.out.println("Boa Noite!");
 		}
 		
