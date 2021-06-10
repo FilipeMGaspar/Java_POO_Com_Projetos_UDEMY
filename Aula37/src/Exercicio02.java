@@ -8,8 +8,12 @@ public class Exercicio02 {
 		
 		int num;
 		
-		System.out.println("Indique um número: ");
+		System.out.print("Indique um número: ");
 		num = teclado.nextInt();
+		
+		if(num%2 == 0) {
+			System.out.println("\n O número "+ num +" é PAR!");
+		}
 		
 		teclado.close();
 	}
