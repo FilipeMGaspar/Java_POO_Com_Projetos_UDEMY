@@ -21,9 +21,9 @@ public class Exercicio03 {
 		}
 		
 		if(div == 0) {
-			System.out.println("\n "+num1 + " e " + num2 +" São MULTIPLOS");
+			System.out.println("\n "+num1 + " e " + num2 +"   São MULTIPLOS");
 		}else {
-			System.out.println("\n "+num1 + " e " + num2 +" NÃO São MULTIPLOS");
+			System.out.println("\n "+num1 + " e " + num2 +"   NÃO São MULTIPLOS");
 		}
 		
 		teclado.close();
