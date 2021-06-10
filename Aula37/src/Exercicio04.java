@@ -13,9 +13,16 @@ public class Exercicio04 {
 		System.out.print("Indique a hora de término do jogo: ");
 		horaFim = teclado.nextInt();
 		
-		if(horaInicio - horaFim < 1) {
-			System.out.println("A duração do jogo deverá ser superior a uma 1 hora");
+		if(horaInicio > horaFim) {
+			if(horaInicio - horaFim < 1) {
+				System.out.println("A duração do jogo deverá ser superior a uma 1 hora");
+			}
+		}else {
+			if((horaInicio - horaFim) * -1 < 1) {
+				System.out.println("A duração do jogo deverá ser superior a uma 1 hora");
+			}
 		}
+		
 	}
 
 }
