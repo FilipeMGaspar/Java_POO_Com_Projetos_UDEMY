@@ -15,7 +15,7 @@ public class Exercicio01 {
 		} else if(num > 0) {
 			System.out.println("\n" + num +" é um número POSITIVO");
 		} else {
-			System.out.println("\n" + num + " é NULO, não positivo nem negativo!");
+			System.out.println("\n" + num + " é NULO!");
 		}
 		
 		teclado.close();
