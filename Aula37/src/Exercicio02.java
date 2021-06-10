@@ -13,6 +13,8 @@ public class Exercicio02 {
 		
 		if(num%2 == 0) {
 			System.out.println("\n O número "+ num +" é PAR!");
+		}else {
+			System.out.println("\n O número "+ num +" é ÍMPAR!");
 		}
 		
 		teclado.close();
