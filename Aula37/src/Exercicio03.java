@@ -8,7 +8,10 @@ public class Exercicio03 {
 		
 		int num1, num2;
 		
-		
+		System.out.println("Indique um número inteiro: ");
+		num1 = teclado.nextInt();
+		System.out.println("Indique outro número inteiro: ");
+		num2 = teclado.nextInt();
 		
 		teclado.close();
 	}
