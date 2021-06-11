@@ -6,7 +6,7 @@ public class Exercicio05 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		
-		int codProd;
+		int codProd, qt;
 		double preco;
 		
 		System.out.println("-----------------------------------------------------");
@@ -23,7 +23,12 @@ public class Exercicio05 {
 		if (codProd < 1 || codProd > 5) {
 			System.out.println("\n ERRO[023] ..: Código Inválido. Impossivel Continuar!");
 		}else {
-			
+			System.out.print("\nQuantidade desejada: ");
+			qt = teclado.nextInt();
+			if(codProd == 1) {
+				preco = 4.00;				
+				System.out.println("\n  Cachorro Quente |" + qt +" un | R$ "+ preco * qt);
+			}
 		}
 		teclado.close();
 	}
