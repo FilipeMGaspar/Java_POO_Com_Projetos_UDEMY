@@ -15,6 +15,7 @@ public class Exercicio05 {
 		System.out.println("|    1    \t   Cachorro Quente \t   R$ 4.00  |");
 		System.out.println("|    2    \t   X-Salada        \t   R$ 4.50  |");
 		System.out.println("|    3    \t   X-Bacon         \t   R$ 5.00  |");
+		System.out.println("|    4    \t   Torrada Simples \t   R$ 2.00  |");
 		teclado.close();
 	}
 
