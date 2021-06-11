@@ -9,10 +9,11 @@ public class Exercicio05 {
 		int codProd;
 		double preco;
 		
-		System.out.println("-------------------------------------------------");
+		System.out.println("-----------------------------------------------------");
 		System.out.println("| CODIGO |\t|   ESPECIFICAÇÃO   |\t|   PREÇO   |");
 		System.out.println("    1    \t   Cachorro Quente \t   R$ 4.00");
-		
+		System.out.println("    2    \t   X-Salada        \t   R$ 4.50");
+		System.out.println("    2    \t   X-Salada        \t   R$ 4.50");
 		teclado.close();
 	}
 
