@@ -20,6 +20,8 @@ public class Exercicio04 {
 			duracao *= -1;
 		}else if(duracao == 0) {
 			duracao = 24;
+		}else {
+			duracao = 24 - horaInicio;
 		}
 		System.out.println("\nDuracao do jogo: " + duracao + " hora(s)");
 		
