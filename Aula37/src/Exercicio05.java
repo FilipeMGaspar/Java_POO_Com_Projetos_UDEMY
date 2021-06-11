@@ -19,6 +19,12 @@ public class Exercicio05 {
 		System.out.println("|    5    \t   Refrigerante    \t   R$ 1.50  |");
 		System.out.println("-----------------------------------------------------");
 		System.out.print("\n Selecione um código: ");
+		codProd = teclado.nextInt();
+		if (codProd < 1 || codProd > 5) {
+			System.out.println("\n ERRO[023] ..: Código Inválido. Impossivel Continuar!");
+		}else {
+			
+		}
 		teclado.close();
 	}
 
