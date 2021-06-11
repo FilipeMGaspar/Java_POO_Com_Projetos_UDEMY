@@ -9,7 +9,8 @@ public class Exercicio05 {
 		int codProd;
 		double preco;
 		
-		System.out.println("| CODIGO \t| ESOECIFICAÇÃO \t| PREÇO |");
+		System.out.println("-------------------------------------------------");
+		System.out.println("| CODIGO |\t| ESPECIFICAÇÃO |\t| PREÇO |");
 		
 		teclado.close();
 	}
