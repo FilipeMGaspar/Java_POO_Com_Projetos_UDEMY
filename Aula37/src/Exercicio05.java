@@ -28,6 +28,9 @@ public class Exercicio05 {
 			if(codProd == 1) {
 				preco = 4.00;				
 				System.out.println("\n  Cachorro Quente |" + qt +" un | R$ "+ preco * qt);
+			} else if(codProd == 2) {
+				preco = 4.50;				
+				System.out.println("\n  X-Salada | " + qt +" un | R$ "+ preco * qt);
 			}
 		}
 		teclado.close();
