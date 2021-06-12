@@ -34,6 +34,9 @@ public class Exercicio05 {
 			}else if(codProd == 3) {
 				preco = 5.00;				
 				System.out.println("\n  X-Bacon | " + qt +" un | R$ "+ preco * qt);
+			} else if(codProd == 4) {
+				preco = 2.00;				
+				System.out.println("\n  Torrada Simples | " + qt +" un | R$ "+ preco * qt);
 			}
 		}
 		teclado.close();
