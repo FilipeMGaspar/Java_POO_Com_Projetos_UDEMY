@@ -11,6 +11,8 @@ public class Exercicio06 {
 		System.out.print("Digite um valor: ");
 		num = teclado.nextDouble();
 		
+		System.out.println("\nO Número " + num);
+		
 		teclado.close();
 	}
 
