@@ -37,6 +37,9 @@ public class Exercicio05 {
 			} else if(codProd == 4) {
 				preco = 2.00;				
 				System.out.println("\n  Torrada Simples | " + qt +" un | R$ "+ preco * qt);
+			}else {
+				preco = 1.50;				
+				System.out.println("\n  Refrigerante | " + qt +" un | R$ "+ preco * qt);
 			}
 		}
 		teclado.close();
