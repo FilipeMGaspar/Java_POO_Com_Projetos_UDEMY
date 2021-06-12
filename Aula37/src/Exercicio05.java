@@ -31,6 +31,9 @@ public class Exercicio05 {
 			} else if(codProd == 2) {
 				preco = 4.50;				
 				System.out.println("\n  X-Salada | " + qt +" un | R$ "+ preco * qt);
+			}else if(codProd == 3) {
+				preco = 5.00;				
+				System.out.println("\n  X-Bacon | " + qt +" un | R$ "+ preco * qt);
 			}
 		}
 		teclado.close();
