@@ -7,12 +7,17 @@ public class Exercicio06 {
 		Scanner teclado = new Scanner(System.in);
 		
 		double num;
+		String intervalo = "";
 		
 		System.out.print("Digite um valor: ");
 		num = teclado.nextDouble();
 		
-		System.out.println("\nO Número " + num);
+		if(num > 0 || num < 25) {
+			intervalo = "Está no Intervalo entre [0 e 25]";
+		}
 		
+		System.out.println("\nO Número " + num);
+		System.out.println(intervalo);
 		teclado.close();
 	}
 
