@@ -13,7 +13,9 @@ public class Exercicio06 {
 		num = teclado.nextDouble();
 		
 		if(num > 0 || num < 25) {
-			intervalo = "Está no Intervalo entre [0 e 25]";
+			intervalo = "Está no Intervalo entre [0 e 24]";
+		}else if(num < 50) {
+			intervalo = "Está no Intervalo entre [25 e 49]";
 		}
 		
 		System.out.println("\nO Número " + num);
