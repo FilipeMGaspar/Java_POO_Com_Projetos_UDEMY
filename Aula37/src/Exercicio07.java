@@ -20,6 +20,8 @@ public class Exercicio07 {
 			local = "Origem";
 		}else if(x!=0 && y == 0) {
 			local = "Eixo do X";
+		}else if(x==0 && y!=0) {
+			local = "Eixo do Y";
 		}
 		
 		System.out.println("\nO Ponto com as cordenadas " + x +" , " + y + " está na(o): " );
