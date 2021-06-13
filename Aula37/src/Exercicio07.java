@@ -24,7 +24,7 @@ public class Exercicio07 {
 			local = "Eixo do Y";
 		}
 		
-		System.out.println("\nO Ponto com as cordenadas " + x +" , " + y + " está na(o): " );
+		System.out.println("\nO Ponto com as cordenadas X= " + x +" , Y= " + y + " está na(o): " );
 		System.out.println("\n\t" + local);
 		
 		teclado.close();
