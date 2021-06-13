@@ -24,6 +24,8 @@ public class Exercicio07 {
 			local = "Eixo do Y";
 		}else if(x >0 && y > 0) {
 			local = "Q1";
+		}else if(x <0 && y > 0) {
+			
 		}
 		
 		System.out.println("\nO Ponto com as cordenadas X= " + x +" , Y= " + y + " está na(o): " );
