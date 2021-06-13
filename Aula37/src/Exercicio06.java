@@ -11,18 +11,22 @@ public class Exercicio06 {
 		
 		System.out.print("Digite um valor: ");
 		num = teclado.nextDouble();
-		
-		if(num > 0 && num <= 25) {
-			intervalo = "Está no Intervalo entre [0 e 25]";
-		}else if(num <= 50) {
-			intervalo = "Está no Intervalo entre [25 e 50]";
-		}else if(num <= 75) {
-			intervalo = "Está no Intervalo entre [50 e 75]";
-		}else if(num <= 100) {
-			intervalo = "Está no Intervalo entre [75 e 100]";
-		}else {
+		if(num < 0) {
 			intervalo = "Fora do intervalo";
+		}else {
+			if(num > 0 && num <= 25) {
+				intervalo = "Está no Intervalo entre [0 e 25]";
+			}else if(num <= 50) {
+				intervalo = "Está no Intervalo entre [25 e 50]";
+			}else if(num <= 75) {
+				intervalo = "Está no Intervalo entre [50 e 75]";
+			}else if(num <= 100) {
+				intervalo = "Está no Intervalo entre [75 e 100]";
+			}else {
+				intervalo = "Fora do intervalo";
+			}
 		}
+		
 		
 		System.out.println("\nO Número " + num);
 		System.out.println(intervalo);
