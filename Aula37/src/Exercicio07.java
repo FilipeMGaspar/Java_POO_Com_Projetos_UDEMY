@@ -36,6 +36,8 @@ public class Exercicio07 {
 			local = "Q2";
 		}else if(x < 0 && y < 0) {
 			local = "Q3";
+		}else if(x > 0 && y < 0) {
+			local = "Q4";
 		}
 		
 		
