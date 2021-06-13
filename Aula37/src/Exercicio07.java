@@ -7,10 +7,15 @@ public class Exercicio07 {
 		// TODO Auto-generated method stub
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
+		System.out.println(" \t\t   |");
+		System.out.println(" \t\tQ2 | Q1");
+		System.out.println(" \t\t   | ");
+		System.out.println(" \t   --------|--------");
+		System.out.println(" \t\t   |");
+		System.out.println(" \t\tQ3 | Q4");
+		System.out.println(" \t\t   |");
 		
-		System.out.println(" \t|");
-		System.out.println(" \t|");
-		
+		System.out.println(" \n");
 		double x, y;
 		String local = "";
 		
