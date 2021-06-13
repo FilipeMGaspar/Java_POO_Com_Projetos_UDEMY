@@ -9,12 +9,19 @@ public class Exercicio07 {
 		Scanner teclado = new Scanner(System.in);
 		
 		double x, y;
+		String local = "";
 		
 		System.out.print("Coordenada no Eixo do X: ");
 		x = teclado.nextDouble();
 		System.out.print("Coordenada no Eixo do Y: ");
 		y = teclado.nextDouble();
 		
+		if(x == 0 && y == 0) {
+			local = "Origem";
+		}
+		
+		System.out.println("\nO Ponto com as cordenadas " + x +" , " + y + " está na(o): " );
+		System.out.println("\n\t" + local);
 		
 		teclado.close();
 	}
