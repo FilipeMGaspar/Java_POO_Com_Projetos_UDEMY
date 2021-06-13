@@ -8,6 +8,9 @@ public class Exercicio07 {
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 		
+		System.out.println(" \t|");
+		System.out.println(" \t|");
+		
 		double x, y;
 		String local = "";
 		
@@ -24,9 +27,12 @@ public class Exercicio07 {
 			local = "Eixo do Y";
 		}else if(x >0 && y > 0) {
 			local = "Q1";
-		}else if(x <0 && y > 0) {
+		}else if(x < 0 && y > 0) {
 			local = "Q2";
+		}else if(x < 0 && y < 0) {
+			local = "Q3";
 		}
+		
 		
 		System.out.println("\nO Ponto com as cordenadas X= " + x +" , Y= " + y + " está na(o): " );
 		System.out.println("\n\t" + local);
