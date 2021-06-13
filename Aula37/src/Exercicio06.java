@@ -20,6 +20,8 @@ public class Exercicio06 {
 			intervalo = "Está no Intervalo entre [50 e 75]";
 		}else if(num <= 100) {
 			intervalo = "Está no Intervalo entre [75 e 100]";
+		}else {
+			intervalo = "Fora do intervalo";
 		}
 		
 		System.out.println("\nO Número " + num);
