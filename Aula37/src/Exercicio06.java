@@ -12,7 +12,7 @@ public class Exercicio06 {
 		System.out.print("Digite um valor: ");
 		num = teclado.nextDouble();
 		if(num < 0) {
-			intervalo = "Fora do intervalo definido.";
+			intervalo = "Está fora do intervalo definido.";
 		}else {
 			if(num > 0 && num <= 25) {
 				intervalo = "Está no Intervalo entre [0 e 25]";
@@ -23,7 +23,7 @@ public class Exercicio06 {
 			}else if(num <= 100) {
 				intervalo = "Está no Intervalo entre [75 e 100]";
 			}else {
-				intervalo = "Fora do intervalo definido.";
+				intervalo = "Está fora do intervalo definido.";
 			}
 		}
 		
