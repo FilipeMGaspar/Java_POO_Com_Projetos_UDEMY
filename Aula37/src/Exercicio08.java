@@ -18,7 +18,7 @@ public class Exercicio08 {
 			imposto = 0;
 		}
 		
-		System.out.println("Uma renda de R$ " + salario +" paga R$ "+ imposto +" de imposto de renda");
+		System.out.println("\nUma renda de R$ " + salario +"\n  Paga R$ "+ imposto +" de imposto de renda");
 		teclado.close();
 	}
 
