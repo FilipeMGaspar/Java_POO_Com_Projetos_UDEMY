@@ -20,6 +20,7 @@ public class Exercicio08 {
 		}else if(salario <= 3000) {
 			imposto = 8; //Imposto será de 8%
 			valorImp = (salario - 2000 )* imposto /100;
+
 		}else if(salario <= 4500) {
 			imposto = 18; //Imposto será 18%
 			double baseTrib = salario - 2000;
