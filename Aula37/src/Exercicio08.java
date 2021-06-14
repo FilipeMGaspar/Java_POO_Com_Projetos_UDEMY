@@ -37,7 +37,9 @@ public class Exercicio08 {
 			valorImp = (1000*8/100) +(1500*18/100) + ((salario - 4500) * imposto/100);
 		}
 		
-		System.out.println("Uma renda de R$ " + salario +"\n  Paga R$ "+ valorImp +" de imposto de renda");
+		System.out.printf("Uma renda de R$ %.2f \n", salario);
+		System.out.printf("  Paga R$ %.2f de imposto \n", valorImp);
+		
 		teclado.close();
 	}
 
