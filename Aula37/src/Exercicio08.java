@@ -9,7 +9,7 @@ public class Exercicio08 {
 		Scanner teclado = new Scanner(System.in);
 		
 		double salario;
-		int imposto;
+		int imposto = 0;
 		
 		System.out.print("Salário Bruto: ");
 		salario = teclado.nextDouble();
