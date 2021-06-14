@@ -13,11 +13,11 @@ public class Exercicio08 {
 		
 		System.out.print("Salário Bruto: ");
 		salario = teclado.nextDouble();
-		
+		System.out.println();
 		if(salario > 0 && salario <=2000) {
 			imposto = 0;
 			valorImp = salario * imposto;
-			System.out.println("\nIsento de imposto!");
+			System.out.println("Isento de imposto!");
 		}else if(salario <= 3000) {
 			imposto = 8; //Imposto será de 8%
 			valorImp = (salario - 2000 )* imposto /100;
