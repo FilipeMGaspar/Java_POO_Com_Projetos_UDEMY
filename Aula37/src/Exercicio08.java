@@ -11,6 +11,7 @@ public class Exercicio08 {
 		double salario;
 		
 		System.out.print("Salário Bruto: ");
+		salario = teclado.nextDouble();
 		
 		teclado.close();
 	}
