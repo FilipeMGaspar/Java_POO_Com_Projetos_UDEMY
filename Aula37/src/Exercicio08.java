@@ -23,9 +23,7 @@ public class Exercicio08 {
 
 		}else if(salario <= 4500) {
 			imposto = 18; //Imposto será 18%
-			double baseTrib = salario - 2000;
-			System.out.println(baseTrib);
-			//valorImp =((salario - 2000) * 8 /100) + ((salario - 3000) * imposto /100); 
+			valorImp =(1000 * 8 /100) + ((salario - 3000) * imposto /100); 
 		}
 		
 		System.out.println("\nUma renda de R$ " + salario +"\n  Paga R$ "+ valorImp +" de imposto de renda");
