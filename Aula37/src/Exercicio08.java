@@ -8,7 +8,7 @@ public class Exercicio08 {
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 		
-		double salario, valorImp;
+		double salario, valorImp = 0.0;
 		int imposto = 0;
 		
 		System.out.print("Salário Bruto: ");
@@ -16,9 +16,10 @@ public class Exercicio08 {
 		
 		if(salario > 0 && salario <=2000) {
 			imposto = 0;
+			valorImp = salario +(salario * imposto);
 		}
 		
-		System.out.println("\nUma renda de R$ " + salario +"\n  Paga R$ "+ imposto +" de imposto de renda");
+		System.out.println("\nUma renda de R$ " + salario +"\n  Paga R$ "+ valorImp +" de imposto de renda");
 		teclado.close();
 	}
 
