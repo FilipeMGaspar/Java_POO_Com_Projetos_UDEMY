@@ -8,7 +8,7 @@ public class Exercicio08 {
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 		
-		double salario;
+		double salario, valorImp;
 		int imposto = 0;
 		
 		System.out.print("Salário Bruto: ");
