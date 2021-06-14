@@ -17,6 +17,7 @@ public class Exercicio08 {
 		if(salario > 0 && salario <=2000) {
 			imposto = 0;
 			valorImp = salario * imposto;
+			System.out.println("\nIsento de imposto!");
 		}else if(salario <= 3000) {
 			imposto = 8; //Imposto será de 8%
 			valorImp = (salario - 2000 )* imposto /100;
@@ -29,7 +30,7 @@ public class Exercicio08 {
 			
 		}
 		
-		System.out.println("\nUma renda de R$ " + salario +"\n  Paga R$ "+ valorImp +" de imposto de renda");
+		System.out.println("Uma renda de R$ " + salario +"\n  Paga R$ "+ valorImp +" de imposto de renda");
 		teclado.close();
 	}
 
