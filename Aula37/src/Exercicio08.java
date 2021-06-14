@@ -17,6 +17,8 @@ public class Exercicio08 {
 		if(salario > 0 && salario <=2000) {
 			imposto = 0;
 		}
+		
+		System.out.println("Uma renda de R$ " + salario +" paga R$ "+ imposto +" de imposto de renda");
 		teclado.close();
 	}
 
