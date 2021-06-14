@@ -28,6 +28,13 @@ public class Exercicio08 {
 			imposto = 18; //Imposto será 18%
 			valorImp =(1000 * 8 /100) + ((salario - 3000) * imposto /100);
 			
+		}else {
+			//Neste caso o imposto passa a 28% aos 4500.01
+			// 1000 serão taxados a 8% 
+			// 1500 serão taxados a 18%
+			//O restante a 28%
+			imposto = 28; //Imposto passa a 28%
+			valorImp = (1000*8/100) +(1500*18/100) + ((salario - 4500) * imposto/100);
 		}
 		
 		System.out.println("Uma renda de R$ " + salario +"\n  Paga R$ "+ valorImp +" de imposto de renda");
