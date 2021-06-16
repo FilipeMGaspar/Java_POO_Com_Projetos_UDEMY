@@ -16,7 +16,7 @@ public class Aula38 {
 		if(minutos > 0 && minutos <= 100) {
 			System.out.println("  R$ "+ pBase);
 		}else {
-			pBase = pBase + ((minutos - 100) * pMintAdic);
+			pBase += ((minutos - 100) * pMintAdic);
 			System.out.println("  R$ "+ pBase);
 		}
 	}
