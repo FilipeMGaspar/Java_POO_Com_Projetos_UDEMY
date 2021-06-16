@@ -7,7 +7,13 @@ public class Aula38 {
 		Scanner teclado = new Scanner(System.in);
 		
 		int minutos;
+		double pBase = 50;
+		System.out.print("Indique os minutos consumidos: ");
+		minutos = teclado.nextInt();
 		
+		if(minutos > 0 && minutos < 100) {
+			
+		}
 	}
 
 }
