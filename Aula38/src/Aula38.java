@@ -11,8 +11,10 @@ public class Aula38 {
 		System.out.print("Indique os minutos consumidos: ");
 		minutos = teclado.nextInt();
 		
+		System.out.println("O valor da sua factura será de: ");
+		
 		if(minutos > 0 && minutos < 100) {
-			
+			System.out.println("  R$ "+ pBase);
 		}
 	}
 
