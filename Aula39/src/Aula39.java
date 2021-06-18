@@ -20,6 +20,10 @@ public class Aula39 {
 			dia = "Terça feira";
 		}else if(diaSemana == 4) {
 			dia = "Quarta feira";
+		}else if(diaSemana == 5) {
+			dia = "Quinta feira";
+		}else if(diaSemana == 6) {
+			dia = "Sexta feira";
 		}
 		
 		teclado.close();
