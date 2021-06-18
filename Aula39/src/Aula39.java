@@ -25,7 +25,7 @@ public class Aula39 {
 		}else if(diaSemana == 6) {
 			dia = "Sexta feira";
 		}else {
-			dia = "Valor inválido";
+			dia = "Valor Inválido";
 		}
 		
 		System.out.println("\nDia da semana: " + dia);
