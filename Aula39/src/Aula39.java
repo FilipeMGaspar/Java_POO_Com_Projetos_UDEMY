@@ -28,6 +28,7 @@ public class Aula39 {
 			dia = "Valor inválido";
 		}
 		
+		System.out.println("\nDia da Semana: " + dia);
 		teclado.close();
 	}
 
