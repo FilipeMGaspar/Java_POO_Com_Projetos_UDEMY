@@ -11,7 +11,7 @@ public class Aula40 {
 		preco = teclado.nextDouble();
 		
 		//Utilizando o if
-		if(preco > 20) {
+		if(preco < 20) {
 			desconto = preco * 0.1; //10% de desconto
 		}else {
 			desconto = preco * 0.05; //5% de desconto
