@@ -8,6 +8,12 @@ public class Aula39 {
 		
 		int diaSemana;
 		String dia;
+		System.out.print("Indique um valor numérico: ");
+		diaSemana = teclado.nextInt();
+		
+		//Utilizando o if else
+		
+		
 		teclado.close();
 	}
 
