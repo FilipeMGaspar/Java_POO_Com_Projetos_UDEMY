@@ -35,7 +35,7 @@ public class Aula39 {
 				dia = "Valor Inválido";
 				break;					
 		}
-		System.out.println("Dia da semana:  " + dia);
+		System.out.println("\nDia da semana:  " + dia);
 		teclado.close();
 		/*
 		//Utilizando o if else
