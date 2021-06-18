@@ -15,7 +15,11 @@ public class Aula39 {
 		if(diaSemana == 1) {
 			dia = "Domingo";
 		}else if(diaSemana == 2) {
-			dia = "Segunda";
+			dia = "Segunda feira";
+		}else if(diaSemana == 3) {
+			dia = "Terça feira";
+		}else if(diaSemana == 4) {
+			dia = "Quarta feira";
 		}
 		
 		teclado.close();
