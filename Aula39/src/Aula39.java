@@ -12,6 +12,11 @@ public class Aula39 {
 		diaSemana = teclado.nextInt();
 		
 		//Utilizando o switch-case
+		switch(diaSemana) {
+			case 1:
+				dia = "Domingo";
+			break;
+		}
 		
 		teclado.close();
 		/*
