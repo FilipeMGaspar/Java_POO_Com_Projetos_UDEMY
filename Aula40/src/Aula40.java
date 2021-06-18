@@ -16,6 +16,9 @@ public class Aula40 {
 		}else {
 			desconto = preco * 0.05; //5% de desconto
 		}
+		System.out.println("\nSub-Total....: " + preco);
+		System.out.println("Desconto.......: " + desconto);
+		System.out.println("Valor a Pagar..: "+ (preco - desconto));
 		teclado.close();
 	}
 
