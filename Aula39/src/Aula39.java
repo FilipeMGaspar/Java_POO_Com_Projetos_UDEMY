@@ -31,6 +31,9 @@ public class Aula39 {
 			case 6:
 				dia = "Sábado";
 				break;
+			default:
+				dia = "Valor Inválido";
+				break;					
 		}
 		
 		teclado.close();
