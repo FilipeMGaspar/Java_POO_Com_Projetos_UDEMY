@@ -28,6 +28,9 @@ public class Aula39 {
 			case 5:
 				dia = "Sexta feira";
 				break;
+			case 6:
+				dia = "Sábado";
+				break;
 		}
 		
 		teclado.close();
