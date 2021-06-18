@@ -11,6 +11,10 @@ public class Aula39 {
 		System.out.print("Indique um valor numérico: ");
 		diaSemana = teclado.nextInt();
 		
+		//Utilizando o switch-case
+		
+		teclado.close();
+		/*
 		//Utilizando o if else
 		if(diaSemana == 1) {
 			dia = "Domingo";
@@ -28,8 +32,10 @@ public class Aula39 {
 			dia = "Valor Inválido";
 		}
 		
+		
 		System.out.println("\nDia da semana: " + dia);
 		teclado.close();
+		*/
 	}
 
 }
