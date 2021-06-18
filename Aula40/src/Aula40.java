@@ -10,12 +10,15 @@ public class Aula40 {
 		System.out.print("Qual o preço do produto: ");
 		preco = teclado.nextDouble();
 		
-		//Utilizando o if
+		/*//Utilizando o if
 		if(preco < 20) {
 			desconto = preco * 0.1; //10% de desconto
 		}else {
 			desconto = preco * 0.05; //5% de desconto
-		}
+		}*/
+		
+		//Utilizando Expressão condicional ternária
+		desconto = (preco < 20) ? (preco * 0.1) : (preco * 0.05); 
 		System.out.println();
 		System.out.println("Sub-Total......: " + preco);
 		System.out.println("Desconto.......: " + desconto);
