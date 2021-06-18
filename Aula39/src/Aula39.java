@@ -15,7 +15,13 @@ public class Aula39 {
 		switch(diaSemana) {
 			case 1:
 				dia = "Domingo";
-			break;
+				break;
+			case 2:
+				dia = "Segunda feira";
+				break;
+			case 3:
+				dia = "Terça feira";
+				break;
 		}
 		
 		teclado.close();
