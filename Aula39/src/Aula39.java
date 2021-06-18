@@ -24,6 +24,8 @@ public class Aula39 {
 			dia = "Quinta feira";
 		}else if(diaSemana == 6) {
 			dia = "Sexta feira";
+		}else {
+			dia = "Valor inválido";
 		}
 		
 		teclado.close();
