@@ -16,11 +16,14 @@ public class Aula_44 {
 		largura = teclado.nextDouble();
 		System.out.print("Indique o comprimento do terreno: ");
 		comprimento = teclado.nextDouble();
+		System.out.print("Preço do metro de rede: ");
+		precoMetroQuadrado = teclado.nextDouble();
 		
 		double area = largura * comprimento;
+		double preco = area * precoMetroQuadrado;
 		
 		System.out.printf("\nAREA = %.2f \n", area);
-		System.out.printf("PRECO = \n");
+		System.out.printf("PRECO = %.2f \n", preco);
 		
 		teclado.close();
 	}
