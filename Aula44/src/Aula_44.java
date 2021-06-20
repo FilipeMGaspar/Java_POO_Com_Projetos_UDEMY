@@ -12,7 +12,8 @@ public class Aula_44 {
 		double comprimento;
 		double metroQuadrado;
 		
-		
+		System.out.printf("\nAREA =  \n");
+		System.out.printf("PRECO = \n");
 		
 		teclado.close();
 	}
