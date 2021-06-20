@@ -14,7 +14,7 @@ public class Aula_44 {
 		
 		System.out.print("Indique a largura do terreno: ");
 		largura = teclado.nextDouble();
-		System.out.println("Indique o comprimento do terreno: ");
+		System.out.print("Indique o comprimento do terreno: ");
 		comprimento = teclado.nextDouble();
 		
 		double area = largura * comprimento;
