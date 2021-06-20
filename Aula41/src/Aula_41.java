@@ -9,7 +9,7 @@ public class Aula_41 {
 			double discount = price * 0.1;
 		}
 		
-		System.out.println(price);
+		System.out.println(discount);
 	}
 
 }
