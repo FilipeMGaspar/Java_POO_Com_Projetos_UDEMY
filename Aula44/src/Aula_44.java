@@ -23,7 +23,7 @@ public class Aula_44 {
 		double preco = area * precoMetroQuadrado;
 		
 		System.out.printf("\nAREA = %.2f \n", area);
-		System.out.printf("PRECO = %.2f \n", preco);
+		System.out.printf("PRECO = R$ %.2f \n", preco);
 		
 		teclado.close();
 	}
