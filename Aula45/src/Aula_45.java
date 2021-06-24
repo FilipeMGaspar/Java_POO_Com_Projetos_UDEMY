@@ -15,7 +15,9 @@ public class Aula_45 {
 			num = teclado.nextInt();
 		}
 		
-		/*if(num != 0) {
+		/*
+		 * Outra forma de fazer mais complexa
+		 * if(num != 0) {
 			soma += num; 
 			while (num != 0) {
 				System.out.print("Digite um número: ");
