@@ -19,7 +19,7 @@ public class Aula_45 {
 				}
 			}
 		}
-		
+		System.out.println("Soma = " + soma);
 		teclado.close();
 	}
 
