@@ -6,15 +6,20 @@ public class Aula_45 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		
-		int num;
+		int num, soma = 0;
 		System.out.println("Digite um número: ");
 		num = teclado.nextInt();
-		
-		while (num != 0) {
-			System.out.println("Digite um número: ");
-			num = teclado.nextInt();
-		
+		if(num != 0) {
+			soma += num; 
+			while (num != 0) {
+				System.out.println("Digite um número: ");
+				num = teclado.nextInt();
+				if(num != 0) {
+					soma += num;
+				}
+			}
 		}
+		
 		teclado.close();
 	}
 
