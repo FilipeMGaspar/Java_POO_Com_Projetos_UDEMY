@@ -7,12 +7,12 @@ public class Aula_45 {
 		Scanner teclado = new Scanner(System.in);
 		
 		int num, soma = 0;
-		System.out.println("Digite um número: ");
+		System.out.print("Digite um número: ");
 		num = teclado.nextInt();
 		if(num != 0) {
 			soma += num; 
 			while (num != 0) {
-				System.out.println("Digite um número: ");
+				System.out.print("Digite um número: ");
 				num = teclado.nextInt();
 				if(num != 0) {
 					soma += num;
