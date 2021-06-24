@@ -11,6 +11,7 @@ public class Aula_45 {
 		num = teclado.nextInt();
 		while(num !=0) {
 			soma += num;
+			System.out.print("Digite um número: ");
 			num = teclado.nextInt();
 		}
 		
