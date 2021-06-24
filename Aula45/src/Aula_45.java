@@ -11,7 +11,9 @@ public class Aula_45 {
 		num = teclado.nextInt();
 		
 		while (num != 0) {
-			
+			System.out.println("Digite um número: ");
+			num = teclado.nextInt();
+		
 		}
 		teclado.close();
 	}
