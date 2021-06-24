@@ -9,7 +9,12 @@ public class Aula_45 {
 		int num, soma = 0;
 		System.out.print("Digite um número: ");
 		num = teclado.nextInt();
-		if(num != 0) {
+		while(num !=0) {
+			soma += num;
+			num = teclado.nextInt();
+		}
+		
+		/*if(num != 0) {
 			soma += num; 
 			while (num != 0) {
 				System.out.print("Digite um número: ");
@@ -18,7 +23,7 @@ public class Aula_45 {
 					soma += num;
 				}
 			}
-		}
+		}*/
 		System.out.println("\n ..: Soma = " + soma);
 		teclado.close();
 	}
