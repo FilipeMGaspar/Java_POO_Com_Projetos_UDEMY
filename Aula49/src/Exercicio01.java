@@ -8,6 +8,9 @@ public class Exercicio01 {
 		int senha = 2002;
 		int pass;
 		
+		System.out.print("Palavara passe: ");
+		pass = teclado.nextInt();
+		
 		while (pass != senha) {
 			
 		}
