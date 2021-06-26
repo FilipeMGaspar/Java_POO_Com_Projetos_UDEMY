@@ -13,7 +13,9 @@ public class Exercicio02 {
 		y = teclado.nextDouble();
 		
 		while (x != 0 || y != 0) {
-			
+			if(x > 0 && y > 0) {
+				System.out.println("Primeiro!");
+			}
 		}
 		
 		teclado.close();
