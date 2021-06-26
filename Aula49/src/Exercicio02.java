@@ -15,6 +15,8 @@ public class Exercicio02 {
 		while (x != 0 || y != 0) {
 			if(x > 0 && y > 0) {
 				System.out.println("Primeiro!");
+			}else if(x < 0 && y > 0) {
+				System.out.println("Segundo!");
 			}
 		}
 		
