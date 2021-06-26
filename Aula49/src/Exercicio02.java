@@ -8,7 +8,9 @@ public class Exercicio02 {
 		double x, y;
 		
 		System.out.print("Coordenada X = ");
+		x = teclado.nextDouble();
 		System.out.print("Coordenada Y = ");
+		y = teclado.nextDouble();
 		
 		teclado.close();
 	}
