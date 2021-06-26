@@ -16,7 +16,7 @@ public class Exercicio01 {
 			pass = teclado.nextInt();
 		}
 		
-		System.out.println("\nAcesso Permitido");
+		System.out.println("Acesso Permitido\n");
 		
 		teclado.close();
 	}
