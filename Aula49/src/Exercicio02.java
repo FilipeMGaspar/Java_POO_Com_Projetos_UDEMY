@@ -12,7 +12,7 @@ public class Exercicio02 {
 		System.out.print("Coordenada Y = ");
 		y = teclado.nextDouble();
 		
-		while (x != 0 || y != 0) {
+		while (x != 0 && y != 0) {
 			if(x > 0 && y > 0) {
 				System.out.println("Primeiro!");
 			}else if(x < 0 && y > 0) {
@@ -22,6 +22,10 @@ public class Exercicio02 {
 			}else if(x > 0 && y < 0) {
 				System.out.println("Quarto!");
 			}
+			System.out.print("Coordenada X = ");
+			x = teclado.nextDouble();
+			System.out.print("Coordenada Y = ");
+			y = teclado.nextDouble();
 		}
 		
 		teclado.close();
