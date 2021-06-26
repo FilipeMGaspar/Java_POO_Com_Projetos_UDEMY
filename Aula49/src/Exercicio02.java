@@ -14,13 +14,13 @@ public class Exercicio02 {
 		
 		while (x != 0 && y != 0) {
 			if(x > 0 && y > 0) {
-				System.out.println("Primeiro!");
+				System.out.println("Primeiro! \n");
 			}else if(x < 0 && y > 0) {
-				System.out.println("Segundo!");
+				System.out.println("Segundo! \n");
 			}else if(x < 0 && y < 0) {
-				System.out.println("Terceiro!");
+				System.out.println("Terceiro! \n");
 			}else if(x > 0 && y < 0) {
-				System.out.println("Quarto!");
+				System.out.println("Quarto! \n");
 			}
 			System.out.print("Coordenada X = ");
 			x = teclado.nextDouble();
