@@ -5,7 +5,8 @@ public class Exercicio02 {
 		// TODO Auto-generated method stub
 		double x, y;
 		
-		
+		System.out.print("Coordenada X = ");
+		System.out.print("Coordenada Y = ");
 	}
 
 }
