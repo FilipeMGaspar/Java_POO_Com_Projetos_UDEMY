@@ -10,11 +10,10 @@ public class Exercicio01 {
 		
 		System.out.print("Palavara passe: ");
 		pass = teclado.nextInt();
-		
 		while (pass != senha) {
+			System.out.println("Senha inválida!\n");
 			System.out.print("Palavara passe: ");
 			pass = teclado.nextInt();
-			System.out.println("\nSenha inválida!");
 		}
 		
 		System.out.println("\nAcesso Permitido");
