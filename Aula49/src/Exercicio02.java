@@ -17,6 +17,8 @@ public class Exercicio02 {
 				System.out.println("Primeiro!");
 			}else if(x < 0 && y > 0) {
 				System.out.println("Segundo!");
+			}else if(x < 0 && y < 0) {
+				System.out.println("Terceiro!");
 			}
 		}
 		
