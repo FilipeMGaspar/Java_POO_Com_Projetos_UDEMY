@@ -12,6 +12,10 @@ public class Exercicio02 {
 		System.out.print("Coordenada Y = ");
 		y = teclado.nextDouble();
 		
+		while (x != 0 || y != 0) {
+			
+		}
+		
 		teclado.close();
 	}
 
