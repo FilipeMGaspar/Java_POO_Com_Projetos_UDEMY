@@ -12,7 +12,8 @@ public class Exercicio01 {
 		pass = teclado.nextInt();
 		
 		while (pass != senha) {
-			
+			System.out.print("Palavara passe: ");
+			pass = teclado.nextInt();
 		}
 		
 		teclado.close();
