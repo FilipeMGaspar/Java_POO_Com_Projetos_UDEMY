@@ -7,18 +7,22 @@ public class Exercicio03 {
 		Scanner teclado = new Scanner(System.in);
 		int OpcComb;
 		
-		System.out.println("\t------------------------------");
-		System.out.println("\t|  Selecione o Combústivel:  |");
-		System.out.println("\t------------------------------");
-		System.out.println("\t\t1 - Alcool ");
-		System.out.println("\t\t2 - Gasolina ");
-		System.out.println("\t\t3 - Diesel ");
-		System.out.println("\t\t4 - Sair ");
-		System.out.println("\t------------------------------");
-		System.out.print("\t Opção ..: ");
-		OpcComb = teclado.nextInt();
-		
-		teclado.close();
+		while(true) {			
+			System.out.println("\t------------------------------");
+			System.out.println("\t|  Selecione o Combústivel:  |");
+			System.out.println("\t------------------------------");
+			System.out.println("\t\t1 - Alcool ");
+			System.out.println("\t\t2 - Gasolina ");
+			System.out.println("\t\t3 - Diesel ");
+			System.out.println("\t\t4 - Sair ");
+			System.out.println("\t------------------------------");
+			System.out.print("\t Opção ..: ");
+			OpcComb = teclado.nextInt();
+			if(OpcComb == 4) {
+				break;
+			}
+		}
+		//teclado.close();
 	}
 
 }
