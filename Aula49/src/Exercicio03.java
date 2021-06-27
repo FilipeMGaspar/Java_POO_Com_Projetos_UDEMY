@@ -1,8 +1,10 @@
+import java.util.Scanner;
 
 public class Exercicio03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
 		int OpcComb;
 		
 		System.out.println("\t------------------------------");
@@ -14,6 +16,9 @@ public class Exercicio03 {
 		System.out.println("\t\t4 - Sair ");
 		System.out.println("\t------------------------------");
 		System.out.print("\t Opção ..: ");
+		OpcComb = teclado.nextInt();
+		
+		teclado.close();
 	}
 
 }
