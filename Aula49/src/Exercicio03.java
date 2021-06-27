@@ -3,7 +3,19 @@ public class Exercicio03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		int OpcComb;
+		
+		System.out.println("\t Combústivel: ");
+		System.out.println("\t   1 - Alcool ");
 	}
 
 }
+
+/* 
+ * 	1 - Alcool 
+ * 	2 - Gasolina
+ * 	3 - Diesel
+ * 	4 - Sair
+ * 
+ */
+ 
