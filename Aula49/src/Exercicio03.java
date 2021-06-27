@@ -9,6 +9,7 @@ public class Exercicio03 {
 		System.out.println("\t|  Selecione o Combústivel:  |");
 		System.out.println("\t------------------------------");
 		System.out.println("\t\t1 - Alcool ");
+		System.out.println("\t\t2 - Gasolina ");
 	}
 
 }
