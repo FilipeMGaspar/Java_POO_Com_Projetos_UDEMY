@@ -13,7 +13,7 @@ public class Exercicio03 {
 		System.out.println("\t\t3 - Diesel ");
 		System.out.println("\t\t4 - Sair ");
 		System.out.println("\t------------------------------");
-		System.out.println("\t Opção: ");
+		System.out.print("\t Opção ..: ");
 	}
 
 }
