@@ -10,6 +10,8 @@ public class Exercicio03 {
 		System.out.println("\t------------------------------");
 		System.out.println("\t\t1 - Alcool ");
 		System.out.println("\t\t2 - Gasolina ");
+		System.out.println("\t\t3 - Diesel ");
+		System.out.println("\t\t4 - Sair ");
 	}
 
 }
