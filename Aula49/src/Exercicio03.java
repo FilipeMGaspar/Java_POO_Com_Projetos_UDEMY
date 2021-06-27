@@ -5,8 +5,9 @@ public class Exercicio03 {
 		// TODO Auto-generated method stub
 		int OpcComb;
 		
-		System.out.println("\t Combústivel: ");
-		System.out.println("\t   1 - Alcool ");
+		System.out.println("|----------------------------|");
+		System.out.println("\tSelecione o Combústivel: ");
+		System.out.println("\n\t   1 - Alcool ");
 	}
 
 }
