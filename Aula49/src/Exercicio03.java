@@ -30,10 +30,11 @@ public class Exercicio03 {
 			}
 		}
 		//teclado.close();
-		System.out.println("\nMuito Obrigado!\n");
-		System.out.println(" ..: Alcool   : " + qtAlcool);
-		System.out.println(" ..: Gasolina : " + qtGasolina);
-		System.out.println(" ..: Diesel   : " + qtGasolina);
+		System.out.println("\n=========================");
+		System.out.println("  Muito Obrigado!\n");
+		System.out.println("   ..: Alcool   : " + qtAlcool);
+		System.out.println("   ..: Gasolina : " + qtGasolina);
+		System.out.println("   ..: Diesel   : " + qtGasolina);
 	}
 
 }
