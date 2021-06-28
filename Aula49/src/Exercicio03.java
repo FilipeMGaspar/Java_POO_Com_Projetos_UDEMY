@@ -6,7 +6,7 @@ public class Exercicio03 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		int OpcComb;
-		int qtAlcool = 0;
+		int qtAlcool = 0, qtGasolina = 0;
 		
 		while(true) {			
 			System.out.println("\t------------------------------");
@@ -21,6 +21,8 @@ public class Exercicio03 {
 			OpcComb = teclado.nextInt();
 			if(OpcComb == 1) {
 				qtAlcool++;
+			}else if(OpcComb == 2) {
+				qtGasolina++;
 			}
 			
 			if(OpcComb == 4) {
@@ -30,6 +32,7 @@ public class Exercicio03 {
 		//teclado.close();
 		System.out.println("\nMuito Obrigado!\n");
 		System.out.println(" ..: Alcool: " + qtAlcool);
+		System.out.println(" ..: Gasolina:" + qtGasolina);
 	}
 
 }
