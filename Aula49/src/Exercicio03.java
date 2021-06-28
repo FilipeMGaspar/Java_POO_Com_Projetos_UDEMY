@@ -29,7 +29,7 @@ public class Exercicio03 {
 		}
 		//teclado.close();
 		System.out.println("\nMuito Obrigado!\n");
-		System.out.println("\n ..: Alcool: " + qtAlcool);
+		System.out.println(" ..: Alcool: " + qtAlcool);
 	}
 
 }
