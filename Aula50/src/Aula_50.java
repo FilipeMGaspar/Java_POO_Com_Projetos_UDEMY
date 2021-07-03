@@ -16,7 +16,7 @@ public class Aula_50 {
 			soma += num;
 		}
 		
-		System.out.println("\nSoma = " + soma+ "\n\n");
+		System.out.println("\n ** Soma = " + soma+ "\n\n");
 		teclado.close();
 	}
 
