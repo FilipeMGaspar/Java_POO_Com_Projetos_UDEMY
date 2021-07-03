@@ -23,6 +23,8 @@ public class Exercicio03 {
 				qtAlcool++;
 			}else if(OpcComb == 2) {
 				qtGasolina++;
+			}else if(OpcComb == 3) {
+				qtDiesel++;
 			}
 			
 			if(OpcComb == 4) {
@@ -34,7 +36,7 @@ public class Exercicio03 {
 		System.out.println("  Muito Obrigado!\n");
 		System.out.println("   ..: Alcool   : " + qtAlcool);
 		System.out.println("   ..: Gasolina : " + qtGasolina);
-		System.out.println("   ..: Diesel   : " + qtGasolina);
+		System.out.println("   ..: Diesel   : " + qtDiesel);
 	}
 
 }
