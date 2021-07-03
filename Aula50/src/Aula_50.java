@@ -8,13 +8,15 @@ public class Aula_50 {
 		int qtDeNum, num, soma = 0;
 		
 		System.out.print("Quantos números deseja somar? ");
-		qtDeNum = teclado.nextInt();		
+		qtDeNum = teclado.nextInt();
+		System.out.println();
 		for(int i = 1; i <= qtDeNum; i++) {
-			System.out.print("\nNúmero " + i + " de  " + qtDeNum + ": ");
+			System.out.print("Número " + i + " de  " + qtDeNum + ": ");
 			num = teclado.nextInt();
 			soma += num;
 		}
 		
+		System.out.println("\nSoma = " + soma+ "\n\n");
 		teclado.close();
 	}
 
