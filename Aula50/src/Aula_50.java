@@ -9,7 +9,7 @@ public class Aula_50 {
 		
 		System.out.print("Quantos números deseja somar? ");
 		qtDeNum = teclado.nextInt();		
-		for(int i = 1; i <= qtDeNum, i++) {
+		for(int i = 1; i <= qtDeNum; i++) {
 			System.out.println("Nº " + i + ": ");
 			num = teclado.nextInt();
 		}
