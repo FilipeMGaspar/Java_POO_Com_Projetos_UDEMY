@@ -10,6 +10,8 @@ public class Aula_55 {
 		char resp;
 		
 		do {
+			System.out.print("Digite a temperatura em Celsius: ");
+			tempCels = teclado.nextDouble();
 			System.out.print("Desja repetir (s/n)? ");
 			resp = teclado.next().charAt(0);
 		}while(resp != 'n' && resp != 'N');
