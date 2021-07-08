@@ -12,6 +12,8 @@ public class Aula_55 {
 		do {
 			System.out.print("Digite a temperatura em Celsius: ");
 			tempCels = teclado.nextDouble();
+			temFahr = (9 * tempCels / 5) + 32;
+			System.out.println("");
 			System.out.print("Desja repetir (s/n)? ");
 			resp = teclado.next().charAt(0);
 		}while(resp != 'n' && resp != 'N');
