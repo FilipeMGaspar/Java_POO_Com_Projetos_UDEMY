@@ -11,7 +11,7 @@ public class Aula_55 {
 		
 		do {
 			System.out.print("Desja repetir (s/n)? ");
-			
+			resp = teclado.next().charAt(0);
 		}while(resp != 'n' || resp != 'N');
 		teclado.close();
 	}
