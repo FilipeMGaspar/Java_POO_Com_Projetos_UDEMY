@@ -8,7 +8,9 @@ public class Aula_55 {
 		double tempCels;
 		double temFahr;
 		char resp;
+		
 		do {
+			System.out.print("Desja repetir (s/n)? ");
 			
 		}while(resp != 'n' || resp != 'N');
 		teclado.close();
