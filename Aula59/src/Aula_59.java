@@ -33,7 +33,10 @@ public class Aula_59 {
 	    int j = original.lastIndexOf("bc");
 	    System.out.println("lastIndexOf(\"bc\"): " + j  +" ");
 	    
-	    
+	    //operação split
+	    String s = "potato apple lemon";
+	    String[] vect = s.split(" ");
+	    String
 	}
 
 }
