@@ -11,6 +11,9 @@ public class Aula_59 {
 	 
 	    String s02 = original.toUpperCase();
 	    System.out.println("toUpperCase: \" " + s02  +" \"");
+	    
+	    String s03 = original.trim();
+	    System.out.println("trim: \" " + s03  +" \""); 
 	}
 
 }
