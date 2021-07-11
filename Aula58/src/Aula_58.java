@@ -8,6 +8,11 @@ public class Aula_58 {
 		
 		int n = sc.nextInt();
 		
+		if() {
+			System.out.println("6º bit é verdadeiro");
+		}else {
+			System.out.println("6º bit é falso");
+		}
 		sc.close();
 	}
 
