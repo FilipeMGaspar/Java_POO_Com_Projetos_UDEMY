@@ -13,7 +13,11 @@ public class Aula_59 {
 	    System.out.println("toUpperCase: \" " + s02  +" \"");
 	    
 	    String s03 = original.trim();
-	    System.out.println("trim: \" " + s03  +" \""); 
+	    System.out.println("trim: \" " + s03  +" \"");
+	    
+	    String s04 = original.substring(2);
+	    System.out.println("substring: \" " + s04  +" \"");
+	    
 	}
 
 }
