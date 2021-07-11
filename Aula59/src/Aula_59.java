@@ -22,7 +22,7 @@ public class Aula_59 {
 	    System.out.println("substring(2, 9): \" " + s05  +" \"");
 	   
 	    String s06 = original.replace('a', 'x');
-	    System.out.println("replace('a', 'x'): \" " + s05  +" \"");
+	    System.out.println("replace('a', 'x'): \" " + s06  +" \"");
 	}
 
 }
