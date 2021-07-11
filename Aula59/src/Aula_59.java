@@ -6,8 +6,8 @@ public class Aula_59 {
 		String original = "abcde FGHIJ ABC abc DEFG";
 		
 	    String s01 = original.toLowerCase();
-	    System.out.println("Original: " + original);
-	    System.out.println("Minúsculas: " + s01);
+	    System.out.println("Original: \" " + original+" \"");
+	    System.out.println("toLowerCase: \" " + s01+" \"");
 	    
 	}
 
