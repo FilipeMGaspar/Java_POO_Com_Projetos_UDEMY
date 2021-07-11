@@ -13,6 +13,7 @@ public class Aula_58 {
 		}else {
 			System.out.println("6º bit é falso");
 		}
+		
 		sc.close();
 	}
 
