@@ -36,7 +36,7 @@ public class Aula_59 {
 	    //operação split
 	    String s = "potato apple lemon";
 	    String[] vect = s.split(" ");
-	    
+	    System.out.println();
 	    System.out.println(vect[0]);
 	    System.out.println(vect[1]);
 	    System.out.println(vect[2]);
