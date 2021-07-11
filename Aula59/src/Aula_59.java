@@ -23,6 +23,9 @@ public class Aula_59 {
 	   
 	    String s06 = original.replace('a', 'x');
 	    System.out.println("replace('a', 'x'): \" " + s06  +" \"");
+	    
+	    String s07 = original.replace("abc", "xyz");
+	    System.out.println("replace(\"abc\", \"xyz\"): \" " + s07  +" \"");
 	}
 
 }
