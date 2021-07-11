@@ -19,9 +19,10 @@ public class Aula_59 {
 	    System.out.println("substring: \" " + s04  +" \"");
 	    
 	    String s05 = original.substring(2, 9);
-	    System.out.println("substring: \" " + s05  +" \"");
+	    System.out.println("substring(2, 9): \" " + s05  +" \"");
 	   
-	    
+	    String s06 = original.replace('a', 'x');
+	    System.out.println("replace('a', 'x'): \" " + s05  +" \"");
 	}
 
 }
