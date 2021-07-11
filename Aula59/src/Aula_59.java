@@ -18,6 +18,10 @@ public class Aula_59 {
 	    String s04 = original.substring(2);
 	    System.out.println("substring: \" " + s04  +" \"");
 	    
+	    String s05 = original.substring(2, 9);
+	    System.out.println("substring: \" " + s05  +" \"");
+	   
+	    
 	}
 
 }
