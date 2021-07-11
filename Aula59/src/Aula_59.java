@@ -27,6 +27,13 @@ public class Aula_59 {
 	    String s07 = original.replace("abc", "xy");
 	    System.out.println("replace(\"abc\", \"xy\"): \" " + s07  +" \"");
 	    
+	    int i = original.indexOf("bc");
+	    System.out.println("indexOf(\"bc\"): " + i  +" ");
+	    
+	    int j = original.lastIndexOf("bc");
+	    System.out.println("lastIndexOf(\"bc\"): " + j  +" ");
+	    
+	    
 	}
 
 }
