@@ -8,7 +8,9 @@ public class Aula_59 {
 	    String s01 = original.toLowerCase();
 	    System.out.println("Original: \" " + original+" \"");
 	    System.out.println("toLowerCase: \" " + s01+" \"");
-	    
+	 
+	    String s02 = original.toUpperCase();
+	    System.out.println("toUpperCase: \" " + s02  +" \"");
 	}
 
 }
