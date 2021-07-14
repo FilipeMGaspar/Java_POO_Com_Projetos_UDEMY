@@ -22,15 +22,20 @@ public class Exercicio02 {
 				System.out.println("\nO número que pensei é maior");
 				//System.out.println(num);
 			}else {
-				System.out.println("\nVocê acertou em " + tenta + " tentativas!");
+				System.out.println("");
+				System.out.println("\nParabéns!");
+				System.out.println("Você acertou em " + tenta + " tentativas!");
 				break;
 			}
 			
 			tenta++;
 		}
-		if()
-		System.out.println("\n________________________________________");
-		System.out.println("Volte a tentar! Da próxima vez vai ganhar!");
+		
+		if(tenta >= 4) {
+			System.out.println("\n________________________________________");
+			System.out.println("Volte a tentar! Da próxima vez vai ganhar!");
+		}
+
 		
 		teclado.close();
 	}
