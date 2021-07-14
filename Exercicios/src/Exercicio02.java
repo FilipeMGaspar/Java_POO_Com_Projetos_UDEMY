@@ -16,10 +16,13 @@ public class Exercicio02 {
 			palpite = teclado.nextInt();
 			if(palpite > num) {
 				System.out.println("\nO número que pensei é menor");
-				System.out.println(num);
+				//System.out.println(num);
 			}else if(palpite < num) {
 				System.out.println("\nO número que pensei é maior");
-				System.out.println(num);
+				//System.out.println(num);
+			}else {
+				System.out.println("\nVocê acertou em " + tenta + " tentativas!");
+				break;
 			}
 			
 			tenta++;
