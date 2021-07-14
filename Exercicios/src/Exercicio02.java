@@ -28,7 +28,9 @@ public class Exercicio02 {
 			
 			tenta++;
 		}
-		System.out.println("\nVolte a tentar! Á próxima vai ganhar!");
+		if()
+		System.out.println("\n________________________________________");
+		System.out.println("Volte a tentar! Da próxima vez vai ganhar!");
 		
 		teclado.close();
 	}
