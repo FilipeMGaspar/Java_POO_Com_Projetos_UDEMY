@@ -9,7 +9,7 @@ public class Exercicio02 {
 		int num = (int)(Math.random() * 10);
 		
 		while(tenta < 4) {
-			System.out.println("Tentativa " + tenta );
+			System.out.println("Tentativa " + tenta + " de 3");
 			tenta++;
 		}
 		
