@@ -17,6 +17,9 @@ public class Exercicio02 {
 			if(palpite > num) {
 				System.out.println("\nO número que pensei é menor");
 				System.out.println(num);
+			}else if(palpite < num) {
+				System.out.println("\nO número que pensei é maior");
+				System.out.println(num);
 			}
 			
 			tenta++;
