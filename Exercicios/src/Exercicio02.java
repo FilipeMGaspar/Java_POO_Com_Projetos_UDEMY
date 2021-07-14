@@ -6,6 +6,7 @@ public class Exercicio02 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		int num = (int)(Math.random() * 10);
+		System.out.println("Aleatorio: " + num);
 		
 		teclado.close();
 	}
