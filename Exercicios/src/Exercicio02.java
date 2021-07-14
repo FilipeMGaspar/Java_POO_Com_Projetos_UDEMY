@@ -12,6 +12,7 @@ public class Exercicio02 {
 		while(tenta < 4) {
 			System.out.println("\n-----------------------------");
 			System.out.println("Tentativa " + tenta + " de 3");
+			System.out.println("-----------------------------");
 			System.out.print("  ..: Palpite: " );
 			palpite = teclado.nextInt();
 			if(palpite > num) {
@@ -27,6 +28,7 @@ public class Exercicio02 {
 			
 			tenta++;
 		}
+		System.out.println("\nVolte a tentar! Á próxima vai ganhar!");
 		
 		teclado.close();
 	}
