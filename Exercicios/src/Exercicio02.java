@@ -16,6 +16,7 @@ public class Exercicio02 {
 			palpite = teclado.nextInt();
 			if(palpite < num) {
 				System.out.println("\nO número que pensei é menor");
+				System.out.println(num);
 			}
 			
 			tenta++;
