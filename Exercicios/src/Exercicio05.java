@@ -14,7 +14,10 @@ public class Exercicio05 {
 		Scanner teclado = new Scanner(System.in);
 		String nome1 = "mestre do universo";
 		String nome2;
-		
+		System.out.print("Insira uma frase: ");
+		nome2 = teclado.nextLine();
+		String nome3 = nome2 + " é " + nome1;
+		System.out.println("\n "+nome3);
 		teclado.close();
 	}
 
