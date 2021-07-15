@@ -11,7 +11,8 @@ public class Exercicio03 {
 		String nome;
 		System.out.print("Qual é o seu nome? ");
 		nome = teclado.nextLine();
-		
+		System.out.println("\nOlá " + nome);
+		System.out.println("");
 		teclado.close();
 	}
 
