@@ -8,6 +8,8 @@ public class Exercicio03 {
 		// exiba a mensagem “olá nome informado“.
 		
 		Scanner teclado = new Scanner(System.in);
+		System.out.print("Qual é o seu nome? ");
+		
 		teclado.close();
 	}
 
