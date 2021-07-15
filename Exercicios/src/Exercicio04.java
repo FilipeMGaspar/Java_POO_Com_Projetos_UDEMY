@@ -6,9 +6,9 @@ public class Exercicio04 {
 		// TODO Auto-generated method stub
 		//Crie um programa que exiba a tabuada 
 		//de um número informado pelo usuário.
-		
+		int numTab;
 		Scanner teclado = new Scanner(System.in);
-		
+		System.out.print("Informe o número da tabuada: ");
 		
 		teclado.close();
 	}
