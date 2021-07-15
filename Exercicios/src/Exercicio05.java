@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Exercicio05 {
 
@@ -9,8 +10,11 @@ public class Exercicio05 {
 		//A variável nome2 receberá um valor informado pelo usuário.
 		//Altere os valores das variáveis 
 		//e exiba a soma da variável nome1 com o valor da variável nome2.
+		
+		Scanner teclado = new Scanner(System.in);
 		String nome1 = "mestre do universo";
 		String nome2 = "";
+		teclado.close();
 	}
 
 }
