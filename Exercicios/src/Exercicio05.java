@@ -13,7 +13,8 @@ public class Exercicio05 {
 		
 		Scanner teclado = new Scanner(System.in);
 		String nome1 = "mestre do universo";
-		String nome2 = "";
+		String nome2;
+		
 		teclado.close();
 	}
 
