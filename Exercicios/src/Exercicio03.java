@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Exercicio03 {
 
@@ -5,6 +6,9 @@ public class Exercicio03 {
 		// TODO Auto-generated method stub
 		// Crie um programa que efetue a leitura de um nome
 		// exiba a mensagem “olá nome informado“.
+		
+		Scanner teclado = new Scanner(System.in);
+		teclado.close();
 	}
 
 }
