@@ -10,6 +10,7 @@ public class Exercicio04 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.print("Informe o número da tabuada: ");
 		numTab = teclado.nextInt();
+		
 		teclado.close();
 	}
 
