@@ -12,7 +12,7 @@ public class Exercicio04 {
 		numTab = teclado.nextInt();
 		System.out.println("\nTabuada do " + numTab + "\n");
 		for(int i = 1; i <= 10; i++) {
-			System.out.println(i + " X " + numTab + " = "+(i*numTab));
+			System.out.println(numTab + " X " + i + " = "+(i*numTab));
 		}
 		teclado.close();
 	}
