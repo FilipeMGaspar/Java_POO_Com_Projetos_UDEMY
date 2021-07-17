@@ -9,12 +9,15 @@ public class Aula_64 {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Informe as medidas para o Triângulo x");
+		System.out.println("Informe as medidas para o Triângulo X");
 		System.out.print("A= ");
 		xA = teclado.nextDouble();
 		System.out.print("B= ");
 		xB = teclado.nextDouble();
+		System.out.print("C= ");
+		xC = teclado.nextDouble();
 		
+		System.out.println("\nInforme as medidas para o Triângulo Y");
 		teclado.close();
 	}
 
