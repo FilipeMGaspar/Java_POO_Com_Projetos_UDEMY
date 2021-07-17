@@ -28,11 +28,11 @@ public class Aula_65 {
 		
 		System.out.println("\nInforme as medidas para o Triângulo Y");
 		System.out.print("A= ");
-		yA = teclado.nextDouble();
+		y.a = teclado.nextDouble();
 		System.out.print("B= ");
-		yB = teclado.nextDouble();
+		y.b = teclado.nextDouble();
 		System.out.print("C= ");
-		yC = teclado.nextDouble();
+		y.c = teclado.nextDouble();
 		//pY = (yA + yB + yC) / 2;
 		//areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
 		
