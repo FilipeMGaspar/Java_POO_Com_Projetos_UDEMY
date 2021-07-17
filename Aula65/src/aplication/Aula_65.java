@@ -16,6 +16,43 @@ public class Aula_65 {
 		x = new Triangulo();
 		y = new Triangulo();
 		
+		System.out.println("Informe as medidas para o Triângulo X");
+		System.out.print("A= ");
+		xA = teclado.nextDouble();
+		System.out.print("B= ");
+		xB = teclado.nextDouble();
+		System.out.print("C= ");
+		xC = teclado.nextDouble();
+		pX = (xA + xB + xC)/2;
+		areaX = Math.sqrt(pX * (pX - xA) * (pX - xB) * (pX - xC));
+		
+		//System.out.println("\nPerimetro= "+ pX);
+		//System.out.printf("Área= %.2f \n", areaX);
+		
+		System.out.println("\nInforme as medidas para o Triângulo Y");
+		System.out.print("A= ");
+		yA = teclado.nextDouble();
+		System.out.print("B= ");
+		yB = teclado.nextDouble();
+		System.out.print("C= ");
+		yC = teclado.nextDouble();
+		pY = (yA + yB + yC) / 2;
+		areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
+		
+		//System.out.println("\nPerimetro= "+ pY);
+		//System.out.printf("Área= %.2f \n", areaY);
+		
+		System.out.printf("\nÁrea do triângulo X= %.4f \n", areaX);
+		System.out.printf("Área do triângulo Y= %.4f \n", areaY);
+		
+		System.out.print("\nO triangulo com maior área é o Triângulo");
+		
+		if(areaX > areaY) {
+			System.out.print(" X \n");
+		}else {
+			System.out.print(" Y \n");
+		}
+		
 		teclado.close();
 	}
 
