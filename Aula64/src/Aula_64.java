@@ -4,7 +4,7 @@ public class Aula_64 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double xA, xB, xC;
+		double xA, xB, xC, pX;
 		double yA, yB, yC;
 		
 		Scanner teclado = new Scanner(System.in);
@@ -16,6 +16,7 @@ public class Aula_64 {
 		xB = teclado.nextDouble();
 		System.out.print("C= ");
 		xC = teclado.nextDouble();
+		pX = (xA + xB + xC)/2;
 		
 		System.out.println("\nInforme as medidas para o Triângulo Y");
 		System.out.print("A= ");
