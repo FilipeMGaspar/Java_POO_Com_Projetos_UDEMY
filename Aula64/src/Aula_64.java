@@ -22,6 +22,9 @@ public class Aula_64 {
 		xA = teclado.nextDouble();
 		System.out.print("B= ");
 		xB = teclado.nextDouble();
+		System.out.print("C= ");
+		xC = teclado.nextDouble();
+		
 		teclado.close();
 	}
 
