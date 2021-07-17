@@ -36,6 +36,9 @@ public class Aula_64 {
 		pY = (yA + yB + yC) / 2;
 		areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
 		
+		System.out.println("\nPerimetro= "+ pY);
+		System.out.printf("Área= %.2f \n", areaY);
+		
 		teclado.close();
 	}
 
