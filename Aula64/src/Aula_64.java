@@ -19,11 +19,11 @@ public class Aula_64 {
 		
 		System.out.println("\nInforme as medidas para o Triângulo Y");
 		System.out.print("A= ");
-		xA = teclado.nextDouble();
+		yA = teclado.nextDouble();
 		System.out.print("B= ");
-		xB = teclado.nextDouble();
+		yB = teclado.nextDouble();
 		System.out.print("C= ");
-		xC = teclado.nextDouble();
+		yC = teclado.nextDouble();
 		
 		teclado.close();
 	}
