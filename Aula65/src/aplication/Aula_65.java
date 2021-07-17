@@ -41,16 +41,16 @@ public class Aula_65 {
 		areaY = Math.sqrt(pY * (pY - y.a) * (pY - y.b) * (pY - y.c));
 		
 		
-		//System.out.printf("\nÁrea do triângulo X= %.4f \n", areaX);
-		//System.out.printf("Área do triângulo Y= %.4f \n", areaY);
+		System.out.printf("\nÁrea do triângulo X= %.4f \n", areaX);
+		System.out.printf("Área do triângulo Y= %.4f \n", areaY);
 		
-		//System.out.print("\nO triangulo com maior área é o Triângulo");
+		System.out.print("\nO triangulo com maior área é o Triângulo");
 		
-		/*if(areaX > areaY) {
+		if(areaX > areaY) {
 			System.out.print(" X \n");
 		}else {
 			System.out.print(" Y \n");
-		}*/
+		}
 		
 		teclado.close();
 	}
