@@ -18,16 +18,13 @@ public class Aula_65 {
 		
 		System.out.println("Informe as medidas para o Triângulo X");
 		System.out.print("A= ");
-		xA = teclado.nextDouble();
+		x.a = teclado.nextDouble();
 		System.out.print("B= ");
-		xB = teclado.nextDouble();
+		x.b = teclado.nextDouble();
 		System.out.print("C= ");
-		xC = teclado.nextDouble();
-		pX = (xA + xB + xC)/2;
-		areaX = Math.sqrt(pX * (pX - xA) * (pX - xB) * (pX - xC));
-		
-		//System.out.println("\nPerimetro= "+ pX);
-		//System.out.printf("Área= %.2f \n", areaX);
+		x.c= teclado.nextDouble();
+		//pX = (xA + xB + xC)/2;
+		//areaX = Math.sqrt(pX * (pX - xA) * (pX - xB) * (pX - xC));
 		
 		System.out.println("\nInforme as medidas para o Triângulo Y");
 		System.out.print("A= ");
