@@ -11,6 +11,10 @@ public class Aula_65 {
 		// TODO Auto-generated method stub
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
+		
+		double pX, areaX;
+		double pY, areaY;
+		
 		Triangulo x, y;
 		
 		x = new Triangulo();
