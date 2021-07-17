@@ -17,7 +17,10 @@ public class Aula_64 {
 		System.out.print("C= ");
 		xC = teclado.nextDouble();
 		pX = (xA + xB + xC)/2;
-		areaX = Math.sqrt(pX*(pX-xA)*(pX-xB));
+		areaX = Math.sqrt(pX*(pX-xA)*(pX-xB)*(pX-xC));
+		
+		System.out.println("\nPerimetro= "+ pX);
+		System.out.println("Área= " + areaX);
 		
 		System.out.println("\nInforme as medidas para o Triângulo Y");
 		System.out.print("A= ");
