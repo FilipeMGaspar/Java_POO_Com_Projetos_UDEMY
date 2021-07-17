@@ -42,12 +42,12 @@ public class Aula_64 {
 		System.out.printf("\nÁrea do triângulo X= %.4f \n", areaX);
 		System.out.printf("Área do triângulo Y= %.4f \n", areaY);
 		
-		System.out.println("\nO triangulo com maior área é o Triângulo");
+		System.out.print("\nO triangulo com maior área é o Triângulo");
 		
 		if(areaX > areaY) {
-			System.out.print(" X");
+			System.out.print(" X \n");
 		}else {
-			System.out.print(" Y");
+			System.out.print(" Y \n");
 		}
 		
 		teclado.close();
