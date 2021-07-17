@@ -20,7 +20,7 @@ public class Aula_64 {
 		areaX = Math.sqrt(pX*(pX-xA)*(pX-xB)*(pX-xC));
 		
 		System.out.println("\nPerimetro= "+ pX);
-		System.out.println("Área= " + areaX);
+		System.out.printf("Área= %.2f \n", areaX);
 		
 		System.out.println("\nInforme as medidas para o Triângulo Y");
 		System.out.print("A= ");
