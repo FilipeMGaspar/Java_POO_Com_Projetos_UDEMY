@@ -23,8 +23,8 @@ public class Aula_64 {
 		pX = (xA + xB + xC)/2;
 		areaX = Math.sqrt(pX * (pX - xA) * (pX - xB) * (pX - xC));
 		
-		System.out.println("\nPerimetro= "+ pX);
-		System.out.printf("¡rea= %.2f \n", areaX);
+		//System.out.println("\nPerimetro= "+ pX);
+		//System.out.printf("¡rea= %.2f \n", areaX);
 		
 		System.out.println("\nInforme as medidas para o Tri‚ngulo Y");
 		System.out.print("A= ");
@@ -36,8 +36,11 @@ public class Aula_64 {
 		pY = (yA + yB + yC) / 2;
 		areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
 		
-		System.out.println("\nPerimetro= "+ pY);
-		System.out.printf("¡rea= %.2f \n", areaY);
+		//System.out.println("\nPerimetro= "+ pY);
+		//System.out.printf("¡rea= %.2f \n", areaY);
+		
+		System.out.printf("\n¡rea do tri‚ngulo X= %.4f \n", areaX);
+		System.out.printf("¡rea do tri‚ngulo Y= %.4f \n", areaY);
 		
 		teclado.close();
 	}
