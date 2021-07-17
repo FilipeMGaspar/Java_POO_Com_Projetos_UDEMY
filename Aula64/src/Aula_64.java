@@ -8,7 +8,7 @@ public class Aula_64 {
 		Locale.setDefault(Locale.US);
 		
 		double xA, xB, xC, pX, areaX;
-		double yA, yB, yC, pY;
+		double yA, yB, yC, pY, areaY;
 		
 		Scanner teclado = new Scanner(System.in);
 		
@@ -34,6 +34,7 @@ public class Aula_64 {
 		System.out.print("C= ");
 		yC = teclado.nextDouble();
 		pY = (yA + yB + yC) / 2;
+		areaY = Math.sqrt(pY );
 		
 		teclado.close();
 	}
