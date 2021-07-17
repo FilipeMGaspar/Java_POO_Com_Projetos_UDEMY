@@ -10,8 +10,10 @@ public class Aula_64 {
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("Informe as medidas para o Triângulo x");
-		System.out.print("A = ");
+		System.out.print("A= ");
 		xA = teclado.nextDouble();
+		System.out.print("B= ");
+		xB = teclado.nextDouble();
 		
 		teclado.close();
 	}
