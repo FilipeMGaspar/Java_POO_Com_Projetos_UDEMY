@@ -8,6 +8,11 @@ public class Aula_64 {
 		double yA, yB, yC;
 		
 		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Informe as medidas para o Triângulo x");
+		System.out.print("A = ");
+		xA = teclado.nextDouble();
+		
 		teclado.close();
 	}
 
