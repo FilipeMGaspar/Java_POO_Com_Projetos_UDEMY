@@ -33,22 +33,20 @@ public class Aula_65 {
 		yB = teclado.nextDouble();
 		System.out.print("C= ");
 		yC = teclado.nextDouble();
-		pY = (yA + yB + yC) / 2;
-		areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
+		//pY = (yA + yB + yC) / 2;
+		//areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
 		
-		//System.out.println("\nPerimetro= "+ pY);
-		//System.out.printf("Área= %.2f \n", areaY);
 		
-		System.out.printf("\nÁrea do triângulo X= %.4f \n", areaX);
-		System.out.printf("Área do triângulo Y= %.4f \n", areaY);
+		//System.out.printf("\nÁrea do triângulo X= %.4f \n", areaX);
+		//System.out.printf("Área do triângulo Y= %.4f \n", areaY);
 		
-		System.out.print("\nO triangulo com maior área é o Triângulo");
+		//System.out.print("\nO triangulo com maior área é o Triângulo");
 		
-		if(areaX > areaY) {
+		/*if(areaX > areaY) {
 			System.out.print(" X \n");
 		}else {
 			System.out.print(" Y \n");
-		}
+		}*/
 		
 		teclado.close();
 	}
