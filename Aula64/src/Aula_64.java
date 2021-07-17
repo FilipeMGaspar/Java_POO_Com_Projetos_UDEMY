@@ -8,7 +8,7 @@ public class Aula_64 {
 		Locale.setDefault(Locale.US);
 		
 		double xA, xB, xC, pX, areaX;
-		double yA, yB, yC;
+		double yA, yB, yC, pY;
 		
 		Scanner teclado = new Scanner(System.in);
 		
@@ -21,7 +21,7 @@ public class Aula_64 {
 		System.out.print("C= ");
 		xC = teclado.nextDouble();
 		pX = (xA + xB + xC)/2;
-		areaX = Math.sqrt(pX*(pX-xA)*(pX-xB)*(pX-xC));
+		areaX = Math.sqrt(pX * (pX - xA) * (pX - xB) * (pX - xC));
 		
 		System.out.println("\nPerimetro= "+ pX);
 		System.out.printf("Área= %.2f \n", areaX);
@@ -33,6 +33,7 @@ public class Aula_64 {
 		yB = teclado.nextDouble();
 		System.out.print("C= ");
 		yC = teclado.nextDouble();
+		pY = (yA + yB + yC) / 2;
 		
 		teclado.close();
 	}
