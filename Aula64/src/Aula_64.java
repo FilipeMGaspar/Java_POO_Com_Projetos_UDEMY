@@ -20,6 +20,8 @@ public class Aula_64 {
 		System.out.println("\nInforme as medidas para o Triângulo Y");
 		System.out.print("A= ");
 		xA = teclado.nextDouble();
+		System.out.print("B= ");
+		xB = teclado.nextDouble();
 		teclado.close();
 	}
 
