@@ -34,7 +34,7 @@ public class Aula_64 {
 		System.out.print("C= ");
 		yC = teclado.nextDouble();
 		pY = (yA + yB + yC) / 2;
-		areaY = Math.sqrt(pY );
+		areaY = Math.sqrt(pY * (pY - yA));
 		
 		teclado.close();
 	}
