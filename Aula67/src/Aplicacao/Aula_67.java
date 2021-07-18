@@ -6,7 +6,9 @@ public class Aula_67 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Produto tv = new Produto(); 
+		Produto tv = new Produto();
+		tv.AdicionarProduto(1);
+		tv.RemoverProduto(2);
 		
 		System.out.println("Criação de produto");
 		System.out.print(" -> Nome ........: ");
