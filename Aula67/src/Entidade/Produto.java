@@ -12,7 +12,7 @@ public class Produto {
 	}
 	
 	public void AdicionarProduto(int qt) {
-		this.quantidade += qt;
+		this.setQuantidade(this.getQuantidade() + qt);
 	}
 	
 	public void RemoverProduto(int qt) {
@@ -20,7 +20,7 @@ public class Produto {
 			this.quantidade -= qt;
 		}else {
 			System.out.println("Produto sem Stock suficiente!");
-			System.out.println("  ..: Quantidade: " + this.quantidade);
+			System.out.println("  ..: Quantidade: " + this.getQuantidade());
 		}
 	}
 	
