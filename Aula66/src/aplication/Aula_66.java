@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import entidade.Triangulo;
 
-public class Aula_65 {
+public class Aula_66 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
