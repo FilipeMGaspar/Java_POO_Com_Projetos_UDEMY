@@ -9,8 +9,9 @@ public class Aula_67 {
 		Produto tv = new Produto(); 
 		
 		System.out.println("Criação de produto");
-		System.out.print(" ..: Nome..: ");
-		System.out.print(" ..: Preço.:");
+		System.out.print(" -> Nome ........: ");
+		System.out.print(" -> Preço .......: ");
+		System.out.print(" -> Quantidade ..: ");
 	}
 
 }
