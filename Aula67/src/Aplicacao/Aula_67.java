@@ -8,8 +8,8 @@ public class Aula_67 {
 		// TODO Auto-generated method stub
 		Produto tv = new Produto(); 
 		
-		tv.AdicionarProduto(1);
-		tv.RemoverProduto(2);
+		System.out.println("Criação de produto");
+		System.out.println();
 	}
 
 }
