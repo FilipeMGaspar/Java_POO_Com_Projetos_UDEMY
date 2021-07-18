@@ -23,4 +23,26 @@ public class Produto {
 			System.out.println("  ..: Quantidade: " + this.quantidade);
 		}
 	}
+	
+	//Métodos geter e seter
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	public double getPreco() {
+		return this.preco;
+	}
+	
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	public int getQuantidade() {
+		return this.quantidade;
+	}
 }
