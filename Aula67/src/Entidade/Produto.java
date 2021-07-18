@@ -6,4 +6,12 @@ public class Produto {
 	private Double preco;
 	private int quantidade;
 	
+	//Métodos públicos
+	public void AdicionarProduto(int qt) {
+		this.quantidade += qt;
+	}
+	
+	public void RemoverProduto(int qt) {
+		
+	}
 }
