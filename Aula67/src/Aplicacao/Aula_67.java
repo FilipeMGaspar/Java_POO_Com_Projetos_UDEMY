@@ -20,6 +20,7 @@ public class Aula_67 {
 		tv.setPreco(teclado.nextDouble());
 		System.out.print(" -> Quantidade ..: ");
 		tv.setQuantidade(teclado.nextInt());
+		System.out.println(tv.ValorTotalEmStock());
 		
 		teclado.close();
 	}
