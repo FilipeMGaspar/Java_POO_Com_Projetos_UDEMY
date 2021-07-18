@@ -15,8 +15,9 @@ public class Aula_67 {
 		
 		System.out.println("Criação de produto");
 		System.out.print(" -> Nome ........: ");
-		
+		tv.setNome(teclado.nextLine());
 		System.out.print(" -> Preço .......: ");
+		tv.setPreco(teclado.nextDouble());
 		System.out.print(" -> Quantidade ..: ");
 		tv.setQuantidade(teclado.nextInt());
 		
