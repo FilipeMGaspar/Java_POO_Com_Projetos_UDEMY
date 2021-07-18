@@ -12,10 +12,11 @@ public class Produto {
 	}
 	
 	public void RemoverProduto(int qt) {
-		if(this.quantidade > 0) {
+		if(this.quantidade > 0 && qt <= this.quantidade) {
 			this.quantidade -= qt;
 		}else {
-			System.out.println("Produto sem Stock!");
+			System.out.println("Produto sem Stock suficiente!");
+			System.out.println("  ..: Quantidade: " + this.quantidade);
 		}
 	}
 }
