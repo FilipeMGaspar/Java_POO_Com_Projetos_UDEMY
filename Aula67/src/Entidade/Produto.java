@@ -7,6 +7,10 @@ public class Produto {
 	private int quantidade;
 	
 	//Métodos públicos
+	public double ValorTotalEmStock() {
+		return this.quantidade * this.preco;
+	}
+	
 	public void AdicionarProduto(int qt) {
 		this.quantidade += qt;
 	}
