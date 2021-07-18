@@ -27,8 +27,7 @@ public class Aula_65 {
 		x.b = teclado.nextDouble();
 		System.out.print("C= ");
 		x.c= teclado.nextDouble();
-		pX = (x.a + x.b + x.c)/2;
-		areaX = Math.sqrt(pX * (pX - x.a) * (pX - x.b) * (pX - x.c));
+		areaX = x.area();
 		
 		System.out.println("\nInforme as medidas para o Tri‚ngulo Y");
 		System.out.print("A= ");
@@ -37,8 +36,7 @@ public class Aula_65 {
 		y.b = teclado.nextDouble();
 		System.out.print("C= ");
 		y.c = teclado.nextDouble();
-		pY = (y.a + y.b + y.c) / 2;
-		areaY = Math.sqrt(pY * (pY - y.a) * (pY - y.b) * (pY - y.c));
+		areaY = y.area();
 		
 		
 		System.out.printf("\n¡rea do tri‚ngulo X= %.4f \n", areaX);
