@@ -10,8 +10,7 @@ public class Aula_67 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		Produto tv = new Produto();
-		//tv.AdicionarProduto(1);
-		//tv.RemoverProduto(2);
+		int qt;
 		
 		System.out.println("Criação de produto");
 		System.out.print(" -> Nome ........: ");
@@ -22,8 +21,11 @@ public class Aula_67 {
 		tv.setQuantidade(teclado.nextInt());
 		tv.detalhesProduto();
 		
-		tv.RemoverProduto(3);
-		tv.AdicionarProduto(2);
+		System.out.print("Quantidade a remover do Stock: ");
+		qt = teclado.nextInt();
+		tv.RemoverProduto(qt);
+		
+		
 		teclado.close();
 	}
 
