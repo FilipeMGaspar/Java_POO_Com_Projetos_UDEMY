@@ -27,6 +27,7 @@ public class Aula_67 {
 		
 		System.out.println("Qauntidade a adicionar ao Stock: ");
 		qt = teclado.nextInt();
+		tv.AdicionarProduto(qt);
 		
 		teclado.close();
 	}
