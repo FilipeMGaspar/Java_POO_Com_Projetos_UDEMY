@@ -20,8 +20,10 @@ public class Aula_67 {
 		tv.setPreco(teclado.nextDouble());
 		System.out.print(" -> Quantidade ..: ");
 		tv.setQuantidade(teclado.nextInt());
-		
+		tv.detalhesProduto();
 		tv.AdicionarProduto(2);
+		
+		tv.detalhesProduto();
 		teclado.close();
 	}
 
