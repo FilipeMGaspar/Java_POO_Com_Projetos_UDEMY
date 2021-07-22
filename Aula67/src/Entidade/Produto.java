@@ -48,7 +48,8 @@ public class Produto {
 	
 	//Método detalhes
 	public void detalhesProduto() {
-		
+		System.out.println("Detalhes do pruduto:");
+		System.out.println("  ..: " + this.getNome() + " "+this.getPreco() + " " + this.getQuantidade() + " Un");
 	}
 	
 }
