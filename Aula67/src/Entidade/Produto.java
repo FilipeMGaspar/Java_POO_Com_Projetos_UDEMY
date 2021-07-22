@@ -46,6 +46,7 @@ public class Produto {
 		return this.quantidade;
 	}
 	
-	//Método toString
+	//Método detalhes
+	
 	
 }
