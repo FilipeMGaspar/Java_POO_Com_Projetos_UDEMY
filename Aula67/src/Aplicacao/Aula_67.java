@@ -25,6 +25,8 @@ public class Aula_67 {
 		qt = teclado.nextInt();
 		tv.RemoverProduto(qt);
 		
+		System.out.println("Qauntidade a adicionar ao Stock: ");
+		qt = teclado.nextInt();
 		
 		teclado.close();
 	}
