@@ -12,7 +12,7 @@ public class Aula_67 {
 		Produto tv = new Produto();
 		int qt;
 		
-		System.out.println("Criação de produto");
+		System.out.println("..: Criação de produto :.. ");
 		System.out.print(" -> Nome ........: ");
 		tv.setNome(teclado.nextLine());
 		System.out.print(" -> Preço .......: ");
@@ -21,12 +21,12 @@ public class Aula_67 {
 		tv.setQuantidade(teclado.nextInt());
 		tv.detalhesProduto();
 		
-		System.out.println("\n-----------------------------");
+		System.out.println("\n\n------------------------------");
 		System.out.print("Quantidade a remover do Stock: ");
 		qt = teclado.nextInt();
 		tv.RemoverProduto(qt);
 		
-		System.out.println("\n-----------------------------");
+		System.out.println("\n\n------------------------------");
 		System.out.print("Qauntidade a adicionar ao Stock: ");
 		qt = teclado.nextInt();
 		tv.AdicionarProduto(qt);
