@@ -51,8 +51,7 @@ public class Produto {
 	//Método detalhes
 	public void detalhesProduto() {
 		System.out.println("\nDetalhes do pruduto:");
-		System.out.printf("  ..: %s, R$ %.2f, %d ",this.getNome(), this.getPreco(), this.getQuantidade());
-		//System.out.println("  ..: " + this.getNome() + " " + this.getPreco() + " " + this.getQuantidade() + " Un" + " Valor total: " + this.ValorTotalEmStock());
+		System.out.printf("  ..: %s, R$ %.2f, %d Un, Valor Total: R$ %.2f ",this.getNome(), this.getPreco(), this.getQuantidade(), this.ValorTotalEmStock());
 	}
 	
 }
