@@ -47,6 +47,8 @@ public class Produto {
 	}
 	
 	//Método detalhes
-	
+	public void detalhesProduto() {
+		
+	}
 	
 }
