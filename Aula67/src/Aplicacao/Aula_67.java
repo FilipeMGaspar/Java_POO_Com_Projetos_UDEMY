@@ -21,11 +21,13 @@ public class Aula_67 {
 		tv.setQuantidade(teclado.nextInt());
 		tv.detalhesProduto();
 		
+		System.out.println("\n-----------------------------");
 		System.out.print("Quantidade a remover do Stock: ");
 		qt = teclado.nextInt();
 		tv.RemoverProduto(qt);
 		
-		System.out.println("Qauntidade a adicionar ao Stock: ");
+		System.out.println("\n-----------------------------");
+		System.out.print("Qauntidade a adicionar ao Stock: ");
 		qt = teclado.nextInt();
 		tv.AdicionarProduto(qt);
 		
