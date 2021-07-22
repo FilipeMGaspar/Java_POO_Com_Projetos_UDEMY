@@ -45,4 +45,7 @@ public class Produto {
 	public int getQuantidade() {
 		return this.quantidade;
 	}
+	
+	//Método toString
+	
 }
