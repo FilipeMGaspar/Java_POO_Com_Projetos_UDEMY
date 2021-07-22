@@ -13,11 +13,13 @@ public class Produto {
 	
 	public void AdicionarProduto(int qt) {
 		this.setQuantidade(this.getQuantidade() + qt);
+		this.detalhesProduto();
 	}
 	
 	public void RemoverProduto(int qt) {
 		if(this.quantidade > 0 && qt <= this.quantidade) {
 			this.quantidade -= qt;
+			this.detalhesProduto();
 		}else {
 			System.out.println("Produto sem Stock suficiente!");
 			System.out.println("  ..: Quantidade: " + this.getQuantidade());
