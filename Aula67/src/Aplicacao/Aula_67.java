@@ -21,6 +21,7 @@ public class Aula_67 {
 		System.out.print(" -> Quantidade ..: ");
 		tv.setQuantidade(teclado.nextInt());
 		tv.detalhesProduto();
+		
 		tv.RemoverProduto(3);
 		tv.AdicionarProduto(2);
 		teclado.close();
