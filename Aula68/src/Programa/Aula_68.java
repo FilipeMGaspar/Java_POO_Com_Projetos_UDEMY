@@ -25,7 +25,7 @@ public class Aula_68 {
 		System.out.println("Product data: " + product);
 		System.out.println();
 		
-		System.out.print("Enter the number of products to be added n stock: ");
+		System.out.print("Enter the number of products to be added in stock: ");
 		int quantity = sc.nextInt();
 		product.addProducts(quantity);
 		
