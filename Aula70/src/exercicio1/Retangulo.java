@@ -24,4 +24,8 @@ public class Retangulo {
 	public double area() {
 		return this.getComprimento() * this.getComprimento();
 	}
+	
+	public double perimetro() {
+		return 2 * this.getComprimento() + 2 * this.getLargura();
+	}
 }
