@@ -30,6 +30,8 @@ public class Retangulo {
 	}
 	
 	public double diagonal(){
-		return 1.00;
+		double diag = Math.sqrt(Math.pow(this.getComprimento(), 2) + Math.pow(this.getLargura(), 2));;
+		
+		return diag;
 	}
 }
