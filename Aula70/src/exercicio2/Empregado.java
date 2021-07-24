@@ -36,7 +36,8 @@ public class Empregado {
 	public void detalhesFuncionario() {
 		System.out.println("\n-----------------------------------");
 		System.out.println("Ficha do funcinário: ");
-		System.out.println("  > Nome : " + this.getNome());
-		System.out.printf("  > Salário: %.2f \n", this.salarioLimpo());
+		System.out.println("  > Nome ....: " + this.getNome());
+		System.out.printf("  > Salário .: %.2f \n", this.salarioLimpo());
+		System.out.println("-----------------------------------\n");
 	}
 }
