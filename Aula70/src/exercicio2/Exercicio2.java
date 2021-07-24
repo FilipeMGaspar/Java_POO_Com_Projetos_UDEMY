@@ -7,15 +7,17 @@ public class Exercicio2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
+		Empregado emp1 = new Empregado();
+		
 		System.out.println(" *** Ficha de empregado *** ");
 		System.out.println();
 		System.out.print(" Nome .....: ");
+		emp1.setNome(teclado.nextLine());
 		System.out.print(" Salário ..: ");
+		emp1.setSalario(teclado.nextDouble());
 		System.out.print(" Imposto ..: ");
-		Empregado emp1 = new Empregado();
-		
-		emp1.setNome(null);
-		
+		emp1.setImposto(teclado.nextDouble());
+				
 		teclado.close();
 	}
 
