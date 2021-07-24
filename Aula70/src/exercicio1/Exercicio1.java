@@ -9,12 +9,12 @@ public class Exercicio1 {
 		Retangulo r1 = new Retangulo();
 		System.out.println(" *** Retângulos ***");
 		System.out.println();
-		System.out.println("Comprimento do rectângulo? ");
+		System.out.print("Comprimento do rectângulo? ");
 		r1.setComprimento(teclado.nextDouble());
-		System.out.println("Largura do rectângulo? ");
+		System.out.print("Largura do rectângulo? ");
 		r1.setLargura(teclado.nextDouble());
 		
-		System.out.println(r1.area());
+		System.out.println("Área = " + r1.area());
 		teclado.close();
 	}
 
