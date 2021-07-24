@@ -16,6 +16,7 @@ public class Exercicio1 {
 		
 		System.out.printf("\n¡rea = %.2f ", r1.area());
 		System.out.printf("\nPerimetro = %.2f ", r1.perimetro());
+		System.out.printf("\nDiagonal = %.2f ", r1.diagonal());
 		teclado.close();
 	}
 
