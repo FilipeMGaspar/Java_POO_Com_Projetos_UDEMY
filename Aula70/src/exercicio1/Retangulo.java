@@ -28,4 +28,8 @@ public class Retangulo {
 	public double perimetro() {
 		return 2 * this.getComprimento() + 2 * this.getLargura();
 	}
+	
+	public double diagonal(){
+		return 1.00;
+	}
 }
