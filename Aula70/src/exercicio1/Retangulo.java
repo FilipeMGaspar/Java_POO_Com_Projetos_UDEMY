@@ -22,7 +22,7 @@ public class Retangulo {
 	
 	//Métodos públicos
 	public double area() {
-		return this.getComprimento() * this.getComprimento();
+		return this.getComprimento() * this.getLargura();
 	}
 	
 	public double perimetro() {
