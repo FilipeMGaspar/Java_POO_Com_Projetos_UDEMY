@@ -27,4 +27,6 @@ public class Empregado {
 	public void setImposto(double imposto) {
 		this.imposto = imposto;
 	}
+	
+	//Métodos públicos
 }
