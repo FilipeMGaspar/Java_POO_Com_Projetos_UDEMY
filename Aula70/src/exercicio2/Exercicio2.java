@@ -22,8 +22,6 @@ public class Exercicio2 {
 		
 		System.out.println();
 		System.out.print("Percentagem de aumanto ao salário: ");
-		
-		System.out.println("\nSalário atualizado com sucesso");
 		emp1.aumentoDoSalario(teclado.nextDouble());		
 		
 		teclado.close();
