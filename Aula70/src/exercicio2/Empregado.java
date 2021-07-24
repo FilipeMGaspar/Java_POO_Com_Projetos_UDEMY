@@ -5,4 +5,7 @@ public class Empregado {
 	private String nome;
 	private double salario;
 	private double imposto;
+	
+	//Métodos geter e seter
+	
 }
