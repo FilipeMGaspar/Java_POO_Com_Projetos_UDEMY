@@ -41,7 +41,12 @@ public class Empregado {
 		System.out.println("-----------------------------------\n");
 	}
 	
-	public double aumentoDoSalario(double aumento) {
-		return this.getSalario() + (this.getSalario() * aumento/100) - this.getImposto() ;
+	public void aumentoDoSalario(double aumento) {
+		double novoSalario = this.getSalario() + (this.getSalario() * aumento/100) - this.getImposto() ;
+		System.out.println("\n-----------------------------------");
+		System.out.println("Ficha do funcinário: ");
+		System.out.println("  > Nome ....: " + this.getNome());
+		System.out.printf("  > Salário .: %.2f \n", novoSalario);
+		System.out.println("-----------------------------------\n");
 	}
 }
