@@ -32,4 +32,8 @@ public class Empregado {
 	public double salarioLimpo() {
 		return this.getSalario() - this.getImposto();
 	}
+	
+	public void detalhesFuncionario() {
+		System.out.println("");
+	}
 }
