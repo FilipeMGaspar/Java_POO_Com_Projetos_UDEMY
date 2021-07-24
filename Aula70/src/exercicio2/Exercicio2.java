@@ -22,7 +22,7 @@ public class Exercicio2 {
 		
 		System.out.println();
 		System.out.println("Percentagem de aumanto ao salário: ");
-		
+		emp1.aumentoDoSalario(teclado.nextDouble());
 		teclado.close();
 	}
 
