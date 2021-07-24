@@ -1,6 +1,6 @@
 package exercicio1;
 
-public class retangulo {
+public class Retangulo {
 	//Atributos
 	private double largura;
 	private double comprimento;
