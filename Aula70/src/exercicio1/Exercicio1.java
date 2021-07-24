@@ -14,7 +14,7 @@ public class Exercicio1 {
 		System.out.print("Largura do rect‚ngulo? ");
 		r1.setLargura(teclado.nextDouble());
 		
-		System.out.println("¡rea = " + r1.area());
+		System.out.printf("\n¡rea = %.2f ", r1.area());
 		teclado.close();
 	}
 
