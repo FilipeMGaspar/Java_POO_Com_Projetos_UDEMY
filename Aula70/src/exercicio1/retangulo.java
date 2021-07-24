@@ -20,5 +20,8 @@ public class retangulo {
 		this.comprimento = comprimento;
 	}
 	
-	
+	//Métodos públicos
+	public double area() {
+		return this.getComprimento() * this.getComprimento();
+	}
 }
