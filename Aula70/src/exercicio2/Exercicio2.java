@@ -19,6 +19,10 @@ public class Exercicio2 {
 		emp1.setImposto(teclado.nextDouble());
 		
 		emp1.detalhesFuncionario();		
+		
+		System.out.println();
+		System.out.println("Percentagem de aumanto ao salário: ");
+		
 		teclado.close();
 	}
 
