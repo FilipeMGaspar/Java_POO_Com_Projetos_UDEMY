@@ -9,7 +9,7 @@ public class Exercicio2 {
 		Scanner teclado = new Scanner(System.in);
 		Empregado emp1 = new Empregado();
 		
-		System.out.println(" *** Ficha de empregado *** ");
+		System.out.println(" *** Criação da Ficha de empregado *** ");
 		System.out.println();
 		System.out.print(" Nome .....: ");
 		emp1.setNome(teclado.nextLine());
