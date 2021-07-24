@@ -25,7 +25,7 @@ public class Exercicio2 {
 		emp1.aumentoDoSalario(teclado.nextDouble());
 		
 		System.out.println("\nSalário atualizado com sucesso.");
-		emp1.detalhesFuncionario();
+		
 		
 		teclado.close();
 	}
