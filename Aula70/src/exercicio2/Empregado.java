@@ -43,6 +43,7 @@ public class Empregado {
 	
 	public void aumentoDoSalario(double aumento) {
 		double novoSalario = this.getSalario() + (this.getSalario() * aumento/100) - this.getImposto() ;
+		
 		System.out.println("\n-----------------------------------");
 		System.out.println("Ficha do funcinário: (Salário atualizado)");
 		System.out.println("  > Nome ....: " + this.getNome());
