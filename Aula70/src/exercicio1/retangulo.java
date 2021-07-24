@@ -12,4 +12,11 @@ public class retangulo {
 	public void setLargura(double largura) {
 		this.largura = largura;
 	}
+	
+	public double getComprimento() {
+		return this.comprimento;
+	}
+	public void setComprimento(double comprimento) {
+		this.comprimento = comprimento;
+	}
 }
