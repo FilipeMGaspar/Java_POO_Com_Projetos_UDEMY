@@ -30,6 +30,6 @@ public class Empregado {
 	
 	//Métodos públicos
 	public double salarioLimpo() {
-		return 0.00;
+		return this.getSalario() - this.getImposto();
 	}
 }
