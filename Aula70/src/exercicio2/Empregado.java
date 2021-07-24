@@ -20,4 +20,11 @@ public class Empregado {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+	
+	public double getImposto() {
+		return this.imposto;
+	}
+	public void setImposto(double imposto) {
+		this.imposto = imposto;
+	}
 }
