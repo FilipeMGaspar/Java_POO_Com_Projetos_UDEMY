@@ -7,21 +7,21 @@ public class Empregado {
 	private double imposto;
 	
 	//Métodos geter e seter
-	public String getNome() {
+	private String getNome() {
 		return this.nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 	
-	public double getSalario() {
+	private double getSalario() {
 		return this.salario;
 	}
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
 	
-	public double getImposto() {
+	private double getImposto() {
 		return this.imposto;
 	}
 	public void setImposto(double imposto) {
