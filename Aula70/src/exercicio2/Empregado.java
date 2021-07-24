@@ -40,4 +40,8 @@ public class Empregado {
 		System.out.printf("  > Salário .: %.2f \n", this.salarioLimpo());
 		System.out.println("-----------------------------------\n");
 	}
+	
+	public double aumentoDoSalario(double aumento) {
+		return this.getSalario() + (this.getSalario() * aumento/100) - this.getImposto() ;
+	}
 }
