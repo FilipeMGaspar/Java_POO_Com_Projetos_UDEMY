@@ -17,7 +17,8 @@ public class Exercicio2 {
 		emp1.setSalario(teclado.nextDouble());
 		System.out.print(" Imposto ..: ");
 		emp1.setImposto(teclado.nextDouble());
-				
+		
+		emp1.detalhesFuncionario();		
 		teclado.close();
 	}
 
