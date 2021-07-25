@@ -15,6 +15,9 @@ public class Exercicio3 {
 		System.out.print("\t Nome .................: ");
 		a.setNome(teclado.nextLine());
 		System.out.print("Nota primeiro Trimestre .: ");
+		a.setNotaPriTrim(teclado.nextDouble());
+		System.out.print("Nota Segundo Trimestre ..: ");
+		a.setNotaSegTrim(teclado.nextDouble());
 		teclado.close();
 	}
 
