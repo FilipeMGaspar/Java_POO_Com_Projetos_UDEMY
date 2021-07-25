@@ -8,6 +8,9 @@ public class Exercicio3 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		Aluno a = new Aluno();
+		System.out.println("|--------------------------------------|");
+		System.out.println("| Painel de criação da ficha do aluno! |");
+		System.out.println("|--------------------------------------|");
 		
 		teclado.close();
 	}
