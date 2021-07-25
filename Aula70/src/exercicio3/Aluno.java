@@ -28,4 +28,11 @@ public class Aluno {
 	public void setNotaSegTrim(double notaSegTrim) {
 		this.notaSegTrim = notaSegTrim;
 	}
+	
+	public double getNotaTercTrim() {
+		return this.notaTercTrim;
+	}
+	public void setNotaTercTrim(double notaTercTrim) {
+		this.notaTercTrim = notaTercTrim;
+	}
 }
