@@ -36,6 +36,10 @@ public class Aluno {
 		this.notaTercTrim = notaTercTrim;
 	}
 	
+	private double notaFinalDoAluno() {
+		double notaFinal = this.getNotaPriTrim() + this.getNotaSegTrim() + this.getNotaTercTrim();
+		return notaFinal;
+	}
 	//métodos públicos 
 	public void detalhesAluno() {
 		System.out.println("\n\n=============================================");
@@ -44,6 +48,7 @@ public class Aluno {
 		System.out.println("# Nota primeiro Trimestre .: " + this.getNotaPriTrim());
 		System.out.println("# Nota segundo Trimestre ..: " + this.getNotaSegTrim());
 		System.out.println("# Nota terceiro Trimestre .: " + this.getNotaTercTrim());
+		System.out.println();
 		System.out.println();
 	}
 }
