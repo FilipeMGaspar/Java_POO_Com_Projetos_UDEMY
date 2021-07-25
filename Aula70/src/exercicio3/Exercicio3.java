@@ -12,6 +12,9 @@ public class Exercicio3 {
 		System.out.println("| Painel de criação da ficha do aluno! |");
 		System.out.println("|--------------------------------------|");
 		
+		System.out.print("\t Nome .................: ");
+		a.setNome(teclado.nextLine());
+		System.out.print("Nota primeiro Trimestre .: ");
 		teclado.close();
 	}
 
