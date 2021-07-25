@@ -8,21 +8,21 @@ public class Aluno {
 	private double notaTercTrim;
 	
 	//métodos geter e seter
-	public String getNome() {
+	private String getNome() {
 		return this.nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 	
-	public double getNotaPriTrim() {
+	private double getNotaPriTrim() {
 		return this.notaPriTrim;
 	}
 	public void setNotaPriTrim(double notaPriTrim) {
 		this.notaPriTrim = notaPriTrim;
 	}
 	
-	public double getNotaSegTrim() {
+	private double getNotaSegTrim() {
 		return this.notaSegTrim;
 	}
 	public void setNotaSegTrim(double notaSegTrim) {
@@ -34,5 +34,16 @@ public class Aluno {
 	}
 	public void setNotaTercTrim(double notaTercTrim) {
 		this.notaTercTrim = notaTercTrim;
+	}
+	
+	//métodos públicos 
+	public void detalhesAluno() {
+		System.out.println();
+		System.out.println(" ** Ficha do aluno: **");
+		System.out.println(" > NOME: " + this.getNome());
+		System.out.println(" > Nota: " + this.getNotaPriTrim());
+		System.out.println(" > Nota: " + this.getNotaSegTrim());
+		System.out.println(" > Nota: " + this.getNotaTercTrim());
+		System.out.println();
 	}
 }
