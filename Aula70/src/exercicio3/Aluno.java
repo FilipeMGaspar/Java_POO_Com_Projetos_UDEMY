@@ -53,10 +53,13 @@ public class Aluno {
 	}
 	
 	private void situacaoFinaldoAluno() {
+		double pontosParaPassar = 60.00;
+		
 		if (this.situacaoDoAluno()) {
-			System.out.print("APROVADO");
+			System.out.print("APROVADO");			
 		}else {
-			System.out.print("REPROVADO");
+			System.out.print("REPROVADO \n");
+			System.out.println("Faltaram " + (pontosParaPassar - this.notaFinalDoAluno()));
 		}
 	}
 	
