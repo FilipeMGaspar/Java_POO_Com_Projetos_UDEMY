@@ -1,5 +1,5 @@
 package exercicio3;
 
-public class aluno {
+public class Aluno {
 
 }
