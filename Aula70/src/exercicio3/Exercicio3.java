@@ -12,11 +12,11 @@ public class Exercicio3 {
 		System.out.println("| Painel de criação da ficha do aluno! |");
 		System.out.println("|--------------------------------------|");
 		
-		System.out.print(" -> Nome .................: ");
+		System.out.print(" -> Nome .....................: ");
 		a.setNome(teclado.nextLine());
-		System.out.print(" -> Nota primeiro Trimestre .: ");
+		System.out.print(" -> Nota primeiro Trimestre ..: ");
 		a.setNotaPriTrim(teclado.nextDouble());
-		System.out.print(" -> Nota segundo Trimestre ..: ");
+		System.out.print(" -> Nota segundo Trimestre ...: ");
 		a.setNotaSegTrim(teclado.nextDouble());
 		System.out.print(" -> Nota terceiro Trimestre ..: ");
 		a.setNotaTercTrim(teclado.nextDouble());
