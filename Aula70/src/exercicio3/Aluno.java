@@ -59,7 +59,7 @@ public class Aluno {
 			System.out.print("APROVADO");			
 		}else {
 			System.out.print("REPROVADO \n");
-			System.out.println("Faltaram " + (pontosParaPassar - this.notaFinalDoAluno()));
+			System.out.println("} Faltaram " + (pontosParaPassar - this.notaFinalDoAluno()) + " pontos para ser aprovado!");
 		}
 	}
 	
@@ -78,5 +78,6 @@ public class Aluno {
 		System.out.print("> Situação ..................: ");
 		this.situacaoFinaldoAluno();
 		System.out.println();
+		
 	}
 }
