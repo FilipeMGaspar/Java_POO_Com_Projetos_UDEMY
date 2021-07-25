@@ -38,7 +38,7 @@ public class Aluno {
 	
 	//métodos públicos 
 	public void detalhesAluno() {
-		System.out.println();
+		System.out.println("\n======================================");
 		System.out.println(" ** Ficha do aluno: **");
 		System.out.println(" > NOME ....................: " + this.getNome());
 		System.out.println(" > Nota primeiro Trimestre .: " + this.getNotaPriTrim());
