@@ -21,4 +21,11 @@ public class Aluno {
 	public void setNotaPriTrim(double notaPriTrim) {
 		this.notaPriTrim = notaPriTrim;
 	}
+	
+	public double getNotaSegTrim() {
+		return this.notaSegTrim;
+	}
+	public void setNotaSegTrim(double notaSegTrim) {
+		this.notaSegTrim = notaSegTrim;
+	}
 }
