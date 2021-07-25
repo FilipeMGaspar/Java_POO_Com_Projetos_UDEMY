@@ -55,6 +55,8 @@ public class Aluno {
 	private void situacaoFinaldoAluno() {
 		if (this.situacaoDoAluno()) {
 			System.out.print("APROVADO");
+		}else {
+			System.out.print("REPROVADO");
 		}
 	}
 	
