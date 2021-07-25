@@ -6,4 +6,6 @@ public class Aluno {
 	private double notaPriTrim;
 	private double notaSegTrim;
 	private double notaTercTrim;
+	
+	//métodos geter e seter
 }
