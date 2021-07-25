@@ -21,6 +21,8 @@ public class Exercicio3 {
 		System.out.print("Nota terceiro Trimestre ..: ");
 		a.setNotaTercTrim(teclado.nextDouble());
 		
+		a.detalhesAluno();
+		
 		teclado.close();
 	}
 
