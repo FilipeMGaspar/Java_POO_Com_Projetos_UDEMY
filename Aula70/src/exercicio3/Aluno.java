@@ -41,16 +41,24 @@ public class Aluno {
 		return notaFinal;
 	}
 	
-	private String situacaoDoAluno() {
-		String situacao = "";
+	private boolean situacaoDoAluno() {
+		boolean aprovado;
 		
 		if(this.notaFinalDoAluno() >= 60) {
-			 situacao = "APROVADO";
+			aprovado = true;
 		}else {
-			situacao = "REPROVADO";
+			aprovado = false;
 		}
-		return situacao;
+		return aprovado;
 	}
+	
+	private void situacaoFinaldoAluno() {
+		if (this.situacaoDoAluno()) {
+			System.out.print("APROVADO");
+		}
+	}
+	
+	
 	
 	//métodos públicos 
 	public void detalhesAluno() {
@@ -62,7 +70,8 @@ public class Aluno {
 		System.out.println("# Nota terceiro Trimestre .: " + this.getNotaTercTrim());
 		System.out.println();
 		System.out.println("> Nota final ................: " + this.notaFinalDoAluno());
-		System.out.println("> Situação ..................: " + this.situacaoDoAluno());
+		System.out.print("> Situação ..................: ");
+		this.situacaoFinaldoAluno();
 		System.out.println();
 	}
 }
