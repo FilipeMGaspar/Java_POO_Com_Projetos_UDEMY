@@ -14,4 +14,11 @@ public class Aluno {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
+	public double getNotaPriTrim() {
+		return this.notaPriTrim;
+	}
+	public void setNotaPriTrim(double notaPriTrim) {
+		this.notaPriTrim = notaPriTrim;
+	}
 }
