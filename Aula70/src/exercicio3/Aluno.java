@@ -40,10 +40,10 @@ public class Aluno {
 	public void detalhesAluno() {
 		System.out.println();
 		System.out.println(" ** Ficha do aluno: **");
-		System.out.println(" > NOME: " + this.getNome());
-		System.out.println(" > Nota: " + this.getNotaPriTrim());
-		System.out.println(" > Nota: " + this.getNotaSegTrim());
-		System.out.println(" > Nota: " + this.getNotaTercTrim());
+		System.out.println(" > NOME ....................: " + this.getNome());
+		System.out.println(" > Nota primeiro Trimestre .: " + this.getNotaPriTrim());
+		System.out.println(" > Nota segundo Trimestre ..: " + this.getNotaSegTrim());
+		System.out.println(" > Nota terceiro Trimestre .: " + this.getNotaTercTrim());
 		System.out.println();
 	}
 }
