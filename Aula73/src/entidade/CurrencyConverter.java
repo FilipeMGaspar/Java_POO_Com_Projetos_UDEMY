@@ -14,6 +14,13 @@ public class CurrencyConverter {
 		this.precoDolar = precoDolar;
 	}
 	
+	private double getQtDolaresComprar() {
+		return this.qtDolaresComprar;
+	}
+	public void setQtDolaresComprar(double qtDolaresComprar) {
+		this.qtDolaresComprar = qtDolaresComprar;
+	}
+	
 	//Métodos públicos
 	public double valorPagoReais() {
 		return this.getPrecoDolar();
