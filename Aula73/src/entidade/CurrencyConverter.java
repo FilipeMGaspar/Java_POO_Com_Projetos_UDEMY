@@ -6,7 +6,7 @@ public class CurrencyConverter {
 	private double precoDolar;
 	
 	//Métodos geter e Seter
-	public double getPrecoDolar() {
+	private double getPrecoDolar() {
 		return this.precoDolar;
 	}
 	public void setPrecoDolar(double precoDolar) {
@@ -15,6 +15,6 @@ public class CurrencyConverter {
 	
 	//Métodos públicos
 	public double valorPagoReais() {
-		return 0.00;
+		return this.getPrecoDolar();
 	}
 }
