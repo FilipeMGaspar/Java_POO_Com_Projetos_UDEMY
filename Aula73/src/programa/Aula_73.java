@@ -16,7 +16,7 @@ public class Aula_73 {
 		System.out.print("Valor de dolar as comprar: ");
 		dolarReal.setQtDolaresComprar(teclado.nextDouble());
 		
-		System.out.println();
+		System.out.println("Valor a pagar em reais: " + dolarReal.valorPagoReais());
 		teclado.close();
 	}
 
