@@ -12,4 +12,9 @@ public class CurrencyConverter {
 	public void setPrecoDolar(double precoDolar) {
 		this.precoDolar = precoDolar;
 	}
+	
+	//Métodos públicos
+	public double valorPagoReais() {
+		return 0.00;
+	}
 }
