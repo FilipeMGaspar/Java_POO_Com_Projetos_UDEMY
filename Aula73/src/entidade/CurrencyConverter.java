@@ -2,7 +2,7 @@ package entidade;
 
 public class CurrencyConverter {
 	//Atributos
-	final private double IOF = 6 /100;
+	final private double IOF = 1 + 6 /100;
 	private double precoDolar;
 	private double qtDolaresComprar;
 	
@@ -23,6 +23,6 @@ public class CurrencyConverter {
 	
 	//Métodos públicos
 	public double valorPagoReais() {
-		return this.getPrecoDolar();
+		return this.getPrecoDolar()  * this.getQtDolaresComprar() * IOF;
 	}
 }
