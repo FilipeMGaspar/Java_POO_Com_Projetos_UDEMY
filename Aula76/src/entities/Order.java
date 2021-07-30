@@ -14,5 +14,20 @@ public class Order {
 		this.date = date;
 		this.product = product;
 	}
-	
+
+	//Métodos geter e seter
+	public Date getDate() {
+		return date;
+	}
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public Product getProduct() {
+		return product;
+	}
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+		
 }
