@@ -12,6 +12,12 @@ public class Product {
 		this.price = price;
 		this.quantity = quantity;
 	}
+	//Método Construtor
+	public Product(String name, double price) {//Sobrecarga
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
 	
 	public double totalValueInStock() {
 		return price * quantity;
