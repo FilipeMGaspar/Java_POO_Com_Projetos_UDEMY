@@ -13,6 +13,7 @@ public class Order {
 		super();
 		this.date = date;
 		this.product = product;
+		this.product.name = "TV";
 	}
 
 	//Métodos geter e seter
