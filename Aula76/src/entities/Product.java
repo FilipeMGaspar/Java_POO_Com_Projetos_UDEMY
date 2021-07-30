@@ -6,13 +6,18 @@ public class Product {
 	public double price;
 	public int quantity;
 	
-	//Método Construtor
-	public Product(String name, double price, int quantity) {
+	//Método Construtor padrão
+	public Product() {//Sobrecarga
+		
+	}
+	
+	//Método Construtor personalizado
+	public Product(String name, double price, int quantity) {//Sobrecarga
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
 	}
-	//Método Construtor
+	//Método Construtor personalizado
 	public Product(String name, double price) {//Sobrecarga
 		this.name = name;
 		this.price = price;
