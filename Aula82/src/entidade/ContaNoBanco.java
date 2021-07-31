@@ -47,7 +47,9 @@ public class ContaNoBanco {
 	}
 	
 	//Método publico 
-	public void depositar() {
-		
+	public double depositar(double deposito) {
+		double saldo = this.getValorDepInicial();
+		saldo += deposito; 
+		return saldo;
 	}
 }
