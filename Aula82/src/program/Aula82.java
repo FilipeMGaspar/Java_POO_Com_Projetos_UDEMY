@@ -29,14 +29,13 @@ public class Aula82 {
 		if(resp == 'S' || resp == 's') {
 			System.out.print("Qual o Valor a depositar: ");
 			depInicial = teclado.nextDouble();
-			ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular, depInicial);
-			System.out.println();
-			System.out.println(cnbNb_501.toString());
 		}else {
-			ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular);
-			System.out.println();
-			System.out.println(cnbNb_501.toString());
+			depInicial = 0;
 		}		
+		
+		ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular, depInicial);
+		System.out.println();
+		System.out.println(cnbNb_501.toString());
 		
 		System.out.println();
 		System.out.println("Qual o valor a depositar: ");
