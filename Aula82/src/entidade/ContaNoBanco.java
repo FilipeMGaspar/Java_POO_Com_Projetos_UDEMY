@@ -48,8 +48,8 @@ public class ContaNoBanco {
 	
 	//Método publico 
 	public double depositar(double deposito) {
+		this.setValorDepInicial(this.getValorDepInicial() + deposito);
 		double saldo = this.getValorDepInicial();
-		saldo += deposito; 
 		return saldo;
 	}
 }
