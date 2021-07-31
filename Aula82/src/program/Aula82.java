@@ -42,6 +42,7 @@ public class Aula82 {
 		System.out.println("Qual o valor a depositar: ");
 		deposito = teclado.nextDouble();
 		
+		
 		teclado.close();
 	}
 
