@@ -7,18 +7,16 @@ public class ContaNoBanco {
 	private double valorDepInicial;
 	
 	//Método construtor
-	public ContaBancaria(int numConta, String nomeTitular) {
+	public ContaNoBanco(int numConta, String nomeTitular) {
 		super();
 		this.numConta = numConta;
 		this.nomeTitular = nomeTitular;
-		//this.valorDepInicial = 0; //Opcional
 	}
 	
 	//Métodos Geter e seter
 	public int getNumConta() {
 		return numConta;
 	}
-
 	private void setNumConta(int numConta) {
 		this.numConta = numConta;
 	}
