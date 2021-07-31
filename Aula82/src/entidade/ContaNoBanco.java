@@ -40,8 +40,7 @@ public class ContaNoBanco {
 	//Método toSting
 	@Override
 	public String toString() {
-		return "ContaNoBanco"
-				+ "\n numConta = " + numConta +
+		return " numConta = " + numConta +
 				"\n nomeTitular = " + nomeTitular + 
 				"\n valorDepInicial = " + valorDepInicial;
 	}
