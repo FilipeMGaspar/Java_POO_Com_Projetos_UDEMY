@@ -18,12 +18,17 @@ public class Aula82 {
 		System.out.println();
 		System.out.print("  -> Número da conta : ");
 		numConta = teclado.nextInt();
+		
 		System.out.print("  -> Nome do Titular : ");
+		teclado.nextLine();
 		nomeTitular = teclado.nextLine();
+		
 		System.out.print("Deseja fazer um depósito inicial? [S/N] ");
 		resp = teclado.nextLine().charAt(0);
 		
-		if(resp == 'S' || resp == 'S') {
+		System.out.println("\n \tAKI AKI "+resp);
+		
+		if(resp == 'S' || resp == 's') {
 			System.out.print("Qual o Valor a depositar: ");
 			depInicial = teclado.nextDouble();
 			ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular, depInicial);
