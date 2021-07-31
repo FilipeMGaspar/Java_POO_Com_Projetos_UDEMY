@@ -43,11 +43,12 @@ public class Aula82 {
 		deposito = teclado.nextDouble();
 		cnbNb_501.depositar(deposito);
 		
-		System.out.println("\nDepósito efectuado com sucesso!");
+		System.out.println("Depósito efectuado com sucesso!");
+		System.out.println("\nAtualização de Movimentos!");
 		System.out.println(cnbNb_501.toString());
 		
 		System.out.println();
-		System.out.println("Qual o valor a levantar: ");
+		System.out.print("Qual o valor a levantar: ");
 		levantamento = teclado.nextDouble();
 		
 		teclado.close();
