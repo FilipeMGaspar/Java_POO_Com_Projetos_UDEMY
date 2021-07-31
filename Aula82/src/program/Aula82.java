@@ -12,7 +12,7 @@ public class Aula82 {
 		char resp;
 		int numConta;
 		String nomeTitular;
-		double depInicial;
+		double depInicial, deposito;
 		
 		System.out.println(" ?? BANCO DE ENSAIO ?? ");
 		System.out.println();
@@ -37,6 +37,10 @@ public class Aula82 {
 			System.out.println();
 			System.out.println(cnbNb_501.toString());
 		}		
+		
+		System.out.println();
+		System.out.println("Qual o valor a depositar: ");
+		deposito = teclado.nextDouble();
 		
 		teclado.close();
 	}
