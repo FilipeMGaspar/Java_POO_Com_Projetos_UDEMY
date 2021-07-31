@@ -34,4 +34,12 @@ public class ContaNoBanco {
 	public void setValorDepInicial(double valorDepInicial) {
 		this.valorDepInicial = valorDepInicial;
 	}
+	
+	//Método toSting
+	@Override
+	public String toString() {
+		return "ContaNoBanco [numConta=" + numConta + ", nomeTitular=" + nomeTitular + ", valorDepInicial="
+				+ valorDepInicial + "]";
+	}
+	
 }
