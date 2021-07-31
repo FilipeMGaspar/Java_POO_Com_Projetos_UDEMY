@@ -6,13 +6,21 @@ public class ContaNoBanco {
 	private String nomeTitular;
 	private double valorDepInicial;
 	
-	//Método construtor
+	//Métodos construtores
 	public ContaNoBanco(int numConta, String nomeTitular) {
 		super();
 		this.numConta = numConta;
 		this.nomeTitular = nomeTitular;
 	}
-	
+		
+	public ContaNoBanco(int numConta, String nomeTitular, double valorDepInicial) {
+		super();
+		this.numConta = numConta;
+		this.nomeTitular = nomeTitular;
+		this.valorDepInicial = valorDepInicial;
+	}
+
+
 	//Métodos Geter e seter
 	public int getNumConta() {
 		return numConta;
