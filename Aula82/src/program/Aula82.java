@@ -23,11 +23,11 @@ public class Aula82 {
 		teclado.nextLine();
 		nomeTitular = teclado.nextLine();
 		
-		System.out.print("Deseja fazer um depósito inicial? [S/N] ");
+		System.out.print(" -> Deseja fazer um depósito inicial? [S/N] ");
 		resp = teclado.nextLine().charAt(0);
 		
 		if(resp == 'S' || resp == 's') {
-			System.out.print("Qual o Valor a depositar: ");
+			System.out.print(" -> Qual o Valor a depositar: ");
 			depInicial = teclado.nextDouble();
 		}else {
 			depInicial = 0;
@@ -38,9 +38,12 @@ public class Aula82 {
 		System.out.println(cnbNb_501.toString());
 		
 		System.out.println();
-		System.out.println("Qual o valor a depositar: ");
+		System.out.print("Valor do Deposito: ");
 		deposito = teclado.nextDouble();
+		cnbNb_501.depositar(deposito);
 		
+		System.out.println("Depósito efectuado com sucesso!");
+		System.out.println(cnbNb_501.toString());
 		
 		teclado.close();
 	}
