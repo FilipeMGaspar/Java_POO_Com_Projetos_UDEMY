@@ -26,6 +26,9 @@ public class Aula82 {
 		if(resp == 'S' || resp == 'S') {
 			System.out.print("Qual o Valor a depositar: ");
 			depInicial = teclado.nextDouble();
+			ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular, depInicial);
+		}else {
+			ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular);
 		}
 		
 		//ContaNoBanco NBalfredo = new ContaNoBanco(1011, "Alfredo");
