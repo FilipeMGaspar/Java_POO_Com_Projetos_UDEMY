@@ -11,7 +11,11 @@ public class Aula82 {
 		Scanner teclado = new Scanner(System.in);		
 		int numConta;
 		
+		System.out.println(" ?? BANCO DE ENSAIO ?? ");
 		System.out.println();
+		System.out.print("  -> Número da conta: ");
+		numConta = teclado.nextInt();
+		
 		//ContaNoBanco NBalfredo = new ContaNoBanco(1011, "Alfredo");
 		//System.out.println(NBalfredo.toString());
 		
