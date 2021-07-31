@@ -7,7 +7,8 @@
     <fullyQualifiedTypeName name="entidade.Circunferencia"/>
     <fullyQualifiedTypeName name="entidade.CurrencyConverter"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="entidade.ContaNoBanco"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
