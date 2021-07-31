@@ -27,13 +27,13 @@ public class Aula82 {
 			System.out.print("Qual o Valor a depositar: ");
 			depInicial = teclado.nextDouble();
 			ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular, depInicial);
+			System.out.println();
+			System.out.println(cnbNb_501.toString());
 		}else {
 			ContaNoBanco cnbNb_501 = new ContaNoBanco(numConta, nomeTitular);
-		}
-		
-		//ContaNoBanco NBalfredo = new ContaNoBanco(1011, "Alfredo");
-		//System.out.println(NBalfredo.toString());
-		
+			System.out.println();
+			System.out.println(cnbNb_501.toString());
+		}		
 		
 		teclado.close();
 	}
