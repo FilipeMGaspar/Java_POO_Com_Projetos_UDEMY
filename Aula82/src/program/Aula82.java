@@ -26,8 +26,6 @@ public class Aula82 {
 		System.out.print("Deseja fazer um depósito inicial? [S/N] ");
 		resp = teclado.nextLine().charAt(0);
 		
-		System.out.println("\n \tAKI AKI "+resp);
-		
 		if(resp == 'S' || resp == 's') {
 			System.out.print("Qual o Valor a depositar: ");
 			depInicial = teclado.nextDouble();
