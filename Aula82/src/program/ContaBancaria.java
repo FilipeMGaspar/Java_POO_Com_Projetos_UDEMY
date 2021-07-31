@@ -7,11 +7,11 @@ public class ContaBancaria {
 	private double valorDepInicial;
 	
 	//Método construtor
-	public ContaBancaria(int numConta, String nomeTitular, double valorDepInicial) {
+	public ContaBancaria(int numConta, String nomeTitular) {
 		super();
 		this.numConta = numConta;
 		this.nomeTitular = nomeTitular;
-		this.valorDepInicial = 0; //Opcional
+		//this.valorDepInicial = 0; //Opcional
 	}
 	
 	//Métodos Geter e seter
