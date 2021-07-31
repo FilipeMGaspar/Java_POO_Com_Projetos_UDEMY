@@ -46,4 +46,8 @@ public class ContaNoBanco {
 				"\n valorDepInicial = " + valorDepInicial;
 	}
 	
+	//Método publico 
+	public void depositar() {
+		
+	}
 }
