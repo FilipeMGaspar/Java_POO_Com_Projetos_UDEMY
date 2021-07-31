@@ -45,7 +45,7 @@ public class ContaNoBanco {
 				"\n valorDepInicial = " + valorDepInicial;
 	}
 	
-	//Método publico 
+	//Métodos publicos 
 	public double depositar(double deposito) {
 		this.setValorDepInicial(this.getValorDepInicial() + deposito);
 		double saldo = this.getValorDepInicial();
