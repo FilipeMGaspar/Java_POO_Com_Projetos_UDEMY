@@ -5,6 +5,7 @@ public class ContaNoBanco {
 	private int numConta;
 	private String nomeTitular;
 	private double valorDepInicial;
+	private double taxa;
 	
 	//Método construtor		
 	public ContaNoBanco(int numConta, String nomeTitular, double valorDepInicial) {
@@ -40,9 +41,10 @@ public class ContaNoBanco {
 	//Método toSting
 	@Override
 	public String toString() {
-		return " Nr. Conta  : " + numConta +
-				"\n Titular : " + nomeTitular + 
-				"\n Saldo   : "+ valorDepInicial;
+		return " Nr. Conta  ...........: " + numConta +
+				"\n Titular ...........: " + nomeTitular + 
+				"\n Taxa levantamento .: " + taxa +
+				"\n Saldo .............: "+ valorDepInicial;
 	}
 	
 	//Métodos publicos 
@@ -56,11 +58,13 @@ public class ContaNoBanco {
 		double saldo = this.getValorDepInicial();
 		
 		if(saldo >= 0 && saldo >= valor) {
+			this.taxa = 5;
 			System.out.println("\n");
 			System.out.println("Operação realizada com sucesso!");
-			this.setValorDepInicial(this.getValorDepInicial() - valor - 5);
+			this.setValorDepInicial(this.getValorDepInicial() - valor - this.taxa);
 			
 		}else {
+			this.taxa = 0;
 			System.out.println("\n");
 			System.out.println("Operação não foi realizada! Saldo insuficiente!");
 		}
