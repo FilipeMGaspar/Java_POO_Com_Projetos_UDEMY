@@ -52,7 +52,7 @@ public class ContaNoBanco {
 		return saldo;
 	}
 	
-	public double levantar(double valor) {
+	public void levantar(double valor) {
 		double saldo = this.getValorDepInicial();
 		
 		if(saldo >= 0 && saldo >= valor) {
@@ -61,6 +61,6 @@ public class ContaNoBanco {
 		}else {
 			saldo = this.getValorDepInicial();
 		}
-		return saldo;
+		
 	}
 }
