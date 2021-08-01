@@ -40,9 +40,9 @@ public class ContaNoBanco {
 	//Método toSting
 	@Override
 	public String toString() {
-		return " numConta = " + numConta +
-				"\n nomeTitular = " + nomeTitular + 
-				"\n valorDepInicial = " + valorDepInicial;
+		return " Nr. Conta  : " + numConta +
+				"\n Titular : " + nomeTitular + 
+				"\n Saldo   : "+ valorDepInicial;
 	}
 	
 	//Métodos publicos 
