@@ -57,10 +57,11 @@ public class ContaNoBanco {
 		
 		if(saldo >= 0 && saldo >= valor) {
 			this.setValorDepInicial(this.getValorDepInicial() - valor - 5);
-			saldo = this.getValorDepInicial();
+			
 		}else {
-			saldo = this.getValorDepInicial();
+			System.out.println("");
+			System.out.println("Saldo insuficiente!");
+			System.out.println();
 		}
-		
 	}
 }
