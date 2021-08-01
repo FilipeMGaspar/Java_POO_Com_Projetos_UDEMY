@@ -53,8 +53,14 @@ public class ContaNoBanco {
 	}
 	
 	public double levantar(double valor) {
-		this.setValorDepInicial(this.getValorDepInicial() - valor - 5);
 		double saldo = this.getValorDepInicial();
+		
+		if(saldo >= 0 && saldo >= valor) {
+			this.setValorDepInicial(this.getValorDepInicial() - valor - 5);
+			saldo = this.getValorDepInicial();
+		}else {
+			saldo = this.getValorDepInicial();
+		}
 		return saldo;
 	}
 }
