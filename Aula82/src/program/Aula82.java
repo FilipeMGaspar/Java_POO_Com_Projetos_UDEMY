@@ -50,6 +50,9 @@ public class Aula82 {
 		System.out.println();
 		System.out.print("Qual o valor a levantar: ");
 		levantamento = teclado.nextDouble();
+		System.out.println("Levantamento efectuado com sucesso!");
+		System.out.println("\nAtualização de Movimentos!");
+		System.out.println(cnbNb_501.toString());
 		
 		teclado.close();
 	}

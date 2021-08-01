@@ -53,7 +53,7 @@ public class ContaNoBanco {
 	}
 	
 	public double levantar(double valor) {
-		this.setValorDepInicial(this.getValorDepInicial() - valor);
+		this.setValorDepInicial(this.getValorDepInicial() - valor - 5);
 		double saldo = this.getValorDepInicial();
 		return saldo;
 	}
