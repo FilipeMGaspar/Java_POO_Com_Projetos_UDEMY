@@ -43,7 +43,6 @@ public class Aula82 {
 		deposito = teclado.nextDouble();
 		cnbNb_501.depositar(deposito);
 		
-		System.out.println("Depósito efectuado com sucesso!");
 		System.out.println("\nAtualização de Movimentos!");
 		System.out.println(cnbNb_501.toString());
 		
@@ -52,7 +51,6 @@ public class Aula82 {
 		levantamento = teclado.nextDouble();
 		cnbNb_501.levantar(levantamento);
 		
-		System.out.println("Levantamento efectuado com sucesso!");
 		System.out.println("\nAtualização de Movimentos!");
 		System.out.println(cnbNb_501.toString());
 		
