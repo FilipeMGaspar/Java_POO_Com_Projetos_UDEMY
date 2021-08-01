@@ -41,7 +41,7 @@ public class ContaNoBanco {
 	//Método toSting
 	@Override
 	public String toString() {
-		return " Nr. Conta  ...........: " + numConta +
+		return " Nr. Conta .........: " + numConta +
 				"\n Titular ...........: " + nomeTitular + 
 				"\n Taxa levantamento .: " + taxa +
 				"\n Saldo .............: "+ valorDepInicial;
