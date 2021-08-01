@@ -58,7 +58,6 @@ public class ContaNoBanco {
 		if(saldo >= 0 && saldo >= valor) {
 			System.out.println("\n");
 			System.out.println("Operação realizada com sucesso!");
-			System.out.println(" Taxa : 5");
 			this.setValorDepInicial(this.getValorDepInicial() - valor - 5);
 			
 		}else {
