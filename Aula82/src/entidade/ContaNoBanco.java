@@ -56,12 +56,13 @@ public class ContaNoBanco {
 		double saldo = this.getValorDepInicial();
 		
 		if(saldo >= 0 && saldo >= valor) {
+			System.out.println("\n");
+			System.out.println("Operação realizada com sucesso!");
 			this.setValorDepInicial(this.getValorDepInicial() - valor - 5);
 			
 		}else {
-			System.out.println("");
-			System.out.println("Saldo insuficiente!");
-			System.out.println();
+			System.out.println("\n");
+			System.out.println("Operação não foi realizada! Saldo insuficiente!");
 		}
 	}
 }
