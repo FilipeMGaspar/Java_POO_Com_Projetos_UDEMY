@@ -10,5 +10,6 @@
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="entidade.ContaNoBanco"/>
+    <fullyQualifiedTypeName name="entidades.Aluno"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
