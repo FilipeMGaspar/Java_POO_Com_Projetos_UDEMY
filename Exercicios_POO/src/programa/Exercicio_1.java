@@ -11,6 +11,9 @@ public class Exercicio_1 {
 		Scanner teclado = new Scanner(System.in);
 		Aluno joao = new Aluno();
 		System.out.println("*** Ficha de inscrição ***");
+		System.out.println("  -> Nº de Matricula .:");
+		System.out.println("  -> Nome ............:");
+		
 		
 		teclado.close();
 	}
