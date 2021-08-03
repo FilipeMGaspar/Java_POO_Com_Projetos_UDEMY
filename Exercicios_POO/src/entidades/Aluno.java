@@ -26,4 +26,10 @@ public class Aluno {
 		this.email = email;
 	}
 	
+	//Método toSting
+	@Override
+	public String toString() {
+		return "Aluno [matricula=" + matricula + ", nome=" + nome + ", email=" + email + "]";
+	}	
+	
 }
