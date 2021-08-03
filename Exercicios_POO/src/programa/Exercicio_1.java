@@ -20,7 +20,11 @@ public class Exercicio_1 {
 		joao.setEmail(teclado.nextLine());
 		
 		System.out.println("\n");
-		
+		System.out.println(" ## Ficha de Aluno ##\n");
+		System.out.println(" > Nº de Matricula .: " + joao.getMatricula());
+		System.out.println(" > NOME ............: " + joao.getNome());
+		System.out.println(" > Email ...........: " + joao.getEmail());
+	
 		//System.out.println(joao.toString());
 		teclado.close();
 	}
