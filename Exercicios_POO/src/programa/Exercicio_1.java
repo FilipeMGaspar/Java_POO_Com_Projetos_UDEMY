@@ -13,11 +13,15 @@ public class Exercicio_1 {
 		System.out.println("*** Ficha de inscrição ***");
 		System.out.print("  -> Nº de Matricula .: ");
 		joao.setMatricula(teclado.nextLong());
-		System.out.println("  -> Nome ............: ");
+		System.out.print("  -> Nome ............: ");
 		joao.setNome(teclado.nextLine());
 		teclado.nextLine();//Limpar o buffer do teclado
-		System.out.println("  -> Email ...........: ");
+		System.out.print("  -> Email ...........: ");
+		joao.setEmail(teclado.nextLine());
+		teclado.nextLine();//Limpar o buffer do teclado
 		
+		System.out.println("\n");
+		System.out.println(joao.toString());
 		teclado.close();
 	}
 
