@@ -14,6 +14,8 @@ public class Exercicio_1 {
 		System.out.print("  -> Nº de Matricula .: ");
 		joao.setMatricula(teclado.nextLong());
 		System.out.println("  -> Nome ............: ");
+		joao.setNome(teclado.nextLine());
+		teclado.nextLine();//Limpar o buffer do teclado
 		System.out.println("  -> Email ...........: ");
 		
 		teclado.close();
