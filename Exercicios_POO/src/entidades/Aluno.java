@@ -29,7 +29,10 @@ public class Aluno {
 	//Método toSting
 	@Override
 	public String toString() {
-		return "Aluno [matricula=" + matricula + ", nome=" + nome + ", email=" + email + "]";
+		return "Detalhes da ficha do Aluno: \n"
+				+ " Nº da matricula " + matricula + "\n" 
+				+ " Nome " + nome + "\n"
+				+ " Email=" + email;
 	}	
 	
 }
