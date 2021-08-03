@@ -30,9 +30,9 @@ public class Aluno {
 	@Override
 	public String toString() {
 		return "Detalhes da ficha do Aluno: \n"
-				+ " Nº da matricula " + matricula + "\n" 
-				+ " Nome " + nome + "\n"
-				+ " Email=" + email;
+				+ " Nº da matricula ..: " + matricula + "\n" 
+				+ " Nome .............: " + nome + "\n"
+				+ " Email ............: " + email;
 	}	
 	
 }
