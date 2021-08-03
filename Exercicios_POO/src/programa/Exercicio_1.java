@@ -15,10 +15,10 @@ public class Exercicio_1 {
 		joao.setMatricula(teclado.nextLong());
 		System.out.print("  -> Nome ............: ");
 		joao.setNome(teclado.nextLine());
-		teclado.nextLine();//Limpar o buffer do teclado
+		//teclado.nextLine();//Limpar o buffer do teclado
 		System.out.print("  -> Email ...........: ");
 		joao.setEmail(teclado.nextLine());
-		teclado.nextLine();//Limpar o buffer do teclado
+		//teclado.nextLine();//Limpar o buffer do teclado
 		
 		System.out.println("\n");
 		System.out.println(joao.toString());
