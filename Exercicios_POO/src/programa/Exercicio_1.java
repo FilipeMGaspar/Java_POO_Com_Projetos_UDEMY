@@ -10,7 +10,7 @@ public class Exercicio_1 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		Aluno joao = new Aluno();
-		System.out.println("*** Ficha de inscrição ***");
+		System.out.println("*** Ficha de inscrição ***\n");
 		System.out.print("  -> Nº de Matricula .: ");
 		joao.setMatricula(teclado.nextLong());
 		System.out.print("  -> Nome ............: ");
