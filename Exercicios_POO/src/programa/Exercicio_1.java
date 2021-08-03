@@ -25,6 +25,8 @@ public class Exercicio_1 {
 		System.out.println(" > NOME ............: " + joao.getNome());
 		System.out.println(" > Email ...........: " + joao.getEmail());
 	
+		System.out.println("\n");
+		System.out.println(" ## Ficha de Aluno ##\n");
 		//System.out.println(joao.toString());
 		teclado.close();
 	}
