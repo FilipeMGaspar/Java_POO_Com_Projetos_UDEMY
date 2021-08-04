@@ -29,8 +29,11 @@ public class Disciplina {
 	//Método toSting
 	@Override
 	public String toString() {
-		return "Detalhes da disciplina"
-				+ " [nome=" + nome + ", cargaHoraria=" + cargaHoraria + ", codigo=" + codigo + "]";
+		return "Detalhes da disciplina" + "\n"
+				+ " Nome :" + nome + "\n" 
+				+ " Carga Horaria :" + cargaHoraria + "\n" 
+				+ " Código=" + codigo 
+				+ "\n";
 	}
 	
 	
