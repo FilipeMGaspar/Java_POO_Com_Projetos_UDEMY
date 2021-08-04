@@ -12,8 +12,9 @@ public class Exercicio_2 {
 		Disciplina mat = new Disciplina();
 		
 		System.out.println(" ** Iniciar Disciplina ** \n");
-		System.out.print(" -> Nome : ");
-		System.out.println();
+		System.out.print(" -> Nome ..........: ");
+		System.out.print(" -> Craga Horária .: ");
+		System.out.print(" -> Código ........: ");
 		
 		teclado.close();
 	}
