@@ -11,6 +11,10 @@ public class Exercicio_2 {
 		Scanner teclado = new Scanner(System.in);
 		Disciplina mat = new Disciplina();
 		
+		System.out.println(" ** Iniciar Disciplina ** \n");
+		System.out.print(" -> Nome : ");
+		System.out.println();
+		
 		teclado.close();
 	}
 
