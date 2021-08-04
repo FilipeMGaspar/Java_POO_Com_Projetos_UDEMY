@@ -21,6 +21,11 @@ public class Exercicio_2 {
 		System.out.print(" -> Código ........: ");
 		mat.setCodigo(teclado.nextLine());
 		
+		System.out.println("\n");
+		System.out.println(" ## Ficha da Disciplina  ##");
+		System.out.println(" ..: Nome --------- " + mat.getNome());
+		System.out.println();
+		
 		System.out.println("\n\n"+ mat.toString());
 		
 		teclado.close();
