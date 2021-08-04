@@ -30,9 +30,9 @@ public class Disciplina {
 	@Override
 	public String toString() {
 		return "Detalhes da disciplina" + "\n"
-				+ " Nome :" + nome + "\n" 
-				+ " Carga Horaria :" + cargaHoraria + "\n" 
-				+ " Código=" + codigo 
+				+ " Nome ...........: " + nome + "\n" 
+				+ " Carga Horaria ..: " + cargaHoraria + "\n" 
+				+ " Código .........: " + codigo 
 				+ "\n";
 	}
 	
