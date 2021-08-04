@@ -14,8 +14,10 @@ public class Exercicio_2 {
 		System.out.println(" ** Iniciar Disciplina ** \n");
 		System.out.print(" -> Nome ..........: ");
 		mat.setNome(teclado.nextLine());
+		//teclado.nextLine();
 		System.out.print(" -> Craga Horária .: ");
 		mat.setCargaHoraria(teclado.nextInt());
+		teclado.nextLine();
 		System.out.print(" -> Código ........: ");
 		mat.setCodigo(teclado.nextLine());
 		
