@@ -22,10 +22,10 @@ public class Exercicio_2 {
 		mat.setCodigo(teclado.nextLine());
 		
 		System.out.println("\n");
-		System.out.println(" ## Ficha da Disciplina  ##");
+		System.out.println(" ## Ficha da Disciplina  ## \n");
 		System.out.println(" ..: Nome -----------> " + mat.getNome());
 		System.out.println(" ..: Carga Horária --> " + mat.getCargaHoraria());
-		System.out.println(" ..: Códigfo --------> " + mat.getCodigo());
+		System.out.println(" ..: Código --------> " + mat.getCodigo());
 		System.out.println();
 		
 		//System.out.println("\n\n"+ mat.toString());
