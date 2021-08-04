@@ -25,5 +25,13 @@ public class Disciplina {
 	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
+		
+	//Método toSting
+	@Override
+	public String toString() {
+		return "Detalhes da disciplina"
+				+ " [nome=" + nome + ", cargaHoraria=" + cargaHoraria + ", codigo=" + codigo + "]";
+	}
+	
 	
 }
