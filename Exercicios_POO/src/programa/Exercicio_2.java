@@ -23,10 +23,12 @@ public class Exercicio_2 {
 		
 		System.out.println("\n");
 		System.out.println(" ## Ficha da Disciplina  ##");
-		System.out.println(" ..: Nome --------- " + mat.getNome());
+		System.out.println(" ..: Nome -----------> " + mat.getNome());
+		System.out.println(" ..: Carga Horária --> " + mat.getCargaHoraria());
+		System.out.println(" ..: Códigfo --------> " + mat.getCodigo());
 		System.out.println();
 		
-		System.out.println("\n\n"+ mat.toString());
+		//System.out.println("\n\n"+ mat.toString());
 		
 		teclado.close();
 	}
