@@ -13,8 +13,13 @@ public class Exercicio_2 {
 		
 		System.out.println(" ** Iniciar Disciplina ** \n");
 		System.out.print(" -> Nome ..........: ");
+		mat.setNome(teclado.nextLine());
 		System.out.print(" -> Craga Horária .: ");
+		mat.setCargaHoraria(teclado.nextInt());
 		System.out.print(" -> Código ........: ");
+		mat.setCodigo(teclado.nextLine());
+		
+		System.out.println("\n"+ mat.toString());
 		
 		teclado.close();
 	}
