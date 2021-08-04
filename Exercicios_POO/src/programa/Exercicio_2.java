@@ -21,7 +21,7 @@ public class Exercicio_2 {
 		System.out.print(" -> Código ........: ");
 		mat.setCodigo(teclado.nextLine());
 		
-		System.out.println("\n"+ mat.toString());
+		System.out.println("\n\n"+ mat.toString());
 		
 		teclado.close();
 	}
