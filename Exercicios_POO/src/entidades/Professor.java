@@ -27,5 +27,7 @@ public class Professor {
 	}
 	
 	//Método descontoInss
-	
+	public void descontoInss(double salarioProf) {
+		
+	}
 }
