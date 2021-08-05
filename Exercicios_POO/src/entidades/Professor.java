@@ -26,4 +26,6 @@ public class Professor {
 		this.salario = salario;
 	}
 	
+	//Método descontoInss
+	
 }
