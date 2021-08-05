@@ -6,4 +6,5 @@ public class Professor {
 	private long matricula;
 	private double salario;
 	
+	//Métodos geter e seter
 }
