@@ -36,6 +36,8 @@ public class Professor {
 			valorDesconto = 25;
 		}else if(salarioProf > 2000) {
 			valorDesconto = 30;
+		}else {
+			valorDesconto = 0;
 		}
 		return valorDesconto;
 	}
