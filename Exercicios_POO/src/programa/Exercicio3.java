@@ -17,7 +17,9 @@ public class Exercicio3 {
 		System.out.println(" -> MATRICULA ..: ");
 		prof.setMatricula(teclado.nextLong());
 		System.out.println(" -> SALÁRIO ....: ");
-		prof.setSalario(0);
+		prof.setSalario(teclado.nextDouble());
+		
+		
 		
 		teclado.close();
 	}
