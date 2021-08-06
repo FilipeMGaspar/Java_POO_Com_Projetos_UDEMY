@@ -27,7 +27,7 @@ public class Professor {
 	}
 	
 	//Método descontoInss
-	public int descontoInss(double salarioProf) {
+	private int descontoInss(double salarioProf) {
 		int valorDesconto = 0;
 		
 		if(salarioProf > 600) {
@@ -41,4 +41,6 @@ public class Professor {
 		}
 		return valorDesconto;
 	}
+	
+	//
 }
