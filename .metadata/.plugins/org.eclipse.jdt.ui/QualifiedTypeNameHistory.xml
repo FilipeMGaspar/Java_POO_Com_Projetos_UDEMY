@@ -12,5 +12,6 @@
     <fullyQualifiedTypeName name="entidade.ContaNoBanco"/>
     <fullyQualifiedTypeName name="entidades.Aluno"/>
     <fullyQualifiedTypeName name="entidades.Disciplina"/>
+    <fullyQualifiedTypeName name="entidades.Professor"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
