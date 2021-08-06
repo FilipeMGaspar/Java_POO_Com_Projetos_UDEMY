@@ -11,8 +11,11 @@ public class Exercicio3 {
 		Scanner teclado = new Scanner(System.in);
 		Professor prof = new Professor();
 		System.out.println("\n ** Ficha de inscrição de Professores ** \n");
-		System.out.println(" -> NOME .......: ");
+		System.out.print(" -> NOME .......: ");
+		prof.setNome(teclado.nextLine());
+		teclado.nextLine();
 		System.out.println(" -> MATRICULA ..: ");
+		
 		System.out.println(" -> SALÁRIO ....: ");
 		
 		teclado.close();
