@@ -10,6 +10,9 @@ public class Exercicio3 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		Professor prof = new Professor();
+		System.out.println("\n ** Ficha de inscrição de Professores ** \n");
+		System.out.println(" -> NOME ..: ");
+		
 		
 		teclado.close();
 	}
