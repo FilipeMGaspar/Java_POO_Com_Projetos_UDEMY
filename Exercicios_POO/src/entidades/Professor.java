@@ -48,8 +48,8 @@ public class Professor {
 		return "****** Ficha do Professor ****** \n" +
 				" > Nome ..........: " + nome + "\n" + 
 				" > Matricula .....: " + matricula + "\n" +
-				" > Salario .......:" + salario +"\n" ;
-				//" > Desconto INSS .:" + this.descontoInss();
+				" > Salario .......: " + salario +"\n" +
+				" > Desconto INSS .: " + descontoInss(salario);
 	}
 	
 }
