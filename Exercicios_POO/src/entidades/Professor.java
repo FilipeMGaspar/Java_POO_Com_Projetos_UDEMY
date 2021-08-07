@@ -48,7 +48,8 @@ public class Professor {
 		return "Professor" +
 				" [nome=" + nome + 
 				", matricula=" + matricula +
-				", salario=" + salario + "]";
+				", salario=" + salario + 
+				" Desconto INSS .:" + this.descontoInss(salario);
 	}
 	
 }
