@@ -46,10 +46,10 @@ public class Professor {
 	@Override
 	public String toString() {
 		return "Professor" +
-				" [nome=" + nome + 
-				", matricula=" + matricula +
-				", salario=" + salario + 
-				" Desconto INSS .:" + this.descontoInss(salario);
+				" > Nome ..........: " + nome + 
+				" > Matricula .....: " + matricula +
+				" > Salario .......:" + salario + 
+				" > Desconto INSS .:" + this.descontoInss(salario);
 	}
 	
 }
