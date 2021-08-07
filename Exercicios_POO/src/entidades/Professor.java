@@ -41,6 +41,11 @@ public class Professor {
 		}
 		return valorDesconto;
 	}
+	@Override
+	public String toString() {
+		return "Professor [nome=" + nome + ", matricula=" + matricula + ", salario=" + salario + "]";
+	}
 	
-	//
+	//Método toString
+	
 }
