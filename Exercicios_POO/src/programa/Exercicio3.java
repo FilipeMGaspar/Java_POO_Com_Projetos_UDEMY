@@ -19,6 +19,7 @@ public class Exercicio3 {
 		System.out.println(" -> SALÁRIO ....: ");
 		prof.setSalario(teclado.nextDouble());
 		
+		//System.out.println("\n"+ prof.toString());
 		teclado.close();
 	}
 
