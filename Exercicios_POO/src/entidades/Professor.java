@@ -49,7 +49,7 @@ public class Professor {
 				" > Nome ..........: " + nome + "\n" + 
 				" > Matricula .....: " + matricula + "\n" +
 				" > Salario .......: " + salario +"\n" +
-				" > Desconto INSS .: " + descontoInss(salario);
+				" > Desconto INSS .: " + descontoInss(salario) + "%";
 	}
 	
 }
