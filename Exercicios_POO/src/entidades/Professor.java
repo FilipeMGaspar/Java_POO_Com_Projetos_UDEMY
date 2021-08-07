@@ -43,7 +43,10 @@ public class Professor {
 	}
 	@Override
 	public String toString() {
-		return "Professor [nome=" + nome + ", matricula=" + matricula + ", salario=" + salario + "]";
+		return "Professor" +
+				" [nome=" + nome + 
+				", matricula=" + matricula +
+				", salario=" + salario + "]";
 	}
 	
 	//Método toString
