@@ -13,7 +13,7 @@ public class Exercicio3 {
 		System.out.println("\n ** Ficha de inscrição de Professores ** \n");
 		System.out.print(" -> NOME .......: ");
 		prof.setNome(teclado.nextLine());
-		teclado.nextLine();
+		//teclado.nextLine();
 		System.out.println(" -> MATRICULA ..: ");
 		prof.setMatricula(teclado.nextLong());
 		System.out.println(" -> SALÁRIO ....: ");
