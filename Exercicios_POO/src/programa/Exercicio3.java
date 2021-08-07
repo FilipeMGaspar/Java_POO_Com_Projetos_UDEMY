@@ -18,8 +18,8 @@ public class Exercicio3 {
 		prof.setMatricula(teclado.nextLong());
 		System.out.println(" -> SALÁRIO ....: ");
 		prof.setSalario(teclado.nextDouble());
-		System.out.println();
-		prof.toString();
+		System.out.println("\n\n ");
+		System.out.println(prof.toString());
 		teclado.close();
 	}
 
