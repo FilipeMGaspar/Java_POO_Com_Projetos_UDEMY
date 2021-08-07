@@ -45,10 +45,10 @@ public class Professor {
 	//Método toString
 	@Override
 	public String toString() {
-		return "Professor" +
-				" > Nome ..........: " + nome + 
-				" > Matricula .....: " + matricula +
-				" > Salario .......:" + salario + 
+		return "****** Ficha do Professor ****** \n" +
+				" > Nome ..........: " + nome + "\n" + 
+				" > Matricula .....: " + matricula + "\n" +
+				" > Salario .......:" + salario + "\n" +
 				" > Desconto INSS .:" + this.descontoInss(salario);
 	}
 	
