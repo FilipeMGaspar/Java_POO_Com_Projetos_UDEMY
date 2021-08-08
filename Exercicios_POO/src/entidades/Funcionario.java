@@ -5,5 +5,6 @@ public class Funcionario {
 	private int registo;
 	private String Nome;
 	private int idade;
+	private String cargo;
 	
 }
