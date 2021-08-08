@@ -66,12 +66,12 @@ public class Funcionario {
 	//Método toSting
 	@Override
 	public String toString() {
-		return " Ficha de Funcionario" +
-				" [registo=" + registo + 
-				", nome=" + nome + 
-				", idade=" + idade +
-				", cargo=" + cargo + 
-				", salario=" + salario + "]";
+		return " *** Ficha de Funcionario *** " + "\n" +
+				" Registo ....: " + registo + 
+				" Nome .......: " + nome + 
+				" Idade ......: " + idade +
+				" Cargo ......: " + cargo + 
+				" Salario ....: " + salario + "\n";
 	}
 	
 }
