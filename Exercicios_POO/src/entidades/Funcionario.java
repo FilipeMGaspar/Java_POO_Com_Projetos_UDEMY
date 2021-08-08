@@ -63,5 +63,15 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	
+	//Método toSting
+	@Override
+	public String toString() {
+		return " Ficha de Funcionario" +
+				" [registo=" + registo + 
+				", nome=" + nome + 
+				", idade=" + idade +
+				", cargo=" + cargo + 
+				", salario=" + salario + "]";
+	}
 	
 }
