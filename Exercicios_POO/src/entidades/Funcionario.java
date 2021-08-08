@@ -3,23 +3,29 @@ package entidades;
 public class Funcionario {
 	//Atributos
 	private int registo;
-	private String Nome;
+	private String nome;
 	private int idade;
 	private String cargo;
 	private double salario;
 	
 	//Métodos construtores
-	
+	public Funcionario(String nome, double salario) {
+		super();
+		this.nome = nome;
+		this.salario = salario;
+	}
 	
 	public Funcionario(int registo, String nome, int idade, String cargo, double salario) {
 		super();
 		this.registo = registo;
-		Nome = nome;
+		this.nome = nome;
 		this.idade = idade;
 		this.cargo = cargo;
 		this.salario = salario;
 	}
 	
+
+
 	//Métodos geter e seter
 	public int getRegisto() {
 		return registo;
