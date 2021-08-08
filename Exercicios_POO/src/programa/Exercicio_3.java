@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import entidades.Professor;
 
-public class Exercicio3 {
+public class Exercicio_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
