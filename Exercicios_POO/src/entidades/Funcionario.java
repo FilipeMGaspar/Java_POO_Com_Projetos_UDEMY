@@ -9,6 +9,10 @@ public class Funcionario {
 	private double salario;
 	
 	//Métodos construtores
+	public Funcionario() {
+		this.salario = 1500.00;
+	}
+	
 	public Funcionario(String nome, double salario) {
 		super();
 		this.nome = nome;
@@ -35,10 +39,10 @@ public class Funcionario {
 		this.registo = registo;
 	}
 	public String getNome() {
-		return Nome;
+		return nome;
 	}
 	public void setNome(String nome) {
-		Nome = nome;
+		this.nome = nome;
 	}
 	public int getIdade() {
 		return idade;
