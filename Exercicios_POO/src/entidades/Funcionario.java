@@ -8,10 +8,23 @@ public class Funcionario {
 	private String cargo;
 	private double salario;
 	
+	//Métodos construtores
+	
+	
+	public Funcionario(int registo, String nome, int idade, String cargo, double salario) {
+		super();
+		this.registo = registo;
+		Nome = nome;
+		this.idade = idade;
+		this.cargo = cargo;
+		this.salario = salario;
+	}
+	
 	//Métodos geter e seter
 	public int getRegisto() {
 		return registo;
 	}
+	
 	public void setRegisto(int registo) {
 		this.registo = registo;
 	}
@@ -39,5 +52,6 @@ public class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+	
 	
 }
