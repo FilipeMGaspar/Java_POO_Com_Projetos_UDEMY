@@ -31,10 +31,21 @@ public class Exercicio_4 {
 		
 		System.out.println("\n ** Inscrição do funcionário: **");
 		System.out.print("Registo ....: ");
+		registo = teclado.nextInt();
 		System.out.print("Nome .......: ");
+		nome = teclado.nextLine();
 		System.out.print("Idade ......: ");
+		idade = teclado.nextInt();
 		System.out.print("Cargo ......: ");
+		cargo = teclado.nextLine();
 		System.out.print("Salario ....: ");
+		salario = teclado.nextDouble();
+		
+		
+		
+		System.out.println();
+		System.out.println("Funcionário 3");
+		System.out.println(func2.toString());
 		
 		teclado.close();
 	}
