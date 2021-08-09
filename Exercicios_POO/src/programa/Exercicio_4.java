@@ -41,11 +41,11 @@ public class Exercicio_4 {
 		System.out.print("Salario ....: ");
 		salario = teclado.nextDouble();
 		
-		
+		Funcionario func3 = new Funcionario(registo, nome, idade, cargo, salario);
 		
 		System.out.println();
 		System.out.println("Funcionário 3");
-		System.out.println(func2.toString());
+		System.out.println(func3.toString());
 		
 		teclado.close();
 	}
