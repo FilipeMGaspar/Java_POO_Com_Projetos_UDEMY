@@ -15,11 +15,15 @@ public class Exercicio_4 {
 		String cargo;
 		double salario;
 		
-		Funcionario func1 = new Funcionario();
-		
+		Funcionario func1 = new Funcionario();		
 		System.out.println(func1.toString());
 		
-		System.out.println("\nInscrição do funcionário:");
+		System.out.println("\n ** Inscrição do funcionário: **");
+		System.out.print(" Nome :");
+		nome = teclado.nextLine();
+		System.out.println(" Salário : ");
+		salario = teclado.nextDouble();
+		
 		teclado.close();
 	}
 
