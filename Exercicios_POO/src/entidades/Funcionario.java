@@ -67,10 +67,10 @@ public class Funcionario {
 	@Override
 	public String toString() {
 		return " *** Ficha de Funcionario *** " + "\n" +
-				" Registo ....: " + registo + 
-				" Nome .......: " + nome + 
-				" Idade ......: " + idade +
-				" Cargo ......: " + cargo + 
+				" Registo ....: " + registo + "\n" +
+				" Nome .......: " + nome +  "\n" +
+				" Idade ......: " + idade + "\n" +
+				" Cargo ......: " + cargo + "\n" +
 				" Salario ....: " + salario + "\n";
 	}
 	
