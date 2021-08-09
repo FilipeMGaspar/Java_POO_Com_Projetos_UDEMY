@@ -21,7 +21,7 @@ public class Exercicio_4 {
 		System.out.println("\n ** Inscrição do funcionário: **");
 		System.out.print(" Nome : ");
 		nome = teclado.nextLine();
-		System.out.println(" Salário : ");
+		System.out.print(" Salário : ");
 		salario = teclado.nextDouble();
 		Funcionario func2 = new Funcionario(nome, salario);
 		System.out.println();
