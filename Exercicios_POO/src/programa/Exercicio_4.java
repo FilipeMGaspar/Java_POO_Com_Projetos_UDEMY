@@ -29,6 +29,13 @@ public class Exercicio_4 {
 		System.out.println("Funcionário 2");
 		System.out.println(func2.toString());
 		
+		System.out.println("\n ** Inscrição do funcionário: **");
+		System.out.print("Registo ....: ");
+		System.out.print("Nome .......: ");
+		System.out.print("Idade ......: ");
+		System.out.print("Cargo ......: ");
+		System.out.print("Salario ....: ");
+		
 		teclado.close();
 	}
 
