@@ -23,6 +23,9 @@ public class Exercicio_4 {
 		nome = teclado.nextLine();
 		System.out.println(" Salário : ");
 		salario = teclado.nextDouble();
+		Funcionario func2 = new Funcionario(nome, salario);
+		System.out.println();
+		System.out.println(func2.toString());
 		
 		teclado.close();
 	}
