@@ -16,7 +16,9 @@ public class Exercicio_4 {
 		double salario;
 		
 		Funcionario func1 = new Funcionario();
+		System.out.println(func1.toString());
 		
+		System.out.println("\nInscrição do funcionário:");
 		teclado.close();
 	}
 
