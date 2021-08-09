@@ -32,11 +32,12 @@ public class Exercicio_4 {
 		System.out.println("\n ** Inscrição do funcionário: **");
 		System.out.print("Registo ....: ");
 		registo = teclado.nextInt();
-		teclado.nextLine();
+		teclado.nextLine(); //Limpa o buffer do teclado ou seja tecla enter
 		System.out.print("Nome .......: ");		
 		nome = teclado.nextLine();
 		System.out.print("Idade ......: ");
 		idade = teclado.nextInt();
+		teclado.nextLine(); //Limpa o buffer do teclado ou seja tecla enter
 		System.out.print("Cargo ......: ");
 		cargo = teclado.nextLine();
 		System.out.print("Salario ....: ");
