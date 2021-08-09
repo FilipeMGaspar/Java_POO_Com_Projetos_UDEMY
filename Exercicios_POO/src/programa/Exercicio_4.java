@@ -19,7 +19,7 @@ public class Exercicio_4 {
 		System.out.println(func1.toString());
 		
 		System.out.println("\n ** Inscrição do funcionário: **");
-		System.out.print(" Nome :");
+		System.out.print(" Nome : ");
 		nome = teclado.nextLine();
 		System.out.println(" Salário : ");
 		salario = teclado.nextDouble();
