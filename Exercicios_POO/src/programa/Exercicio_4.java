@@ -32,7 +32,8 @@ public class Exercicio_4 {
 		System.out.println("\n ** Inscrição do funcionário: **");
 		System.out.print("Registo ....: ");
 		registo = teclado.nextInt();
-		System.out.print("Nome .......: ");
+		teclado.nextLine();
+		System.out.print("Nome .......: ");		
 		nome = teclado.nextLine();
 		System.out.print("Idade ......: ");
 		idade = teclado.nextInt();
