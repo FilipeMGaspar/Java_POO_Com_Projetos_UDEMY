@@ -13,6 +13,9 @@ public class Aula_89 {
 		System.out.print("Indique o número de alturas a registar: ");
 		numElem = teclado.nextInt();
 		
+		double[] vet = new double [numElem];
+		
+		
 		teclado.close();
 		
 		/*Locale.setDefault(Locale.US);
