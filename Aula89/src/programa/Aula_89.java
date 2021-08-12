@@ -9,7 +9,7 @@ public class Aula_89 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		int numElem;
-		double soma = 0.0;
+		double soma = 0.0 , media;
 		
 		System.out.print("Indique o número de alturas a registar: ");
 		numElem = teclado.nextInt();
@@ -22,8 +22,10 @@ public class Aula_89 {
 		}
 		
 		for (int i = 0; i < numElem; i++) {
-			
+			soma += vet[i];
 		}
+		
+		media = soma / vet.length;
 		
 		teclado.close();
 		
