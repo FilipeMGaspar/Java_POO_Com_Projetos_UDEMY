@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="entidade.Triangulo"/>
     <fullyQualifiedTypeName name="Entidade.Produto"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="entidade.Circunferencia"/>
     <fullyQualifiedTypeName name="entidade.CurrencyConverter"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="entidade.ContaNoBanco"/>
@@ -14,5 +12,7 @@
     <fullyQualifiedTypeName name="entidades.Disciplina"/>
     <fullyQualifiedTypeName name="entidades.Professor"/>
     <fullyQualifiedTypeName name="entidades.Funcionario"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
