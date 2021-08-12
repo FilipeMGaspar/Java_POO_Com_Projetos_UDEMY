@@ -10,7 +10,10 @@ public class Aula_89 {
 		Scanner teclado = new Scanner(System.in);
 		int numElem;
 		
-		System.out.println();
+		System.out.print("Indique o número de alturas a registar: ");
+		numElem = teclado.nextInt();
+		
+		teclado.close();
 		
 		/*Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
