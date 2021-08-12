@@ -25,7 +25,7 @@ public class Aula_89 {
 			soma += vet[i];
 		}
 		
-		media = soma / vet.length;
+		media = soma / numElem;
 		
 		teclado.close();
 		
