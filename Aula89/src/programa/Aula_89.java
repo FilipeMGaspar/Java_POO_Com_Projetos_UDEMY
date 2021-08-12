@@ -14,7 +14,11 @@ public class Aula_89 {
 		numElem = teclado.nextInt();
 		
 		double[] vet = new double [numElem];
-		
+		System.out.println();
+		for (int i=0; i<numElem; i++) {
+			System.out.print("Indique a " + (i+1) + "ª altura: ");
+			vet[i] = teclado.nextDouble();
+		}
 		
 		teclado.close();
 		
