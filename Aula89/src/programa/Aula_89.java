@@ -7,7 +7,12 @@ public class Aula_89 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Locale.setDefault(Locale.US);
+		Scanner teclado = new Scanner(System.in);
+		int numElem;
+		
+		System.out.println();
+		
+		/*Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
@@ -27,7 +32,7 @@ public class Aula_89 {
 		
 		System.out.printf("AVERAGE HEIGHT: %.2f%n", avg);
 		
-		sc.close();
+		sc.close();*/
 	}
 
 }
