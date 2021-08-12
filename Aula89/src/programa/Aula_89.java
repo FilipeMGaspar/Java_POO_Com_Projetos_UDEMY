@@ -27,6 +27,9 @@ public class Aula_89 {
 		
 		media = soma / numElem;
 		
+		System.out.println();
+		System.out.printf("A média das %d alturas é de %.2f ", numElem, media);
+		System.out.println();
 		teclado.close();
 		
 		/*Locale.setDefault(Locale.US);
