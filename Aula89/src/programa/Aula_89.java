@@ -9,15 +9,20 @@ public class Aula_89 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		int numElem;
+		double soma = 0.0;
 		
 		System.out.print("Indique o número de alturas a registar: ");
 		numElem = teclado.nextInt();
 		
 		double[] vet = new double [numElem];
 		System.out.println();
-		for (int i=0; i<numElem; i++) {
+		for (int i = 0; i < numElem; i++) {
 			System.out.print("Indique a " + (i+1) + "ª altura: ");
 			vet[i] = teclado.nextDouble();
+		}
+		
+		for (int i = 0; i < numElem; i++) {
+			
 		}
 		
 		teclado.close();
