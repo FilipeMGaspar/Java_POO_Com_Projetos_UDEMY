@@ -19,6 +19,8 @@ public class Aula_90 {
 		for (int i = 0; i < prod.length; i++) {
 			teclado.nextLine();
 			System.out.println("\n Produto " + (i+1) + " de " + prod.length);
+			System.out.print("  -> NOME : ");
+			System.out.print("  -> PREÇO :");
 		}
 		
 		teclado.close();
