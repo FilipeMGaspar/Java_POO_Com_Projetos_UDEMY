@@ -13,7 +13,7 @@ public class Aula_90 {
 		Scanner teclado = new Scanner(System.in);
 		int n;
 		String nomeProd;
-		double precoProd, mediaPreco, soma = 0.0;
+		double precoProd, precoMedio, soma = 0.0;
 		
 		System.out.print("Quantos produtos deseja registar: ");
 		n = teclado.nextInt();
@@ -35,6 +35,7 @@ public class Aula_90 {
 			soma += prod[i].getPreco();
 		}
 		
+		precoMedio = soma / prod.length;
 		teclado.close();
 	}
 
