@@ -36,6 +36,10 @@ public class Aula_90 {
 		}
 		
 		precoMedio = soma / prod.length;
+		System.out.println();
+		System.out.printf("Preço médio dos produtos %.2f ", precoMedio);
+		System.out.println();
+		
 		teclado.close();
 	}
 
