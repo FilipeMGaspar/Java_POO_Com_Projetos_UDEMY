@@ -1,12 +1,12 @@
 package entidade;
 
-public class Profutos {
+public class Produtos {
 	//Atributos
 	private String nome;
 	private double preco;
 		
 	//Método construtor
-	public Profutos(String nome, double preco) {
+	public Produtos(String nome, double preco) {
 		this.nome = nome;
 		this.preco = preco;
 	}
