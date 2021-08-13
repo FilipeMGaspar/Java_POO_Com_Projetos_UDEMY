@@ -1,5 +1,6 @@
 package programa;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 import entidade.Produtos;
@@ -8,10 +9,11 @@ public class Aula_90 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 		int n;
 		String nomeProd;
-		double precoProd;
+		double precoProd, mediaPreco, soma = 0.0;
 		
 		System.out.print("Quantos produtos deseja registar: ");
 		n = teclado.nextInt();
@@ -27,6 +29,10 @@ public class Aula_90 {
 			precoProd = teclado.nextDouble();
 			
 			prod[i] = new Produtos(nomeProd, precoProd);
+		}
+		
+		for (int i = 0; i < prod.length; i++) {
+			soma += prod[i].getPreco();
 		}
 		
 		teclado.close();
