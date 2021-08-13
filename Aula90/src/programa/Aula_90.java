@@ -10,6 +10,8 @@ public class Aula_90 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		int n;
+		String nomeProd;
+		double precoProd;
 		
 		System.out.print("Quantos produtos deseja registar: ");
 		n = teclado.nextInt();
@@ -19,8 +21,12 @@ public class Aula_90 {
 		for (int i = 0; i < prod.length; i++) {
 			teclado.nextLine();
 			System.out.println("\n Produto " + (i+1) + " de " + prod.length);
-			System.out.print("  -> NOME : ");
-			System.out.print("  -> PREÇO :");
+			System.out.print("  -> NOME ...: ");
+			nomeProd = teclado.nextLine();
+			System.out.print("  -> PREÇO ..: ");
+			precoProd = teclado.nextDouble();
+			
+			prod[i] = new Produtos(nomeProd, precoProd);
 		}
 		
 		teclado.close();
