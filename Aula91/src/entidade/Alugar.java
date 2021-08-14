@@ -25,4 +25,11 @@ public class Alugar {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+	//Método toString
+	@Override
+	public String toString() {
+		return  nome + ", " + email;
+	}
+	
 }
