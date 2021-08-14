@@ -18,6 +18,10 @@ public class Aula_91 {
 		System.out.print(" > Quantos quartos deseja reservar: ");
 		qtAlugar = teclado.nextInt();
 		
+		for (int i = 0; i < qtAlugar; i++) {
+			System.out.println("\n ## RESERVA " + (i+1) + " de " + qtAlugar + " ##");
+		}
+		
 		teclado.close();
 	}
 
