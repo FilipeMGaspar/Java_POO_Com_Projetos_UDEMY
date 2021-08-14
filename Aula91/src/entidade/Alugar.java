@@ -5,10 +5,17 @@ public class Alugar {
 	private String nome;
 	private String email;
 
+	//Método Construtor
+	public Alugar(String nome, String email) {
+		this.nome = nome;
+		this.email = email;
+	}
+	
 	//Métodos geter e seter
 	public String getNome() {
 		return nome;
 	}
+	
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
