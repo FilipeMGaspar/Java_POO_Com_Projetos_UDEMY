@@ -10,6 +10,8 @@ public class Aula_91 {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		int qtAlugar;
+		String nome;
+		String email;
 		
 		Alugar quartos[] = new Alugar[10];  //vetor com 10 quartos
 		
@@ -19,7 +21,13 @@ public class Aula_91 {
 		qtAlugar = teclado.nextInt();
 		
 		for (int i = 0; i < qtAlugar; i++) {
-			System.out.println("\n ## RESERVA " + (i+1) + " de " + qtAlugar + " ##");
+			System.out.println("\n ## RESERVA " + (i+1) + " de " + qtAlugar + " ## \n");
+			teclado.nextLine();
+			System.out.print(" -> Nome ...: ");
+			nome = teclado.nextLine();
+			System.out.print(" -> Email ..: ");
+			email = teclado.nextLine();
+			
 		}
 		
 		teclado.close();
