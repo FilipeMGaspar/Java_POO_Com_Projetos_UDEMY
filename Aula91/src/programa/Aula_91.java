@@ -39,7 +39,7 @@ public class Aula_91 {
 		
 		for(int i = 0; i < quartos.length; i++) {
 			if(quartos[i] != null) {
-				System.out.println(i + " : " );
+				System.out.println(i + " : " + quartos[i].toString());
 			}
 		}
 		teclado.close();
