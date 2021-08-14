@@ -14,7 +14,7 @@ public class Aula_91 {
 		String email;
 		int nrDoQuarto;
 		
-		Alugar quarto[] = new Alugar[10];  //vetor com 10 quartos
+		Alugar quartos[] = new Alugar[10];  //vetor com 10 quartos
 		
 		System.out.println(" *** ALuguer de Quartos ***");
 		System.out.println();
@@ -31,9 +31,15 @@ public class Aula_91 {
 			System.out.print(" -> Nº do Quarto ..: ");
 			nrDoQuarto = teclado.nextInt();
 			
-			quarto[nrDoQuarto] = new Alugar(nome, email);
+			quartos[nrDoQuarto] = new Alugar(nome, email);
 		}
 		
+		System.out.println();
+		System.out.println(" -- Quartos Reservados (Alugados) -- \n");
+		
+		for(int i = 0; i < quartos.length; i++) {
+			
+		}
 		teclado.close();
 	}
 
