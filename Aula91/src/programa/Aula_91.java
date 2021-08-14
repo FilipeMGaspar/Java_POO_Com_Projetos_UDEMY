@@ -15,7 +15,8 @@ public class Aula_91 {
 		
 		System.out.println(" *** ALuguer de Quartos ***");
 		System.out.println();
-		System.out.println();
+		System.out.print(" > Quantos quartos deseja reservar: ");
+		qtAlugar = teclado.nextInt();
 		
 		teclado.close();
 	}
