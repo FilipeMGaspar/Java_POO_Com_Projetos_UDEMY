@@ -24,12 +24,14 @@ public class Aula_91 {
 		for (int i = 0; i < qtAlugar; i++) {
 			System.out.println("\n ## RESERVA " + (i+1) + " de " + qtAlugar + " ## \n");
 			teclado.nextLine();
-			System.out.print(" -> Nome ......: ");
+			System.out.print(" -> Nome ..........: ");
 			nome = teclado.nextLine();
-			System.out.print(" -> Email .....: ");
+			System.out.print(" -> Email .........: ");
 			email = teclado.nextLine();
-			System.out.print("Nº do Quarto ..: ");
+			System.out.print(" -> Nº do Quarto ..: ");
 			nrDoQuarto = teclado.nextInt();
+			
+			quarto[nrDoQuarto] = new Alugar(nome, email);
 		}
 		
 		teclado.close();
