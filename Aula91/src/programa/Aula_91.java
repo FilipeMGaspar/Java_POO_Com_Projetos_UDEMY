@@ -38,7 +38,9 @@ public class Aula_91 {
 		System.out.println(" -- Quartos Reservados (Alugados) -- \n");
 		
 		for(int i = 0; i < quartos.length; i++) {
-			
+			if(quartos[i] != null) {
+				System.out.println(i + " : " );
+			}
 		}
 		teclado.close();
 	}
