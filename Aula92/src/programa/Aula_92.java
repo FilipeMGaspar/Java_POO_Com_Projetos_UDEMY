@@ -9,7 +9,12 @@ public class Aula_92 {
 		
 		Object obj = x;
 		
-		System.out.println(obj);
+		System.out.println("Objecto obj = "+obj);
+		
+		int y = (int)obj;
+		
+		System.out.println();
+		System.out.println("Inteiro y = " + y);
 		
 	}
 
