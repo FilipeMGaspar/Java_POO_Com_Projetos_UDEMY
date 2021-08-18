@@ -17,4 +17,5 @@
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entidade.Alugar"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
 </qualifiedTypeNameHistroy>
