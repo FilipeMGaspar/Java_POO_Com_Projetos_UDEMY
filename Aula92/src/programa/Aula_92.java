@@ -13,7 +13,7 @@ public class Aula_92 {
 		
 		System.out.println("Objecto obj = "+obj);
 		
-		int y = obj;
+		int y = obj *2;
 		
 		System.out.println();
 		System.out.println("Inteiro y = " + y);
