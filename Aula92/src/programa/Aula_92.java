@@ -7,11 +7,13 @@ public class Aula_92 {
 		
 		int x = 20;
 		
-		Object obj = x;
+		Integer obj = x; //wrapper classes
+		
+		//Object obj = x;
 		
 		System.out.println("Objecto obj = "+obj);
 		
-		int y = (int)obj;
+		int y = obj;
 		
 		System.out.println();
 		System.out.println("Inteiro y = " + y);
