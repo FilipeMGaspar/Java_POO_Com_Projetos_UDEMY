@@ -10,7 +10,7 @@ public class Aula_93 {
 			System.out.println(vect[i]);
 		}
 		
-		System.out.println();
+		System.out.println("---------------------------");
 		
 		for (String obj : vect) { // Laço for each 
 			System.out.println(obj);
