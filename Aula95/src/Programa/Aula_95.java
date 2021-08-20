@@ -9,6 +9,7 @@ public class Aula_95 {
 		// TODO Auto-generated method stub
 		List<String> list = new ArrayList();;
 		
+		list.add("Paulo");
 		list.add("Ana");
 		list.add("Manuel");
 		list.add("Maria");
@@ -23,7 +24,8 @@ public class Aula_95 {
 		
 		System.out.println("");
 		
-		list.remove("Ana");
+		list.remove("Ana"); //Remove pelo nome
+		list.remove(1); //Remove pelo indice 
 		
 		for(String x : list) {
 			System.out.println(x);
