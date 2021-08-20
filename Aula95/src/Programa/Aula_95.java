@@ -42,6 +42,7 @@ public class Aula_95 {
 		
 		System.out.println("\n----------------");
 		System.out.println("Localização do nome Bob: " + list.indexOf("Bob"));
+		System.out.println("Localização do nome Rui: " + list.indexOf("Rui"));
 		
 	}
 
