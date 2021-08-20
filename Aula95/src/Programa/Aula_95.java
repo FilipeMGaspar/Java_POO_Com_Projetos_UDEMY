@@ -55,7 +55,10 @@ public class Aula_95 {
 		//Encontrar o primeiro elemento iniciado por A
 		System.out.println("\n----------------");
 		String name = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
-		System.out.println(name);
+		System.out.println("Primeiro nome iniciado pela letra A: " + name);
+		
+		name = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null);
+		System.out.println("\nPrimeiro nome iniciado pela letra J: " + name);
 		
 	}
 
