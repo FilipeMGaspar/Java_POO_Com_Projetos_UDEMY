@@ -14,10 +14,15 @@ public class Aula_95 {
 		list.add("Maria");
 		list.add("Bob");
 		
+		//Inserir um elemento na posição 2 depois do manuel
+		list.add(2,"Bernardo");
+		list.add(3,"Ninita");
 		
 		for(String x : list) {
 			System.out.println(x);
 		}
+		
+		
 	}
 
 }
