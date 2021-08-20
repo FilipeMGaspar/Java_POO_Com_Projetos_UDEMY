@@ -16,7 +16,7 @@ public class Aula_95 {
 		list.add("Maria");
 		list.add("Bob");
 		list.add("Paula");
-		list.add("Patricia");
+		list.add("Aurora");
 		
 		//Inserir um elemento na posição 2 depois do manuel
 		list.add(2,"Bernardo");
@@ -46,8 +46,11 @@ public class Aula_95 {
 		System.out.println("Localização do nome Rui: " + list.indexOf("Rui"));
 		
 		System.out.println("\n----------------");
-		List<String> result = list.stream().filter(x -> x.charAt(0)).collect(Collectors.toList());
+		List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
 		
+		for(String x : result) {
+			System.out.println(x);
+		}
 		
 	}
 
