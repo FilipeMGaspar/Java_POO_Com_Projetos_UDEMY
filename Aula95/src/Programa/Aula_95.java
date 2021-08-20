@@ -14,6 +14,8 @@ public class Aula_95 {
 		list.add("Manuel");
 		list.add("Maria");
 		list.add("Bob");
+		list.add("Paula");
+		list.add("Patricia");
 		
 		//Inserir um elemento na posição 2 depois do manuel
 		list.add(2,"Bernardo");
@@ -29,15 +31,16 @@ public class Aula_95 {
 			System.out.println(x);
 		}
 		
-		System.out.println("----------------");
-		list.remove("Ana"); //Remove pelo nome
-		list.remove(1); //Remove pelo indice 
-		list.removeIf(x -> x.charAt(0) == 'M'); //Remover pela primeira letra, por um predicado função lambda
+		System.out.println("\n----------------");
+		//list.remove("Ana"); //Remove pelo nome
+		//list.remove(1); //Remove pelo indice 
+		list.removeIf(x -> x.charAt(0) == 'P'); //Remover pela primeira letra, por um predicado função lambda
 		
 		for(String x : list) {
 			System.out.println(x);
 		}
 		
+		System.out.println("\n----------------");
 	}
 
 }
