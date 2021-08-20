@@ -24,13 +24,19 @@ public class Aula_95 {
 		
 		System.out.println("");
 		
-		list.remove("Ana"); //Remove pelo nome
-		list.remove(1); //Remove pelo indice 
-		
+
 		for(String x : list) {
 			System.out.println(x);
 		}
 		
+		System.out.println("----------------");
+		list.remove("Ana"); //Remove pelo nome
+		list.remove(1); //Remove pelo indice 
+		list.removeIf(x -> x.charAt(0) == 'M'); //Remover pela primeira letra, por um predicado função lambda
+		
+		for(String x : list) {
+			System.out.println(x);
+		}
 		
 	}
 
