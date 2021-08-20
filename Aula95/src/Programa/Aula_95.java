@@ -52,8 +52,10 @@ public class Aula_95 {
 			System.out.println(x);
 		}
 		
+		//Encontrar o primeiro elemento iniciado por A
 		System.out.println("\n----------------");
-		
+		String name = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
+		System.out.println(name);
 		
 	}
 
