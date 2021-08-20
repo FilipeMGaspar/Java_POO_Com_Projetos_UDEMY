@@ -15,7 +15,7 @@ public class Aula_95 {
 		list.add("Bob");
 		
 		
-		for(String X : list) {
+		for(String x : list) {
 			System.out.println(x);
 		}
 	}
