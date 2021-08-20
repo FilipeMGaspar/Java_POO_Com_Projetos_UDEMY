@@ -19,7 +19,11 @@ public class Aula_95 {
 		list.add(4,"Ninita");//Inserir um elemto na posição 4
 		
 		//Tamanho da Lista
-		System.out.println(list.size());
+		System.out.println("Tamanho da lista: "+list.size());
+		
+		System.out.println("");
+		
+		list.remove("Ana");
 		
 		for(String x : list) {
 			System.out.println(x);
