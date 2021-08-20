@@ -52,6 +52,9 @@ public class Aula_95 {
 			System.out.println(x);
 		}
 		
+		System.out.println("\n----------------");
+		
+		
 	}
 
 }
