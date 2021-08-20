@@ -14,6 +14,10 @@ public class Aula_95 {
 		list.add("Maria");
 		list.add("Bob");
 		
+		
+		for(String X : list) {
+			System.out.println(x);
+		}
 	}
 
 }
