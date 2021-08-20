@@ -16,7 +16,10 @@ public class Aula_95 {
 		
 		//Inserir um elemento na posição 2 depois do manuel
 		list.add(2,"Bernardo");
-		list.add(3,"Ninita");
+		list.add(4,"Ninita");//Inserir um elemto na posição 4
+		
+		//Tamanho da Lista
+		System.out.println(list.size());
 		
 		for(String x : list) {
 			System.out.println(x);
