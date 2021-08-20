@@ -2,6 +2,7 @@ package Programa;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Aula_95 {
 
@@ -43,6 +44,10 @@ public class Aula_95 {
 		System.out.println("\n----------------");
 		System.out.println("Localização do nome Bob: " + list.indexOf("Bob"));
 		System.out.println("Localização do nome Rui: " + list.indexOf("Rui"));
+		
+		System.out.println("\n----------------");
+		List<String> result = list.stream().filter(x -> x.charAt(0)).collect(Collectors.toList());
+		
 		
 	}
 
