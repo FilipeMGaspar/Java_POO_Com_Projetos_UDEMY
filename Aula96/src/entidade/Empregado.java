@@ -43,5 +43,12 @@ public class Empregado {
 	public void aumentarSalario (double porcent) {
 		this.setSalario(this.getSalario() + (this.getSalario() * porcent / 100));
 	}
+
+	
+	//Método toString
+	@Override
+	public String toString() {
+		return "Empregado [id=" + id + ", Nome=" + Nome + ", salario=" + salario + "]";
+	}
 	
 }
