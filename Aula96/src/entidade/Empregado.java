@@ -8,8 +8,8 @@ public class Empregado {
 	
 	//Método construtor
 	public Empregado(int id, String nome, double salario) {
-		this.id = id;
-		Nome = nome;
+		this.setId(id);
+		this.setNome(nome);
 		this.setSalario(salario);
 	}
 
@@ -18,7 +18,7 @@ public class Empregado {
 		return id;
 	}
 
-	public void setId(int id) {
+	private void setId(int id) {
 		this.id = id;
 	}
 
@@ -26,7 +26,7 @@ public class Empregado {
 		return Nome;
 	}
 
-	public void setNome(String nome) {
+	private void setNome(String nome) {
 		Nome = nome;
 	}
 
