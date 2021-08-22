@@ -48,7 +48,7 @@ public class Empregado {
 	//Método toString
 	@Override
 	public String toString() {
-		return "Empregado [id=" + id + ", Nome=" + Nome + ", salario=" + salario + "]";
+		return  id + ", " + Nome + ", " + salario ;
 	}
 	
 }
