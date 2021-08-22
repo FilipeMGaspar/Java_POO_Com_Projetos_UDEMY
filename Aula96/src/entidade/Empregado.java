@@ -10,7 +10,7 @@ public class Empregado {
 	public Empregado(int id, String nome, double salario) {
 		this.id = id;
 		Nome = nome;
-		this.salario = salario;
+		this.setSalario(salario);
 	}
 
 	//Métodos Geter e seter
@@ -34,7 +34,7 @@ public class Empregado {
 		return salario;
 	}
 
-	public void setSalario(double salario) {
+	private void setSalario(double salario) {
 		this.salario = salario;
 	}
 	
