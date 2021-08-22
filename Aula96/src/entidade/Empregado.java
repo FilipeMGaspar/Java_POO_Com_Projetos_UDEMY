@@ -39,4 +39,9 @@ public class Empregado {
 	}
 	
 	
+	//Método para aumentar o salário
+	public void aumentarSalario (double porcent) {
+		this.setSalario(this.getSalario() + (this.getSalario() * porcent / 100));
+	}
+	
 }
