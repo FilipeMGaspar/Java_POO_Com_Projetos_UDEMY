@@ -12,6 +12,7 @@ public class Aula_96 {
 		
 		System.out.println(" ..: Gestão de Funcionários :.. \n");
 		System.out.print(" Quantos funcionários deseja registar: ");
+		numEmp = teclado.nextInt();
 		
 		teclado.close();
 	}
