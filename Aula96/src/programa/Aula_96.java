@@ -16,7 +16,7 @@ public class Aula_96 {
 		
 		for(int i = 0; i < numEmp; i++) {
 			System.out.println();
-			System.out.println("Funcionário ");
+			System.out.println("Funcionário " + (i + 1) + " de " + numEmp);
 		}
 		teclado.close();
 	}
