@@ -45,6 +45,11 @@ public class Aula_96 {
 			System.out.println(emp.toString());
 		}
 		
+		System.out.println();
+		System.out.println("=======================================");
+		System.out.println(" ** Aumento de salário ** ");
+		System.out.println();
+		
 		teclado.close();
 	}
 
