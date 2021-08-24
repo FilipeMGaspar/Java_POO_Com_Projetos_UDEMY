@@ -1,6 +1,10 @@
 package programa;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+
+import entidade.Empregado;
 
 public class Aula_96 {
 
@@ -16,6 +20,8 @@ public class Aula_96 {
 		System.out.println(" ..: Gestão de Funcionários :.. \n");
 		System.out.print(" Quantos funcionários deseja registar: ");
 		numEmp = teclado.nextInt();
+		
+		List<Empregado> lista = new ArrayList();
 		
 		for(int i = 0; i < numEmp; i++) {
 			System.out.println();
