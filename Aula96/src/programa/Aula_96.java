@@ -11,6 +11,7 @@ public class Aula_96 {
 		int numEmp;
 		Integer idEmp;
 		String nome;
+		Double salario;
 		
 		System.out.println(" ..: Gestão de Funcionários :.. \n");
 		System.out.print(" Quantos funcionários deseja registar: ");
@@ -23,7 +24,9 @@ public class Aula_96 {
 			idEmp = teclado.nextInt();
 			System.out.print("  -> NOME .....: ");
 			teclado.nextLine();
+			nome = teclado.nextLine();
 			System.out.print("  -> Salário ..: ");
+			salario = teclado.nextDouble();
 		}
 		
 		teclado.close();
