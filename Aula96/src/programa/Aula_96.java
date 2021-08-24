@@ -14,6 +14,10 @@ public class Aula_96 {
 		System.out.print(" Quantos funcionários deseja registar: ");
 		numEmp = teclado.nextInt();
 		
+		for(int i = 0; i < numEmp; i++) {
+			System.out.println();
+			System.out.println("Funcionário ");
+		}
 		teclado.close();
 	}
 
