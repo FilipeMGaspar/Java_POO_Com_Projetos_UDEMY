@@ -6,7 +6,8 @@ public class Aula_96 {
 		// TODO Auto-generated method stub
 		int numEmp;
 		
-		
+		System.out.println(" ..: Gestão de Funcionários :.. \n");
+		System.out.print(" Quantos funcionários deseja registar: ");
 	}
 
 }
