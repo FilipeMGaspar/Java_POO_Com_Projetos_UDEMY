@@ -33,6 +33,9 @@ public class Aula_96 {
 			nome = teclado.nextLine();
 			System.out.print("  -> Salário ..: ");
 			salario = teclado.nextDouble();
+			
+			Empregado func = new Empregado(idEmp, nome, salario);
+			
 		}
 		
 		teclado.close();
