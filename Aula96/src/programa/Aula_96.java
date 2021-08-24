@@ -36,6 +36,13 @@ public class Aula_96 {
 			
 			Empregado func = new Empregado(idEmp, nome, salario);
 			
+			lista.add(func); //Adicionar empregado á lista
+		}
+		
+		System.out.println();
+		System.out.println("-------------------------------------");
+		for(Empregado emp : lista) {
+			System.out.println(emp.toString());
 		}
 		
 		teclado.close();
