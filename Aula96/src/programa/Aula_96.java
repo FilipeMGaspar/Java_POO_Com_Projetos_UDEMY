@@ -18,7 +18,8 @@ public class Aula_96 {
 			System.out.println();
 			System.out.println("Funcionário " + (i + 1) + " de " + numEmp);
 			System.out.print("  -> ID ....: ");
-		
+			System.out.print("  -> NOME ..: ");
+			
 		}
 		teclado.close();
 	}
