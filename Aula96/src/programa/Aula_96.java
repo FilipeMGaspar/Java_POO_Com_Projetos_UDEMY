@@ -49,6 +49,9 @@ public class Aula_96 {
 		System.out.println("=======================================");
 		System.out.println(" ** Aumento de salário ** ");
 		System.out.println();
+		System.out.print("  -> ID ..: ");
+		int idFunc = teclado.nextInt();
+		
 		
 		teclado.close();
 	}
