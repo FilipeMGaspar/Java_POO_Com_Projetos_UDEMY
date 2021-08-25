@@ -57,4 +57,8 @@ public class Aula_96 {
 		teclado.close();
 	}
 
+	public Integer position(List<Empregado> lista, int idFunc) {//Método para encontar o id de funcionário na lista
+		
+		return null;
+	}
 }
