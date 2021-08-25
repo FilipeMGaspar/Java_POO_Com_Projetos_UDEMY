@@ -51,6 +51,7 @@ public class Aula_96 {
 		System.out.println();
 		System.out.print("  -> ID ..: ");
 		int idFunc = teclado.nextInt();
+		//Integer pos = position(lista, idFunc);
 		
 		
 		teclado.close();
