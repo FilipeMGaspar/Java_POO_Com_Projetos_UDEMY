@@ -54,6 +54,7 @@ public class Aula_96 {
 		Integer pos = position(lista, idFunc);
 		
 		System.out.println("Posição : " + pos);
+		System.out.print("Qual a percentagem do aumento: ");
 		
 		teclado.close();
 	}
