@@ -53,7 +53,7 @@ public class Aula_96 {
 		int idFunc = teclado.nextInt();
 		Integer pos = position(lista, idFunc);
 		
-		System.out.println("Posição : " + pos);
+		System.out.println("Posição : " + pos);//Com
 		System.out.print("Qual a percentagem do aumento: ");
 		
 		teclado.close();
