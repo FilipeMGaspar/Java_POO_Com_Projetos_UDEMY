@@ -51,13 +51,13 @@ public class Aula_96 {
 		System.out.println();
 		System.out.print("  -> ID ..: ");
 		int idFunc = teclado.nextInt();
-		//Integer pos = position(lista, idFunc);
+		Integer pos = position(lista, idFunc);
 		
 		
 		teclado.close();
 	}
 
-	public Integer position(List<Empregado> lista, int idFunc) {//Método para encontar o id de funcionário na lista
+	public static Integer position(List<Empregado> lista, int idFunc) {//Método para encontar o id de funcionário na lista
 		for (int i = 0; i < lista.size(); i++) {
 			if(lista.get(i).getId() == idFunc) {
 				return i;
