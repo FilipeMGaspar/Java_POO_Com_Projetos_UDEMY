@@ -56,7 +56,7 @@ public class Aula_96 {
 		
 		Empregado emp = lista.stream().filter(x -> x.getId() == idFunc).findFirst().orElse(null);
 		
-		System.out.println("Posição : " + pos);//Com
+		//System.out.println("Posição : " + pos);//Com
 		System.out.print("Qual a percentagem do aumento: ");
 		
 		teclado.close();
