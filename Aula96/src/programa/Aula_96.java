@@ -69,13 +69,12 @@ public class Aula_96 {
 				emp.aumentarSalario(percent);
 		}
 				
-			System.out.println();
-			System.out.println("List of employees:");
-			for (Empregado e : lista) {
-					System.out.println(e);
-			}	
+		System.out.println();
+		System.out.println("Lista de Funcionários:");
 		
-		System.out.print("Qual a percentagem do aumento: ");
+		for (Empregado e : lista) {
+			System.out.println(e);
+		}	
 		
 		teclado.close();
 	}
