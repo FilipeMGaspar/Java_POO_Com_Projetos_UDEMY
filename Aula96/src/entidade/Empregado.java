@@ -48,7 +48,7 @@ public class Empregado {
 	//Método toString
 	@Override
 	public String toString() {
-		return  id + ", " + Nome + ", " + salario ;
+		return  id + ", " + Nome + ", " + String.format("%.2f", salario);
 	}
 	
 }
