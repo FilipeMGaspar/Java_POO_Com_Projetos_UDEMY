@@ -57,6 +57,24 @@ public class Aula_96 {
 		Empregado emp = lista.stream().filter(x -> x.getId() == idFunc).findFirst().orElse(null);
 		
 		//System.out.println("Posição : " + pos);//Com
+		
+		// if (pos == null) {
+		if (emp == null) {
+			System.out.println("This id does not exist!");
+		}
+		else {
+			System.out.print("Qual a percentagem do aumento:: ");
+				double percent = teclado.nextDouble();
+				//list.get(pos).increaseSalary(percent);
+				emp.increaseSalary(percent);
+		}
+				
+			System.out.println();
+			System.out.println("List of employees:");
+			for (Employee e : list) {
+					System.out.println(e);
+			}	
+		
 		System.out.print("Qual a percentagem do aumento: ");
 		
 		teclado.close();
