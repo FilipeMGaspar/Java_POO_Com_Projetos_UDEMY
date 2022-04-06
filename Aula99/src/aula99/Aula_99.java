@@ -34,7 +34,7 @@ public class Aula_99 {
 				}
 			}
 		}
-		System.out.println("Quantidade de Números negativos = " + qtNumNegativos);
+		System.out.println("Quantidade de Números negativos: " + qtNumNegativos);
 		
 		sc.close();
 	}
