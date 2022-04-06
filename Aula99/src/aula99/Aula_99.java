@@ -20,10 +20,13 @@ public class Aula_99 {
 		
 		System.out.println("\nDiagonal Principal");
 		
-		for(int i = 0; i < n; i++) {
+		for(int i = 0; i < n; i++) { //Diagonal principal
 			System.out.print(mat[i][i] + " ");
 		}
 		
+		System.out.println();
+		
+		System.out.println("Quantidade de Números negativos = ");
 		sc.close();
 	}
 
