@@ -11,8 +11,8 @@ public class Aula_99 {
 		int n = sc.nextInt();
 		int[][] mat = new int[n][n];
 		
-		for(int i = 0; i < n; i++) { //Percorre as linhas
-			for(int j = 0; j < n; j++) { //precorre as colunas
+		for(int i = 0; i < mat.length; i++) { //Percorre as linhas
+			for(int j = 0; j < mat[i].length; j++) { //Percorre as colunas
 				System.out.print(" ["+i+"]["+j+"] => ");
 				mat[i][j] = sc.nextInt();
 			}
@@ -20,15 +20,15 @@ public class Aula_99 {
 		
 		System.out.println("\nDiagonal Principal");
 		
-		for(int i = 0; i < n; i++) { //Diagonal principal
+		for(int i = 0; i < mat.length; i++) { //Diagonal principal
 			System.out.print(mat[i][i] + " ");
 		}
 		
 		int qtNumNegativos = 0;
 		
 		System.out.println();
-		for(int i = 0; i < n; i++) { // Percorre as linhas
-			for(int j = 0; j < n; j++) {
+		for(int i = 0; i < mat.length; i++) { // Percorre as linhas
+			for(int j = 0; j < mat[i].length; j++) { //Percorre as colunas
 				if(mat[i][j] < 0) {
 					qtNumNegativos++;
 				}
