@@ -18,6 +18,12 @@ public class Aula_99 {
 			}
 		}
 		
+		System.out.println("\nDiagonal Principal");
+		
+		for(int i = 0; i < n; i++) {
+			System.out.print(mat[i][i] + " ");
+		}
+		
 		sc.close();
 	}
 
