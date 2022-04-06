@@ -13,7 +13,7 @@ public class Aula_99 {
 		
 		for(int i = 0; i < n; i++) { //Percorre as linhas
 			for(int j = 0; j < n; j++) { //precorre as colunas
-				System.out.print("["+i+"]["+j+"]");
+				System.out.print(" ["+i+"]["+j+"] => ");
 				mat[i][j] = sc.nextInt();
 			}
 		}
