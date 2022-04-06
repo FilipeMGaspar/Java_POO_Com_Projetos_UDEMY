@@ -24,8 +24,16 @@ public class Aula_99 {
 			System.out.print(mat[i][i] + " ");
 		}
 		
-		System.out.println();
+		int qtNumNegativos = 0;
 		
+		System.out.println();
+		for(int i = 0; i < n; i++) { // Percorre as linhas
+			for(int j = 0; j < n; j++) {
+				if(mat[i][j] < 0) {
+					qtNumNegativos++;
+				}
+			}
+		}
 		System.out.println("Quantidade de Números negativos = ");
 		sc.close();
 	}
