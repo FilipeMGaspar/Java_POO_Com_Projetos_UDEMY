@@ -3,7 +3,7 @@ package aula_100;
 public class aula_100_exercicio {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		/*
 		 * Fazer um programa para ler dois números inteiros M e N, e depois ler 
 		 * uma matriz de M linhas por N colunas contendo números inteiros,
@@ -20,11 +20,14 @@ public class aula_100_exercicio {
 		 *  
 		 *  X = 8
 		 *  
-		 *  Position 0, 1
+		 *  Position 0, 1:
 		 *  Left: 10
 		 *  Right: 15
 		 *  Down: 11
-		 *  Position 1, 3
+		 *  Position 1, 3:
+		 *  Left: 23
+		 *  Up: 12
+		 *  Down: 19
 		 * */
 	}
 
