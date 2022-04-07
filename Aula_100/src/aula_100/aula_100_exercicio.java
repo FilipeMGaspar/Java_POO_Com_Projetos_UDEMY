@@ -29,6 +29,8 @@ public class aula_100_exercicio {
 		 *  Up: 12
 		 *  Down: 19
 		 * */
+		
+		
 	}
 
 }
